@@ -1,0 +1,2 @@
+lcd\image_alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_dark.o: ../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_dark.cpp
+lcd\image_alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_dark.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp

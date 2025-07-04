@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.25.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="MAP" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">New Text</Translation>
+      </Text>
+      <Text Id="ResourceId1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_D4O2" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">N</Translation>
+      </Text>
+      <Text Id="__SingleUse_57WZ" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">NE</Translation>
+      </Text>
+      <Text Id="__SingleUse_E0UU" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">E</Translation>
+      </Text>
+      <Text Id="__SingleUse_8EYM" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">SE</Translation>
+      </Text>
+      <Text Id="__SingleUse_6SQC" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">SW</Translation>
+      </Text>
+      <Text Id="__SingleUse_GZ8G" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">W</Translation>
+      </Text>
+      <Text Id="__SingleUse_MYN2" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">NW</Translation>
+      </Text>
+      <Text Id="__SingleUse_9KFQ" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">S</Translation>
+      </Text>
+      <Text Id="__SingleUse_0WDB" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">30</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZWMY" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">60</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZJ3Y" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">90</Translation>
+      </Text>
+      <Text Id="__SingleUse_W6TQ" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">120</Translation>
+      </Text>
+      <Text Id="__SingleUse_A4NY" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">150</Translation>
+      </Text>
+      <Text Id="__SingleUse_10RZ" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">180</Translation>
+      </Text>
+      <Text Id="__SingleUse_W621" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">210</Translation>
+      </Text>
+      <Text Id="__SingleUse_L8V8" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">240</Translation>
+      </Text>
+      <Text Id="__SingleUse_DWI9" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">270</Translation>
+      </Text>
+      <Text Id="__SingleUse_2OLO" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">300</Translation>
+      </Text>
+      <Text Id="__SingleUse_WV4C" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">330</Translation>
+      </Text>
+      <Text Id="__SingleUse_XLTA" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_ECEK" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_WHR8" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">N</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q5Y2" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">330</Translation>
+      </Text>
+      <Text Id="__SingleUse_YRWK" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">300</Translation>
+      </Text>
+      <Text Id="__SingleUse_TK1D" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">270</Translation>
+      </Text>
+      <Text Id="__SingleUse_9D39" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">240</Translation>
+      </Text>
+      <Text Id="__SingleUse_5X0Y" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">210</Translation>
+      </Text>
+      <Text Id="__SingleUse_T9J4" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">180</Translation>
+      </Text>
+      <Text Id="__SingleUse_GTIA" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">150</Translation>
+      </Text>
+      <Text Id="__SingleUse_JVOU" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">120</Translation>
+      </Text>
+      <Text Id="__SingleUse_WSPT" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">90</Translation>
+      </Text>
+      <Text Id="__SingleUse_J6JK" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">60</Translation>
+      </Text>
+      <Text Id="__SingleUse_V6LR" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">30</Translation>
+      </Text>
+      <Text Id="__SingleUse_YXV9" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_6S7K" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">S</Translation>
+      </Text>
+      <Text Id="__SingleUse_DNW9" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">NW</Translation>
+      </Text>
+      <Text Id="__SingleUse_VHLB" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">W</Translation>
+      </Text>
+      <Text Id="__SingleUse_FG2B" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">SW</Translation>
+      </Text>
+      <Text Id="__SingleUse_JL8W" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">SE</Translation>
+      </Text>
+      <Text Id="__SingleUse_0XPP" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">E</Translation>
+      </Text>
+      <Text Id="__SingleUse_9TR1" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">NE</Translation>
+      </Text>
+      <Text Id="__SingleUse_X1V1" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">N</Translation>
+      </Text>
+      <Text Id="__SingleUse_1N8D" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">NW</Translation>
+      </Text>
+      <Text Id="__SingleUse_K5PD" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">N</Translation>
+      </Text>
+      <Text Id="__SingleUse_UNAI" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_1IXT" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">330</Translation>
+      </Text>
+      <Text Id="__SingleUse_O73N" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">300</Translation>
+      </Text>
+      <Text Id="__SingleUse_IN03" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">W</Translation>
+      </Text>
+      <Text Id="__SingleUse_5AM7" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">270</Translation>
+      </Text>
+      <Text Id="__SingleUse_WXQC" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">240</Translation>
+      </Text>
+      <Text Id="__SingleUse_1ZUL" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">SW</Translation>
+      </Text>
+      <Text Id="__SingleUse_V9VD" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">210</Translation>
+      </Text>
+      <Text Id="__SingleUse_N1OC" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">S</Translation>
+      </Text>
+      <Text Id="__SingleUse_CPOQ" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">180</Translation>
+      </Text>
+      <Text Id="__SingleUse_A49G" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">150</Translation>
+      </Text>
+      <Text Id="__SingleUse_39YY" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">SE</Translation>
+      </Text>
+      <Text Id="__SingleUse_EEOM" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">120</Translation>
+      </Text>
+      <Text Id="__SingleUse_PIV8" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">E</Translation>
+      </Text>
+      <Text Id="__SingleUse_5RAK" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">90</Translation>
+      </Text>
+      <Text Id="__SingleUse_JL8N" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">NE</Translation>
+      </Text>
+      <Text Id="__SingleUse_9JDU" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">60</Translation>
+      </Text>
+      <Text Id="__SingleUse_QCGG" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">N</Translation>
+      </Text>
+      <Text Id="__SingleUse_P83G" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">30</Translation>
+      </Text>
+      <Text Id="__SingleUse_P8A0" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="temperature_wildcard" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="humidity_wildcard" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="ResourceId2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+      </Text>
+      <Text Id="123" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="temp_v" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">40</Translation>
+      </Text>
+      <Text Id="__SingleUse_GWXM" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">检和救援技术数字化升级，有效助力森林巡检和灾害救援。</Translation>
+      </Text>
+      <Text Id="__SingleUse_GPRQ" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">能头盔配备的安全手环集成了多种位置和体感传感器。本系统推动巡</Translation>
+      </Text>
+      <Text Id="__SingleUse_27V6" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">信息获取和目标检测，进行空地协同以实现森林巡检和灾害救援。智</Translation>
+      </Text>
+      <Text Id="__SingleUse_RAL7" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">头盔可通过OpenHD框架协同基于STM32Cube.AI的无人机实现远距离</Translation>
+      </Text>
+      <Text Id="__SingleUse_HSO4" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">工具将巡检和救援指引信息融合显示于头盔前的自制光学结构。同时，</Translation>
+      </Text>
+      <Text Id="__SingleUse_DE64" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">头盔以 STM32H750 单片机为主控芯片，通过增强现实技术与Toucgfx</Translation>
+      </Text>
+      <Text Id="__SingleUse_V687" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">面终端。该系统可应用于森林巡检和灾害救援等多种场景。智能穿戴</Translation>
+      </Text>
+      <Text Id="__SingleUse_9739" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">智能穿戴头盔为主，搭配基于机器视觉的巡检无人机、安全手环和地</Translation>
+      </Text>
+      <Text Id="__SingleUse_0Z7T" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">本设计提出了一款空地协同巡检系统，该系统以基于增强现实技术的</Translation>
+      </Text>
+      <Text Id="__SingleUse_F4E3" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_LAU4" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">温度</Translation>
+      </Text>
+      <Text Id="__SingleUse_LK04" Alignment="Center" TypographyId="songti30">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_2P9N" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">湿度</Translation>
+      </Text>
+      <Text Id="__SingleUse_YQKV" Alignment="Left" TypographyId="kaiti40">
+        <Translation Language="GB">基于STM32Cube.AI的盔式空地协同系统与实时目标检测</Translation>
+      </Text>
+      <Text Id="__SingleUse_YXYQ" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">关于</Translation>
+      </Text>
+      <Text Id="__SingleUse_UOQU" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">FPV</Translation>
+      </Text>
+      <Text Id="__SingleUse_JNTJ" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">设置</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y7JC" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">传感器</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZPUA" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">行动</Translation>
+      </Text>
+      <Text Id="__SingleUse_39GU" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">地图</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="songti30" Font="STFANGSO.TTF" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="%" WildcardCharacterRanges="0-9" />
+    <Typography Id="xingkai25" Font="STXINGKA.TTF" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="songti40" Font="STFANGSO.TTF" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="kaiti40" Font="STKAITI.TTF" Size="32" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Typography_01" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+  </Typographies>
+</TextDatabase>

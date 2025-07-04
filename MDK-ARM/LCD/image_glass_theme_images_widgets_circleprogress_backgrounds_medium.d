@@ -1,0 +1,2 @@
+lcd\image_glass_theme_images_widgets_circleprogress_backgrounds_medium.o: ../touchgfx/generated/images/src/__generated/image_glass_theme_images_widgets_circleprogress_backgrounds_medium.cpp
+lcd\image_glass_theme_images_widgets_circleprogress_backgrounds_medium.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp

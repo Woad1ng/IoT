@@ -1,0 +1,5249 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "main_menu",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "main_box",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "map_name",
+            "X": 139,
+            "Y": 229,
+            "Width": 50,
+            "Height": 32,
+            "TextId": "__SingleUse_39GU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "act_name",
+            "X": 370,
+            "Y": 229,
+            "Width": 50,
+            "Height": 32,
+            "TextId": "__SingleUse_ZPUA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 18,
+              "Green": 150,
+              "Blue": 219
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "sensor_name",
+            "X": 560,
+            "Y": 229,
+            "Width": 75,
+            "Height": 32,
+            "TextId": "__SingleUse_Y7JC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 18,
+              "Green": 150,
+              "Blue": 219
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "set_name",
+            "X": 139,
+            "Y": 422,
+            "Width": 50,
+            "Height": 32,
+            "TextId": "__SingleUse_JNTJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 18,
+              "Green": 150,
+              "Blue": 219
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FPV_name",
+            "X": 578,
+            "Y": 422,
+            "Width": 45,
+            "Height": 32,
+            "TextId": "__SingleUse_UOQU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 18,
+              "Green": 150,
+              "Blue": 219
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "about_name",
+            "X": 370,
+            "Y": 422,
+            "Width": 50,
+            "Height": 32,
+            "TextId": "__SingleUse_YXYQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 18,
+              "Green": 150,
+              "Blue": 219
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "map_button",
+            "X": 129,
+            "Y": 138,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "map_80.png",
+            "Released": "map_80.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "act_button",
+            "X": 360,
+            "Y": 130,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "action_80.png",
+            "Released": "action_80.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "sensor_button",
+            "X": 560,
+            "Y": 130,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "sensor_80.png",
+            "Released": "sensor_80.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "set_button",
+            "X": 129,
+            "Y": 330,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "settings_80.png",
+            "Released": "settings_80.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "about_button",
+            "X": 360,
+            "Y": 330,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "about_80.png",
+            "Released": "about_80.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "FPV_button",
+            "X": 560,
+            "Y": 330,
+            "Width": 80,
+            "Height": 80,
+            "Pressed": "FPV_80.png",
+            "Released": "FPV_80.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "about_Interaction",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "about_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "about_menu"
+            }
+          },
+          {
+            "InteractionName": "set_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "set_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "set_menu"
+            }
+          },
+          {
+            "InteractionName": "map_Interaction",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "map_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "map_menu"
+            }
+          },
+          {
+            "InteractionName": "act_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "act_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "act_menu"
+            }
+          },
+          {
+            "InteractionName": "sensor_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "sensor_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "sensor_menu"
+            }
+          },
+          {
+            "InteractionName": "map_bluetooth",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "map_button"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"MyHFile.h\"",
+              "Code": "X=0;\r\nY=0;\r\nscreennum=1;"
+            }
+          },
+          {
+            "InteractionName": "act_bluetooth",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "act_button"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"MyHFile.h\"",
+              "Code": "X=1;\r\nY=0;\r\nscreennum=2;\r\n"
+            }
+          },
+          {
+            "InteractionName": "sensor_bluetooth",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "sensor_button"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"MyHFile.h\"",
+              "Code": "X=2;\r\nY=0;\r\nscreennum=3;\r\n"
+            }
+          },
+          {
+            "InteractionName": "set_bluetooth",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "set_button"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"MyHFile.h\"",
+              "Code": "X=0;\r\nY=1;\r\nscreennum=4;\r\n"
+            }
+          },
+          {
+            "InteractionName": "about_bluetooth",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "about_button"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"MyHFile.h\"",
+              "Code": "X=1;\r\nY=1;\r\nscreennum=5;\r\n"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "about_menu",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "about_box",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "back_button",
+            "Width": 64,
+            "Height": 64,
+            "Pressed": "back_64.png",
+            "Released": "back_64.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "TextArea",
+            "Name": "project_name",
+            "X": 14,
+            "Y": -400,
+            "Width": 773,
+            "Height": 37,
+            "TextId": "__SingleUse_YQKV",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 112,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "LineSpacing": 6,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "line1",
+            "X": -760,
+            "Y": 136,
+            "Width": 750,
+            "Height": 32,
+            "TextId": "__SingleUse_0Z7T",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "line2",
+            "X": 800,
+            "Y": 166,
+            "Width": 750,
+            "Height": 32,
+            "TextId": "__SingleUse_9739",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "line3",
+            "X": -760,
+            "Y": 196,
+            "Width": 750,
+            "Height": 32,
+            "TextId": "__SingleUse_V687",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "line4",
+            "X": 800,
+            "Y": 226,
+            "Width": 744,
+            "Height": 32,
+            "TextId": "__SingleUse_DE64",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "line5",
+            "X": -760,
+            "Y": 256,
+            "Width": 775,
+            "Height": 32,
+            "TextId": "__SingleUse_HSO4",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "line6",
+            "X": 800,
+            "Y": 286,
+            "Width": 748,
+            "Height": 32,
+            "TextId": "__SingleUse_RAL7",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "line7",
+            "X": -760,
+            "Y": 316,
+            "Width": 750,
+            "Height": 32,
+            "TextId": "__SingleUse_27V6",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "line8",
+            "X": 800,
+            "Y": 346,
+            "Width": 750,
+            "Height": 32,
+            "TextId": "__SingleUse_GPRQ",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "line9",
+            "X": -760,
+            "Y": 376,
+            "Width": 650,
+            "Height": 32,
+            "TextId": "__SingleUse_GWXM",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "back_Interaction",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "main_menu"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 38,
+              "Y": 136,
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 800,
+              "AnimationDelay": 5,
+              "ActionComponent": "line1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 36,
+              "Y": 166,
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 800,
+              "AnimationDelay": 5,
+              "ActionComponent": "line2"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 38,
+              "Y": 196,
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 800,
+              "AnimationDelay": 5,
+              "ActionComponent": "line3"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 38,
+              "Y": 226,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 800,
+              "AnimationDelay": 5,
+              "ActionComponent": "line4"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 38,
+              "Y": 256,
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 800,
+              "AnimationDelay": 5,
+              "ActionComponent": "line5"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 38,
+              "Y": 286,
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 800,
+              "AnimationDelay": 5,
+              "ActionComponent": "line6"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 38,
+              "Y": 316,
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 800,
+              "AnimationDelay": 5,
+              "ActionComponent": "line7"
+            }
+          },
+          {
+            "InteractionName": "Interaction8",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 38,
+              "Y": 346,
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 800,
+              "AnimationDelay": 5,
+              "ActionComponent": "line8"
+            }
+          },
+          {
+            "InteractionName": "Interaction9",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 38,
+              "Y": 376,
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 800,
+              "AnimationDelay": 5,
+              "ActionComponent": "line9"
+            }
+          },
+          {
+            "InteractionName": "Interaction10",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 14,
+              "Y": 64,
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 800,
+              "AnimationDelay": 5,
+              "ActionComponent": "project_name"
+            }
+          },
+          {
+            "InteractionName": "back_Interactioncode",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_button"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"MyHFile.h\"",
+              "Code": "X=1;\r\nY=1;\r\nscreennum=5;"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "map_menu",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "map_box",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "back_button",
+            "Width": 64,
+            "Height": 64,
+            "Pressed": "back_64.png",
+            "Released": "back_64.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "back_Interaction",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "main_menu"
+            }
+          },
+          {
+            "InteractionName": "back_Interactioncode",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_button"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"MyHFile.h\"",
+              "Code": "X=0;\r\nY=0;\r\nscreennum=0;"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "act_menu",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "act_box",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "back_button",
+            "Width": 64,
+            "Height": 64,
+            "Pressed": "back_64.png",
+            "Released": "back_64.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "Button",
+            "Name": "test_button1",
+            "X": 5,
+            "Y": 328,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "Button",
+            "Name": "test_button2",
+            "X": 280,
+            "Y": 328,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "Button",
+            "Name": "test_button3",
+            "X": 560,
+            "Y": 328,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "compass1",
+            "Y": 103,
+            "Width": 1485,
+            "Height": 146,
+            "CustomContainerDefinitionName": "Compass"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "triangle1",
+            "X": 227,
+            "Y": 188,
+            "Width": 18,
+            "Height": 21,
+            "CustomContainerDefinitionName": "triangle"
+          },
+          {
+            "Type": "Box",
+            "Name": "act_box_1",
+            "X": 1758,
+            "Y": 26,
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "compass1_1",
+            "X": 1758,
+            "Y": 129,
+            "Width": 1485,
+            "Height": 146,
+            "CustomContainerDefinitionName": "Compass"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "triangle1_1",
+            "X": 1985,
+            "Y": 214,
+            "Width": 18,
+            "Height": 21,
+            "CustomContainerDefinitionName": "triangle"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "back_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "main_menu"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "test_button1"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": -160,
+              "Y": 103,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 600,
+              "AnimationDelay": 5,
+              "ActionComponent": "compass1"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "test_button2"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "Y": 103,
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 600,
+              "AnimationDelay": 5,
+              "ActionComponent": "compass1"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "test_button3"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": -880,
+              "Y": 103,
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 600,
+              "AnimationDelay": 5,
+              "ActionComponent": "compass1"
+            }
+          },
+          {
+            "InteractionName": "back_Interactioncode",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_button"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"MyHFile.h\"",
+              "Code": "X=1;\r\nY=0;\r\nscreennum=0;"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "sensor_menu",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "sensor_box",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "back_button",
+            "Width": 64,
+            "Height": 64,
+            "Pressed": "back_64.png",
+            "Released": "back_64.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "CircleProgress",
+            "Name": "humidity_circle",
+            "X": 40,
+            "Y": 220,
+            "Width": 150,
+            "Height": 150,
+            "Color": {
+              "Red": 18,
+              "Green": 150,
+              "Blue": 219
+            },
+            "CenterX": 75.0,
+            "CenterY": 75.0,
+            "Radius": 65.0,
+            "LineWidth": 20.0,
+            "StartAngle": 225.0,
+            "EndAngle": 495.0,
+            "CapPrecision": "Round",
+            "FileNameBackground": "__generated\\glass_theme_images_widgets_circleprogress_backgrounds_medium.png",
+            "ProgressRangeMin": 225,
+            "ProgressRangeMax": 495,
+            "ProgressInitialValue": 225
+          },
+          {
+            "Type": "CircleProgress",
+            "Name": "temperature_circle",
+            "X": 227,
+            "Y": 220,
+            "Width": 150,
+            "Height": 150,
+            "Color": {
+              "Red": 255,
+              "Green": 53
+            },
+            "CenterX": 75.0,
+            "CenterY": 75.0,
+            "Radius": 65.0,
+            "LineWidth": 20.0,
+            "StartAngle": 225.0,
+            "EndAngle": 495.0,
+            "CapPrecision": "Round",
+            "FileNameBackground": "__generated\\glass_theme_images_widgets_circleprogress_backgrounds_medium.png",
+            "ProgressRangeMin": 225,
+            "ProgressRangeMax": 495,
+            "ProgressInitialValue": 225
+          },
+          {
+            "Type": "Image",
+            "Name": "humidity",
+            "X": 83,
+            "Y": 263,
+            "Width": 64,
+            "Height": 64,
+            "RelativeFilename": "humidity_64.png"
+          },
+          {
+            "Type": "Circle",
+            "Name": "LED",
+            "X": 133,
+            "Y": 10,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Blue": 8
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 40.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "LEDButton",
+            "X": 256,
+            "Y": 14,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_on_normal.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\medium\\rounded.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "humidity_name",
+            "X": 90,
+            "Y": 370,
+            "Width": 50,
+            "Height": 32,
+            "TextId": "__SingleUse_2P9N",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temperature_name",
+            "X": 277,
+            "Y": 370,
+            "Width": 50,
+            "Height": 32,
+            "TextId": "__SingleUse_LAU4",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "humidity_value",
+            "X": 93,
+            "Y": 406,
+            "Width": 45,
+            "Height": 32,
+            "TextId": "__SingleUse_LK04",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "humidity_wildcard",
+              "UseBuffer": true,
+              "BufferSize": 20
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temperature_value",
+            "X": 280,
+            "Y": 406,
+            "Width": 45,
+            "Height": 32,
+            "TextId": "__SingleUse_F4E3",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "temperature_wildcard",
+              "UseBuffer": true,
+              "BufferSize": 20
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 270,
+            "Y": 263,
+            "Width": 64,
+            "Height": 64,
+            "RelativeFilename": "temperature_64.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "back_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "main_menu"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "LEDButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "LEDfunction"
+            }
+          },
+          {
+            "InteractionName": "back_Interactioncode",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_button"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"MyHFile.h\"",
+              "Code": "X=0;\r\nY=0;\r\nscreennum=0;"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "set_menu",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "set_box",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "back_button",
+            "Width": 64,
+            "Height": 64,
+            "Pressed": "back_64.png",
+            "Released": "back_64.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "back_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "main_menu"
+            }
+          },
+          {
+            "InteractionName": "back_Interactioncode",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back_button"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"MyHFile.h\"",
+              "Code": "X=0;\r\nY=1;\r\nscreennum=4;"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "FPV_menu",
+        "Components": [],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "Compass_1",
+        "Width": 2896,
+        "Height": 146,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 2861,
+            "Height": 146,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 30,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2",
+            "X": 50,
+            "Y": 55,
+            "Width": 10,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line3",
+            "X": 70,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line4",
+            "X": 90,
+            "Y": 55,
+            "Width": 10,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line5",
+            "X": 110,
+            "Y": 55,
+            "Width": 10,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line6",
+            "X": 130,
+            "Y": 55,
+            "Width": 10,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line7",
+            "X": 150,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line8",
+            "X": 170,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line9",
+            "X": 190,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line10",
+            "X": 210,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line11",
+            "X": 230,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line12",
+            "X": 250,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line13",
+            "X": 270,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line14",
+            "X": 290,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line15",
+            "X": 310,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line16",
+            "X": 330,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line17",
+            "X": 350,
+            "Y": 55,
+            "Width": 23,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line18",
+            "X": 370,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line19",
+            "X": 390,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line20",
+            "X": 410,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line21",
+            "X": 430,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line22",
+            "X": 450,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line23",
+            "X": 470,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line24",
+            "X": 490,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line25",
+            "X": 510,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line26",
+            "X": 530,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line27",
+            "X": 550,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line28",
+            "X": 570,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line29",
+            "X": 590,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line30",
+            "X": 610,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line31",
+            "X": 630,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line32",
+            "X": 650,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line33",
+            "X": 670,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line34",
+            "X": 690,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line35",
+            "X": 710,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line36",
+            "X": 730,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line37",
+            "X": 750,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line38",
+            "X": 770,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line39",
+            "X": 790,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line40",
+            "X": 810,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line41",
+            "X": 830,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line42",
+            "X": 850,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line43",
+            "X": 870,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line44",
+            "X": 890,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line45",
+            "X": 910,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line46",
+            "X": 930,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line47",
+            "X": 950,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line48",
+            "X": 970,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line49",
+            "X": 990,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line50",
+            "X": 1010,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line51",
+            "X": 1030,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line52",
+            "X": 1050,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line53",
+            "X": 1070,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line54",
+            "X": 1090,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line55",
+            "X": 1110,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line56",
+            "X": 1130,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line57",
+            "X": 1150,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line58",
+            "X": 1170,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line59",
+            "X": 1190,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line60",
+            "X": 1210,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line61",
+            "X": 1230,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line62",
+            "X": 1250,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line63",
+            "X": 1270,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line64",
+            "X": 1290,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line65",
+            "X": 1310,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line66",
+            "X": 1330,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line67",
+            "X": 1350,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line68",
+            "X": 1370,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line69",
+            "X": 1390,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line70",
+            "X": 1410,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line71",
+            "X": 1430,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line72",
+            "X": 1450,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line73",
+            "X": 1470,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "N",
+            "X": 28,
+            "Y": 114,
+            "Width": 19,
+            "Height": 32,
+            "TextId": "__SingleUse_X1V1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "N_1",
+            "X": 1466,
+            "Y": 114,
+            "Width": 19,
+            "Height": 32,
+            "TextId": "__SingleUse_WHR8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "NE",
+            "X": 206,
+            "Y": 114,
+            "Width": 35,
+            "Height": 32,
+            "TextId": "__SingleUse_9TR1",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "E",
+            "X": 387,
+            "Y": 114,
+            "Width": 16,
+            "Height": 32,
+            "TextId": "__SingleUse_0XPP",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SE",
+            "X": 562,
+            "Y": 114,
+            "Width": 28,
+            "Height": 32,
+            "TextId": "__SingleUse_JL8W",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SW",
+            "X": 920,
+            "Y": 114,
+            "Width": 34,
+            "Height": 32,
+            "TextId": "__SingleUse_FG2B",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "W",
+            "X": 1104,
+            "Y": 114,
+            "Width": 22,
+            "Height": 32,
+            "TextId": "__SingleUse_VHLB",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "NW",
+            "X": 1285,
+            "Y": 114,
+            "Width": 41,
+            "Height": 32,
+            "TextId": "__SingleUse_DNW9",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "S",
+            "X": 748,
+            "Y": 114,
+            "Width": 12,
+            "Height": 32,
+            "TextId": "__SingleUse_6S7K",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 104,
+              "Green": 118,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle0",
+            "X": 28,
+            "Y": 3,
+            "Width": 12,
+            "Height": 32,
+            "TextId": "__SingleUse_YXV9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle30",
+            "X": 144,
+            "Y": 9,
+            "Width": 24,
+            "Height": 32,
+            "TextId": "__SingleUse_V6LR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle60",
+            "X": 263,
+            "Y": 9,
+            "Width": 24,
+            "Height": 32,
+            "TextId": "__SingleUse_J6JK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle90",
+            "X": 383,
+            "Y": 9,
+            "Width": 24,
+            "Height": 32,
+            "TextId": "__SingleUse_WSPT",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle120",
+            "X": 497,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_JVOU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle150",
+            "X": 617,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_GTIA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle180",
+            "X": 737,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_T9J4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle210",
+            "X": 857,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_5X0Y",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle240",
+            "X": 977,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_9D39",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle270",
+            "X": 1097,
+            "Y": 3,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_TK1D",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle300",
+            "X": 1217,
+            "Y": 3,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_YRWK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle330",
+            "X": 1337,
+            "Y": 3,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_Q5Y2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle360",
+            "X": 1469,
+            "Y": 3,
+            "Width": 12,
+            "Height": 32,
+            "TextId": "__SingleUse_ECEK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Line",
+            "Name": "line74",
+            "X": 1490,
+            "Y": 55,
+            "Width": 10,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line3_1",
+            "X": 1510,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line4_1",
+            "X": 30,
+            "Y": 55,
+            "Width": 10,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line5_1",
+            "X": 1530,
+            "Y": 55,
+            "Width": 10,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line6_1",
+            "X": 1600,
+            "Y": 55,
+            "Width": 10,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line7_1",
+            "X": 1620,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line8_1",
+            "X": 1640,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line9_1",
+            "X": 1660,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line10_1",
+            "X": 1680,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line11_1",
+            "X": 1700,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line12_1",
+            "X": 1720,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line13_1",
+            "X": 1740,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line14_1",
+            "X": 1760,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line15_1",
+            "X": 1780,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line16_1",
+            "X": 1800,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line17_1",
+            "X": 1820,
+            "Y": 55,
+            "Width": 23,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line18_1",
+            "X": 1840,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line19_1",
+            "X": 1860,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line20_1",
+            "X": 1880,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line21_1",
+            "X": 1900,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line22_1",
+            "X": 1920,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line23_1",
+            "X": 1940,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line24_1",
+            "X": 1960,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line25_1",
+            "X": 1980,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line26_1",
+            "X": 2000,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line27_1",
+            "X": 2020,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line28_1",
+            "X": 2040,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line29_1",
+            "X": 2060,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line30_1",
+            "X": 2080,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line31_1",
+            "X": 2100,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line32_1",
+            "X": 2120,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line33_1",
+            "X": 2140,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line34_1",
+            "X": 2160,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line35_1",
+            "X": 2180,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line36_1",
+            "X": 2200,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line37_1",
+            "X": 2220,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line38_1",
+            "X": 2240,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line39_1",
+            "X": 2260,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line40_1",
+            "X": 2280,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line41_1",
+            "X": 2300,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line42_1",
+            "X": 2320,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line43_1",
+            "X": 2340,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line44_1",
+            "X": 2360,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line45_1",
+            "X": 2380,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line46_1",
+            "X": 2400,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line47_1",
+            "X": 2420,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line48_1",
+            "X": 2440,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line49_1",
+            "X": 2460,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line50_1",
+            "X": 2480,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line51_1",
+            "X": 2500,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line52_1",
+            "X": 2520,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line53_1",
+            "X": 2540,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line54_1",
+            "X": 2560,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line55_1",
+            "X": 2580,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line56_1",
+            "X": 2600,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line57_1",
+            "X": 2620,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line58_1",
+            "X": 2640,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line59_1",
+            "X": 2660,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line60_1",
+            "X": 2680,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line61_1",
+            "X": 2700,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line62_1",
+            "X": 2720,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line63_1",
+            "X": 2740,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line64_1",
+            "X": 2760,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line65_1",
+            "X": 2780,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line66_1",
+            "X": 2800,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line67_2",
+            "X": 2820,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line67_1_1",
+            "X": 2940,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line68_1",
+            "X": 2840,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line69_1",
+            "X": 2860,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line70_1",
+            "X": 2880,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line71_1",
+            "X": 2900,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line72_1",
+            "X": 2920,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "N_1_1",
+            "X": 2936,
+            "Y": 114,
+            "Width": 19,
+            "Height": 32,
+            "TextId": "__SingleUse_D4O2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "NE_1",
+            "X": 1676,
+            "Y": 114,
+            "Width": 35,
+            "Height": 32,
+            "TextId": "__SingleUse_57WZ",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "E_1",
+            "X": 1857,
+            "Y": 114,
+            "Width": 16,
+            "Height": 32,
+            "TextId": "__SingleUse_E0UU",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SE_1",
+            "X": 2032,
+            "Y": 114,
+            "Width": 28,
+            "Height": 32,
+            "TextId": "__SingleUse_8EYM",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SW_1",
+            "X": 2390,
+            "Y": 114,
+            "Width": 34,
+            "Height": 32,
+            "TextId": "__SingleUse_6SQC",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "W_1",
+            "X": 2574,
+            "Y": 114,
+            "Width": 22,
+            "Height": 32,
+            "TextId": "__SingleUse_GZ8G",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "NW_1",
+            "X": 2755,
+            "Y": 114,
+            "Width": 41,
+            "Height": 32,
+            "TextId": "__SingleUse_MYN2",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "S_1",
+            "X": 2218,
+            "Y": 114,
+            "Width": 12,
+            "Height": 32,
+            "TextId": "__SingleUse_9KFQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 104,
+              "Green": 118,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle30_1",
+            "X": 1614,
+            "Y": 9,
+            "Width": 24,
+            "Height": 32,
+            "TextId": "__SingleUse_0WDB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle60_1",
+            "X": 1733,
+            "Y": 9,
+            "Width": 24,
+            "Height": 32,
+            "TextId": "__SingleUse_ZWMY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle90_1",
+            "X": 1853,
+            "Y": 9,
+            "Width": 24,
+            "Height": 32,
+            "TextId": "__SingleUse_ZJ3Y",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle120_1",
+            "X": 1967,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_W6TQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle150_1",
+            "X": 2087,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_A4NY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle180_1",
+            "X": 2207,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_10RZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle210_1",
+            "X": 2327,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_W621",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle240_1",
+            "X": 2447,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_L8V8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle270_1",
+            "X": 2567,
+            "Y": 3,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_DWI9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle300_1",
+            "X": 2687,
+            "Y": 3,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_2OLO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle330_1",
+            "X": 2807,
+            "Y": 3,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_WV4C",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle360_1",
+            "X": 2939,
+            "Y": 3,
+            "Width": 12,
+            "Height": 32,
+            "TextId": "__SingleUse_XLTA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Compass",
+        "Width": 1485,
+        "Height": 146,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 1738,
+            "Height": 146,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 30,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2",
+            "X": 50,
+            "Y": 55,
+            "Width": 10,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line3",
+            "X": 70,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line4",
+            "X": 90,
+            "Y": 55,
+            "Width": 10,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line5",
+            "X": 110,
+            "Y": 55,
+            "Width": 10,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line6",
+            "X": 130,
+            "Y": 55,
+            "Width": 10,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line7",
+            "X": 150,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line8",
+            "X": 170,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line9",
+            "X": 190,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line10",
+            "X": 210,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line11",
+            "X": 230,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line12",
+            "X": 250,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line13",
+            "X": 270,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line14",
+            "X": 290,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line15",
+            "X": 310,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line16",
+            "X": 330,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line17",
+            "X": 350,
+            "Y": 55,
+            "Width": 23,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line18",
+            "X": 370,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line19",
+            "X": 390,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line20",
+            "X": 410,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line21",
+            "X": 430,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line22",
+            "X": 450,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line23",
+            "X": 470,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line24",
+            "X": 490,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line25",
+            "X": 510,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line26",
+            "X": 530,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line27",
+            "X": 550,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line28",
+            "X": 570,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line29",
+            "X": 590,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line30",
+            "X": 610,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line31",
+            "X": 630,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line32",
+            "X": 650,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line33",
+            "X": 670,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line34",
+            "X": 690,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line35",
+            "X": 710,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line36",
+            "X": 730,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line37",
+            "X": 750,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line38",
+            "X": 770,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line39",
+            "X": 790,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line40",
+            "X": 810,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line41",
+            "X": 830,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line42",
+            "X": 850,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line43",
+            "X": 870,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line44",
+            "X": 890,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line45",
+            "X": 910,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line46",
+            "X": 930,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line47",
+            "X": 950,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line48",
+            "X": 970,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line49",
+            "X": 990,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line50",
+            "X": 1010,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line51",
+            "X": 1030,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line52",
+            "X": 1050,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line53",
+            "X": 1070,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line54",
+            "X": 1090,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line55",
+            "X": 1110,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line56",
+            "X": 1130,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line57",
+            "X": 1150,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line58",
+            "X": 1170,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line59",
+            "X": 1190,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line60",
+            "X": 1210,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line61",
+            "X": 1230,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line62",
+            "X": 1250,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line63",
+            "X": 1270,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line64",
+            "X": 1290,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line65",
+            "X": 1310,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line66",
+            "X": 1330,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line67",
+            "X": 1350,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line67_1",
+            "X": 1470,
+            "Y": 35,
+            "Width": 10,
+            "Height": 70,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 65.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line68",
+            "X": 1370,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line69",
+            "X": 1390,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line70",
+            "X": 1410,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line71",
+            "X": 1430,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line72",
+            "X": 1450,
+            "Y": 55,
+            "Width": 15,
+            "Height": 50,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 45.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "N",
+            "X": 28,
+            "Y": 114,
+            "Width": 19,
+            "Height": 32,
+            "TextId": "__SingleUse_QCGG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "N_1",
+            "X": 1466,
+            "Y": 114,
+            "Width": 19,
+            "Height": 32,
+            "TextId": "__SingleUse_K5PD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "NE",
+            "X": 206,
+            "Y": 114,
+            "Width": 35,
+            "Height": 32,
+            "TextId": "__SingleUse_JL8N",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "E",
+            "X": 387,
+            "Y": 114,
+            "Width": 16,
+            "Height": 32,
+            "TextId": "__SingleUse_PIV8",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SE",
+            "X": 562,
+            "Y": 114,
+            "Width": 28,
+            "Height": 32,
+            "TextId": "__SingleUse_39YY",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SW",
+            "X": 920,
+            "Y": 114,
+            "Width": 34,
+            "Height": 32,
+            "TextId": "__SingleUse_1ZUL",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "W",
+            "X": 1104,
+            "Y": 114,
+            "Width": 22,
+            "Height": 32,
+            "TextId": "__SingleUse_IN03",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "NW",
+            "X": 1285,
+            "Y": 114,
+            "Width": 41,
+            "Height": 32,
+            "TextId": "__SingleUse_1N8D",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "S",
+            "X": 748,
+            "Y": 114,
+            "Width": 12,
+            "Height": 32,
+            "TextId": "__SingleUse_N1OC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 104,
+              "Green": 118,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle0",
+            "X": 28,
+            "Y": 3,
+            "Width": 12,
+            "Height": 32,
+            "TextId": "__SingleUse_P8A0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle30",
+            "X": 144,
+            "Y": 9,
+            "Width": 24,
+            "Height": 32,
+            "TextId": "__SingleUse_P83G",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle60",
+            "X": 263,
+            "Y": 9,
+            "Width": 24,
+            "Height": 32,
+            "TextId": "__SingleUse_9JDU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle90",
+            "X": 383,
+            "Y": 9,
+            "Width": 24,
+            "Height": 32,
+            "TextId": "__SingleUse_5RAK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle120",
+            "X": 497,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_EEOM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle150",
+            "X": 617,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_A49G",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle180",
+            "X": 737,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_CPOQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle210",
+            "X": 857,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_V9VD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle240",
+            "X": 977,
+            "Y": 9,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_WXQC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle270",
+            "X": 1097,
+            "Y": 3,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_5AM7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle300",
+            "X": 1217,
+            "Y": 3,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_O73N",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle330",
+            "X": 1337,
+            "Y": 3,
+            "Width": 36,
+            "Height": 32,
+            "TextId": "__SingleUse_1IXT",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "angle360",
+            "X": 1469,
+            "Y": 3,
+            "Width": 12,
+            "Height": 32,
+            "TextId": "__SingleUse_UNAI",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 152
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "triangle",
+        "Width": 18,
+        "Height": 21,
+        "Components": [
+          {
+            "Type": "Shape",
+            "Name": "shape1",
+            "Width": 17,
+            "Height": 20,
+            "Color": {
+              "Red": 255,
+              "Green": 134
+            },
+            "Points": [
+              {
+                "X": 8.0
+              },
+              {
+                "X": 16.0,
+                "Y": 20.0
+              },
+              {
+                "Y": 20.0
+              }
+            ],
+            "XScale": 1.0,
+            "YScale": 1.0
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "main_menu",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H750 Value line",
+    "Toolchain": "MDK-ARM V5.32",
+    "Platform": "m7",
+    "ProjectFile": "../LCD.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.25.0"
+}

@@ -1,0 +1,7 @@
+lcd\languagegb.o: ../touchgfx/generated/texts/src/languagegb.cpp
+lcd\languagegb.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\languagegb.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
+lcd\languagegb.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
+lcd\languagegb.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
+lcd\languagegb.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\languagegb.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp

@@ -1,0 +1,12 @@
+lcd\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+lcd\list.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdlib.h
+lcd\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+lcd\list.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\list.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\list.o: ../Core/Inc/FreeRTOSConfig.h
+lcd\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+lcd\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+lcd\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+lcd\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+lcd\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+lcd\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
