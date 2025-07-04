@@ -29,7 +29,7 @@ about_menuViewBase::about_menuViewBase() :
     project_name.setTypedText(touchgfx::TypedText(T___SINGLEUSE_YQKV));
     add(project_name);
 
-    line1.setXY(-760, 136);
+    line1.setXY(-760, 134);
     line1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     line1.setLinespacing(0);
     line1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_0Z7T));

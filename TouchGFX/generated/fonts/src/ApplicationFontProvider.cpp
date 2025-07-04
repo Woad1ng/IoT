@@ -25,7 +25,7 @@ touchgfx::Font* ApplicationFontProvider::getFont(touchgfx::FontId typography)
         // STXINGKA_TTF_25_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[4]);
     case Typography::SONGTI40:
-        // STFANGSO_TTF_40_4bpp
+        // STFANGSO_TTF_20_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[5]);
     case Typography::KAITI40:
         // STKAITI_TTF_32_4bpp

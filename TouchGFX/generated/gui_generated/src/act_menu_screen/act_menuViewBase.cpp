@@ -40,7 +40,7 @@ act_menuViewBase::act_menuViewBase() :
     test_button3.setAction(buttonCallback);
     add(test_button3);
 
-    compass1.setXY(0, 103);
+    compass1.setXY(5, 115);
     add(compass1);
 
     triangle1.setXY(227, 188);

@@ -30,7 +30,7 @@ struct TypographyFontIndex
     static const touchgfx::FontId SMALL = 2;         // verdana_10_4bpp
     static const touchgfx::FontId SONGTI30 = 3;      // STFANGSO_TTF_25_4bpp
     static const touchgfx::FontId XINGKAI25 = 4;     // STXINGKA_TTF_25_4bpp
-    static const touchgfx::FontId SONGTI40 = 5;      // STFANGSO_TTF_40_4bpp
+    static const touchgfx::FontId SONGTI40 = 5;      // STFANGSO_TTF_20_4bpp
     static const touchgfx::FontId KAITI40 = 6;       // STKAITI_TTF_32_4bpp
     static const touchgfx::FontId TYPOGRAPHY_01 = 0; // verdana_20_4bpp
     static const uint16_t NUMBER_OF_FONTS = 7;

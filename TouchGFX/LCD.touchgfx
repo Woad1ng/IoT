@@ -3,10 +3,12 @@
     "Screens": [
       {
         "Name": "main_menu",
+        "CanvasBufferSize": 12000,
         "Components": [
           {
             "Type": "Box",
             "Name": "main_box",
+            "Y": 5,
             "Width": 800,
             "Height": 480,
             "Color": {
@@ -96,9 +98,9 @@
           {
             "Type": "TextArea",
             "Name": "about_name",
-            "X": 370,
+            "X": 350,
             "Y": 422,
-            "Width": 50,
+            "Width": 100,
             "Height": 32,
             "TextId": "__SingleUse_YXYQ",
             "TextRotation": "0",
@@ -198,6 +200,42 @@
             "IconX": 97,
             "IconHeight": 50,
             "IconWidth": 50
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 237,
+            "Height": 65,
+            "RelativeFilename": "P07041.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "title",
+            "X": 177,
+            "Y": 59,
+            "Width": 420,
+            "Height": 24,
+            "TextId": "__SingleUse_MWGC",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1",
+            "X": 694,
+            "Y": 13,
+            "Width": 81,
+            "Height": 84,
+            "Color": {
+              "Red": 240,
+              "Green": 12,
+              "Blue": 12
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
           }
         ],
         "Interactions": [
@@ -378,7 +416,7 @@
             "Type": "TextArea",
             "Name": "line1",
             "X": -760,
-            "Y": 136,
+            "Y": 134,
             "Width": 750,
             "Height": 32,
             "TextId": "__SingleUse_0Z7T",
@@ -784,7 +822,8 @@
           {
             "Type": "CustomContainerInstance",
             "Name": "compass1",
-            "Y": 103,
+            "X": 5,
+            "Y": 115,
             "Width": 1485,
             "Height": 146,
             "CustomContainerDefinitionName": "Compass"
@@ -924,6 +963,33 @@
             }
           },
           {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1_1",
+            "X": 23,
+            "Y": 82,
+            "Width": 291,
+            "Height": 130,
+            "DataSeed": 2090583177,
+            "NumberOfValues": 100,
+            "MaxY": 100.0,
+            "Precision": "1",
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 20,
+                  "Green": 151,
+                  "Blue": 197
+                }
+              }
+            ]
+          },
+          {
             "Type": "ButtonWithIcon",
             "Name": "back_button",
             "Width": 64,
@@ -939,8 +1005,8 @@
           {
             "Type": "CircleProgress",
             "Name": "humidity_circle",
-            "X": 40,
-            "Y": 220,
+            "X": 377,
+            "Y": 22,
             "Width": 150,
             "Height": 150,
             "Color": {
@@ -963,8 +1029,8 @@
           {
             "Type": "CircleProgress",
             "Name": "temperature_circle",
-            "X": 227,
-            "Y": 220,
+            "X": 377,
+            "Y": 250,
             "Width": 150,
             "Height": 150,
             "Color": {
@@ -986,45 +1052,17 @@
           {
             "Type": "Image",
             "Name": "humidity",
-            "X": 83,
-            "Y": 263,
+            "X": 420,
+            "Y": 65,
             "Width": 64,
             "Height": 64,
             "RelativeFilename": "humidity_64.png"
           },
           {
-            "Type": "Circle",
-            "Name": "LED",
-            "X": 133,
-            "Y": 10,
-            "Width": 80,
-            "Height": 80,
-            "Color": {
-              "Red": 255,
-              "Blue": 8
-            },
-            "CenterX": 40.0,
-            "CenterY": 40.0,
-            "Radius": 40.0,
-            "EndAngle": 360.0,
-            "CapPrecision": "Butt"
-          },
-          {
-            "Type": "ToggleButton",
-            "Name": "LEDButton",
-            "X": 256,
-            "Y": 14,
-            "Width": 110,
-            "Height": 50,
-            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_on_normal.png",
-            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.png",
-            "Preset": "alternate_theme\\presets\\togglebutton\\medium\\rounded.json"
-          },
-          {
             "Type": "TextArea",
             "Name": "humidity_name",
-            "X": 90,
-            "Y": 370,
+            "X": 427,
+            "Y": 172,
             "Width": 50,
             "Height": 32,
             "TextId": "__SingleUse_2P9N",
@@ -1034,8 +1072,8 @@
           {
             "Type": "TextArea",
             "Name": "temperature_name",
-            "X": 277,
-            "Y": 370,
+            "X": 427,
+            "Y": 400,
             "Width": 50,
             "Height": 32,
             "TextId": "__SingleUse_LAU4",
@@ -1045,8 +1083,8 @@
           {
             "Type": "TextArea",
             "Name": "humidity_value",
-            "X": 93,
-            "Y": 406,
+            "X": 430,
+            "Y": 208,
             "Width": 45,
             "Height": 32,
             "TextId": "__SingleUse_LK04",
@@ -1061,8 +1099,8 @@
           {
             "Type": "TextArea",
             "Name": "temperature_value",
-            "X": 280,
-            "Y": 406,
+            "X": 430,
+            "Y": 436,
             "Width": 45,
             "Height": 32,
             "TextId": "__SingleUse_F4E3",
@@ -1077,11 +1115,39 @@
           {
             "Type": "Image",
             "Name": "image1",
-            "X": 270,
-            "Y": 263,
+            "X": 420,
+            "Y": 293,
             "Width": 64,
             "Height": 64,
             "RelativeFilename": "temperature_64.png"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1",
+            "X": 38,
+            "Y": 270,
+            "Width": 291,
+            "Height": 130,
+            "DataSeed": 2090583177,
+            "NumberOfValues": 100,
+            "MaxY": 100.0,
+            "Precision": "1",
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 20,
+                  "Green": 151,
+                  "Blue": 197
+                }
+              }
+            ]
           }
         ],
         "Interactions": [
@@ -1102,7 +1168,7 @@
             "InteractionName": "Interaction4",
             "Trigger": {
               "Type": "TriggerClicked",
-              "TriggerComponent": "LEDButton"
+              "TriggerComponent": "back_button"
             },
             "Action": {
               "Type": "ActionCustom",
