@@ -139,10 +139,13 @@ lcd\touchgfxconfiguration.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RT
 lcd\touchgfxconfiguration.o: ../BSP/MyTask.h
 lcd\touchgfxconfiguration.o: ../BSP/ADC.h
 lcd\touchgfxconfiguration.o: ../BSP/GPS.h
+lcd\touchgfxconfiguration.o: ../BSP/AIR780EX.h
 lcd\touchgfxconfiguration.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 lcd\touchgfxconfiguration.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 lcd\touchgfxconfiguration.o: ../BSP/touch_iic.h
 lcd\touchgfxconfiguration.o: ../BSP/touch_800x480.h
+lcd\touchgfxconfiguration.o: ../BSP/atk_imu_901.h
+lcd\touchgfxconfiguration.o: ../BSP/Angle.h
 lcd\touchgfxconfiguration.o: ../touchgfx/gui/include/gui/about_menu_screen/about_menuView.hpp
 lcd\touchgfxconfiguration.o: ../touchgfx/generated/gui_generated/include/gui_generated/about_menu_screen/about_menuViewBase.hpp
 lcd\touchgfxconfiguration.o: ../touchgfx/gui/include/gui/about_menu_screen/about_menuPresenter.hpp

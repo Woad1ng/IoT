@@ -10,9 +10,6 @@
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/ButtonWithIcon.hpp>
-#include <touchgfx/widgets/Image.hpp>
-#include <touchgfx/widgets/canvas/Circle.hpp>
-#include <touchgfx/widgets/canvas/PainterRGB565.hpp>
 #include "MyHFile.h"
 
 class main_menuViewBase : public touchgfx::View<main_menuPresenter>
@@ -44,18 +41,8 @@ protected:
     touchgfx::ButtonWithIcon set_button;
     touchgfx::ButtonWithIcon about_button;
     touchgfx::ButtonWithIcon FPV_button;
-    touchgfx::Image image1;
-    touchgfx::TextArea title;
-    touchgfx::Circle circle1;
-    touchgfx::PainterRGB565 circle1Painter;
 
 private:
-
-    /*
-     * Canvas Buffer Size
-     */
-    static const uint32_t CANVAS_BUFFER_SIZE = 12000;
-    uint8_t canvasBuffer[CANVAS_BUFFER_SIZE];
 
     /*
      * Callback Declarations

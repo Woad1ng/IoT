@@ -9,6 +9,12 @@ extern StaticTask_t InitTaskControlBlock;
 extern const osThreadAttr_t InitTask_attributes;
 void vInitTask(void *argument);
 
+extern osThreadId_t AIR780EXTaskHandle;
+extern uint32_t AIR780EXTaskBuffer[ 128 ];
+extern StaticTask_t AIR780EXTaskControlBlock;
+extern const osThreadAttr_t AIR780EXTask_attributes;
+void vAIR780EXTask(void *argument);
+
 
 extern osThreadId_t LEDTaskHandle;
 extern uint32_t LEDTaskBuffer[ 128 ];

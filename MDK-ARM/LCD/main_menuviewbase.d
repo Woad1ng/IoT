@@ -128,10 +128,13 @@ lcd\main_menuviewbase.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V
 lcd\main_menuviewbase.o: ../BSP/MyTask.h
 lcd\main_menuviewbase.o: ../BSP/ADC.h
 lcd\main_menuviewbase.o: ../BSP/GPS.h
+lcd\main_menuviewbase.o: ../BSP/AIR780EX.h
 lcd\main_menuviewbase.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 lcd\main_menuviewbase.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 lcd\main_menuviewbase.o: ../BSP/touch_iic.h
 lcd\main_menuviewbase.o: ../BSP/touch_800x480.h
+lcd\main_menuviewbase.o: ../BSP/atk_imu_901.h
+lcd\main_menuviewbase.o: ../BSP/Angle.h
 lcd\main_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Color.hpp
 lcd\main_menuviewbase.o: ../touchgfx/generated/texts/include/texts/TextKeysAndLanguages.hpp
 lcd\main_menuviewbase.o: ../touchgfx/generated/images/include/images/BitmapDatabase.hpp

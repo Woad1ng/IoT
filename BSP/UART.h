@@ -22,13 +22,15 @@
 extern uint8_t RxFlag;
 
 #define DataLength 600
+#define UART6_RX_BUFFER_SIZE 1
 
+extern uint8_t uart6RxBuffer[UART6_RX_BUFFER_SIZE];
 extern char RxBuffer[DataLength];
 extern char Buffer[DataLength];
 
 //GPS数据缓冲区
 extern char GPSRxBuffer[DataLength];
-
+extern char IMURxBuffer[DataLength];
 
 extern uint8_t RxFlag;
 

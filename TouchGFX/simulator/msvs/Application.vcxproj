@@ -48,6 +48,8 @@
     <ClCompile Include="..\..\generated\gui_generated\src\containers\triangleBase.cpp"/>
     <ClCompile Include="..\..\gui\src\containers\Compass_1.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\containers\Compass_1Base.cpp"/>
+    <ClCompile Include="..\..\gui\src\containers\CustomContainer1.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\CustomContainer1Base.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xml"/>
@@ -225,6 +227,8 @@
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\triangleBase.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\containers\Compass_1.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Compass_1Base.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\containers\CustomContainer1.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\CustomContainer1Base.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

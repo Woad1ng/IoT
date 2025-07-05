@@ -63,7 +63,7 @@ void Model::tick()
     if(osSemaphoreAcquire(ADCValueHandle,portMAX_DELAY) == osOK)
     {
         modelListener->Get_Humidity(ADC_Value);
-        modelListener->Get_Angle(ADC_Value);
+        modelListener->Get_Angle(Yaw);
 	}
     #endif
 }

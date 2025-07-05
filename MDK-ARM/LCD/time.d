@@ -72,7 +72,10 @@ lcd\time.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 lcd\time.o: ..\BSP\MyTask.h
 lcd\time.o: ..\BSP\ADC.h
 lcd\time.o: ..\BSP\GPS.h
+lcd\time.o: ..\BSP\AIR780EX.h
 lcd\time.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 lcd\time.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 lcd\time.o: ..\BSP\touch_iic.h
 lcd\time.o: ..\BSP\touch_800x480.h
+lcd\time.o: ..\BSP\atk_imu_901.h
+lcd\time.o: ..\BSP\Angle.h

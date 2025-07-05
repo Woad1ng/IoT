@@ -8,12 +8,12 @@
 #include <mvp/View.hpp>
 #include <gui/sensor_menu_screen/sensor_menuPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
-#include <touchgfx/widgets/graph/GraphScroll.hpp>
-#include <touchgfx/widgets/graph/GraphElements.hpp>
-#include <touchgfx/widgets/canvas/PainterRGB565.hpp>
 #include <touchgfx/widgets/ButtonWithIcon.hpp>
 #include <touchgfx/containers/progress_indicators/CircleProgress.hpp>
+#include <touchgfx/widgets/canvas/PainterRGB565.hpp>
 #include <touchgfx/widgets/Image.hpp>
+#include <touchgfx/widgets/canvas/Circle.hpp>
+#include <touchgfx/widgets/ToggleButton.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include "MyHFile.h"
@@ -43,23 +43,20 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::Box sensor_box;
-    touchgfx::GraphScroll<100> dynamicGraph1_1;
-    touchgfx::GraphElementLine dynamicGraph1_1Line1;
-    touchgfx::PainterRGB565 dynamicGraph1_1Line1Painter;
     touchgfx::ButtonWithIcon back_button;
     touchgfx::CircleProgress humidity_circle;
     touchgfx::PainterRGB565 humidity_circlePainter;
     touchgfx::CircleProgress temperature_circle;
     touchgfx::PainterRGB565 temperature_circlePainter;
     touchgfx::Image humidity;
+    touchgfx::Circle LED;
+    touchgfx::PainterRGB565 LEDPainter;
+    touchgfx::ToggleButton LEDButton;
     touchgfx::TextArea humidity_name;
     touchgfx::TextArea temperature_name;
     touchgfx::TextAreaWithOneWildcard humidity_value;
     touchgfx::TextAreaWithOneWildcard temperature_value;
     touchgfx::Image image1;
-    touchgfx::GraphScroll<100> dynamicGraph1;
-    touchgfx::GraphElementLine dynamicGraph1Line1;
-    touchgfx::PainterRGB565 dynamicGraph1Line1Painter;
 
     /*
      * Wildcard Buffers

@@ -6,6 +6,7 @@
 #include "stdlib.h"
 #include <stdio.h>
 #include "stdbool.h"
+#include "math.h"
 
 #include "UART.h"
 
@@ -23,14 +24,12 @@
 
 #include "ADC.h"
 #include "GPS.h"
-
-
-
-extern osSemaphoreId_t ADCValueHandle;
-extern osSemaphoreId_t BlueToothHandle;
-
+#include "AIR780EX.h"
 
 extern UART_HandleTypeDef huart6;
+extern osSemaphoreId_t ADCValueHandle;
+extern osSemaphoreId_t BlueToothHandle;
+extern UART_HandleTypeDef huart3;
 extern UART_HandleTypeDef huart4;
 extern ADC_HandleTypeDef hadc1;
 extern CRC_HandleTypeDef hcrc;
@@ -59,8 +58,8 @@ extern int8_t X,Y;
 
 #include "touch_iic.h"
 #include "touch_800x480.h"
-
-
+#include "atk_imu_901.h"
+#include "Angle.h"
 
 
 //FatFs

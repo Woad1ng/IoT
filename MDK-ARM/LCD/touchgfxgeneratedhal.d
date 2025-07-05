@@ -138,10 +138,13 @@ lcd\touchgfxgeneratedhal.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTO
 lcd\touchgfxgeneratedhal.o: ../BSP/MyTask.h
 lcd\touchgfxgeneratedhal.o: ../BSP/ADC.h
 lcd\touchgfxgeneratedhal.o: ../BSP/GPS.h
+lcd\touchgfxgeneratedhal.o: ../BSP/AIR780EX.h
 lcd\touchgfxgeneratedhal.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 lcd\touchgfxgeneratedhal.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 lcd\touchgfxgeneratedhal.o: ../BSP/touch_iic.h
 lcd\touchgfxgeneratedhal.o: ../BSP/touch_800x480.h
+lcd\touchgfxgeneratedhal.o: ../BSP/atk_imu_901.h
+lcd\touchgfxgeneratedhal.o: ../BSP/Angle.h
 lcd\touchgfxgeneratedhal.o: ../touchgfx/gui/include/gui/about_menu_screen/about_menuView.hpp
 lcd\touchgfxgeneratedhal.o: ../touchgfx/generated/gui_generated/include/gui_generated/about_menu_screen/about_menuViewBase.hpp
 lcd\touchgfxgeneratedhal.o: ../touchgfx/gui/include/gui/about_menu_screen/about_menuPresenter.hpp

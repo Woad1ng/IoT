@@ -73,8 +73,11 @@ lcd\lcd_rgb.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os
 lcd\lcd_rgb.o: ..\BSP\MyTask.h
 lcd\lcd_rgb.o: ..\BSP\ADC.h
 lcd\lcd_rgb.o: ..\BSP\GPS.h
+lcd\lcd_rgb.o: ..\BSP\AIR780EX.h
 lcd\lcd_rgb.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 lcd\lcd_rgb.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 lcd\lcd_rgb.o: ..\BSP\touch_iic.h
 lcd\lcd_rgb.o: ..\BSP\touch_800x480.h
+lcd\lcd_rgb.o: ..\BSP\atk_imu_901.h
+lcd\lcd_rgb.o: ..\BSP\Angle.h
 lcd\lcd_rgb.o: ..\BSP\lcd_fonts.h

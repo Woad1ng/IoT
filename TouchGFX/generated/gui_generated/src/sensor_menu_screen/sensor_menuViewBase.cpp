@@ -20,26 +20,13 @@ sensor_menuViewBase::sensor_menuViewBase() :
     sensor_box.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     add(sensor_box);
 
-    dynamicGraph1_1.setPosition(23, 82, 291, 130);
-    dynamicGraph1_1.setScale(1);
-    dynamicGraph1_1.setGraphAreaMargin(0, 0, 0, 0);
-    dynamicGraph1_1.setGraphAreaPadding(0, 0, 0, 0);
-    dynamicGraph1_1.setGraphRangeY(0, 100);
-    dynamicGraph1_1Line1Painter.setColor(touchgfx::Color::getColorFromRGB(20, 151, 197));
-    dynamicGraph1_1Line1.setPainter(dynamicGraph1_1Line1Painter);
-    dynamicGraph1_1Line1.setLineWidth(2);
-    dynamicGraph1_1.addGraphElement(dynamicGraph1_1Line1);
-
-
-    add(dynamicGraph1_1);
-
     back_button.setXY(0, 0);
     back_button.setBitmaps(touchgfx::Bitmap(BITMAP_BACK_64_ID), touchgfx::Bitmap(BITMAP_BACK_64_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_ACTION_DONE_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_ACTION_DONE_50_50_E8F6FB_SVG_ID));
     back_button.setIconXY(97, 0);
     back_button.setAction(buttonCallback);
     add(back_button);
 
-    humidity_circle.setXY(377, 22);
+    humidity_circle.setXY(40, 220);
     humidity_circle.setProgressIndicatorPosition(0, 0, 150, 150);
     humidity_circle.setRange(225, 495);
     humidity_circle.setCenter(75, 75);
@@ -53,7 +40,7 @@ sensor_menuViewBase::sensor_menuViewBase() :
     humidity_circle.setValue(225);
     add(humidity_circle);
 
-    temperature_circle.setXY(377, 250);
+    temperature_circle.setXY(227, 220);
     temperature_circle.setProgressIndicatorPosition(0, 0, 150, 150);
     temperature_circle.setRange(225, 495);
     temperature_circle.setCenter(75, 75);
@@ -67,23 +54,37 @@ sensor_menuViewBase::sensor_menuViewBase() :
     temperature_circle.setValue(225);
     add(temperature_circle);
 
-    humidity.setXY(420, 65);
+    humidity.setXY(83, 263);
     humidity.setBitmap(touchgfx::Bitmap(BITMAP_HUMIDITY_64_ID));
     add(humidity);
 
-    humidity_name.setXY(427, 172);
+    LED.setPosition(133, 10, 80, 80);
+    LED.setCenter(40, 40);
+    LED.setRadius(40);
+    LED.setLineWidth(0);
+    LED.setArc(0, 360);
+    LEDPainter.setColor(touchgfx::Color::getColorFromRGB(255, 0, 8));
+    LED.setPainter(LEDPainter);
+    add(LED);
+
+    LEDButton.setXY(256, 14);
+    LEDButton.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED_OFF_LIGHT_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED_ON_NORMAL_ID));
+    LEDButton.setAction(buttonCallback);
+    add(LEDButton);
+
+    humidity_name.setXY(90, 370);
     humidity_name.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     humidity_name.setLinespacing(0);
     humidity_name.setTypedText(touchgfx::TypedText(T___SINGLEUSE_2P9N));
     add(humidity_name);
 
-    temperature_name.setXY(427, 400);
+    temperature_name.setXY(277, 370);
     temperature_name.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     temperature_name.setLinespacing(0);
     temperature_name.setTypedText(touchgfx::TypedText(T___SINGLEUSE_LAU4));
     add(temperature_name);
 
-    humidity_value.setXY(430, 208);
+    humidity_value.setXY(93, 406);
     humidity_value.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     humidity_value.setLinespacing(0);
     Unicode::snprintf(humidity_valueBuffer, HUMIDITY_VALUE_SIZE, "%s", touchgfx::TypedText(T_HUMIDITY_WILDCARD).getText());
@@ -92,7 +93,7 @@ sensor_menuViewBase::sensor_menuViewBase() :
     humidity_value.setTypedText(touchgfx::TypedText(T___SINGLEUSE_LK04));
     add(humidity_value);
 
-    temperature_value.setXY(430, 436);
+    temperature_value.setXY(280, 406);
     temperature_value.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     temperature_value.setLinespacing(0);
     Unicode::snprintf(temperature_valueBuffer, TEMPERATURE_VALUE_SIZE, "%s", touchgfx::TypedText(T_TEMPERATURE_WILDCARD).getText());
@@ -101,122 +102,9 @@ sensor_menuViewBase::sensor_menuViewBase() :
     temperature_value.setTypedText(touchgfx::TypedText(T___SINGLEUSE_F4E3));
     add(temperature_value);
 
-    image1.setXY(420, 293);
+    image1.setXY(270, 263);
     image1.setBitmap(touchgfx::Bitmap(BITMAP_TEMPERATURE_64_ID));
     add(image1);
-
-    dynamicGraph1.setPosition(38, 270, 291, 130);
-    dynamicGraph1.setScale(1);
-    dynamicGraph1.setGraphAreaMargin(0, 0, 0, 0);
-    dynamicGraph1.setGraphAreaPadding(0, 0, 0, 0);
-    dynamicGraph1.setGraphRangeY(0, 100);
-    dynamicGraph1Line1Painter.setColor(touchgfx::Color::getColorFromRGB(20, 151, 197));
-    dynamicGraph1Line1.setPainter(dynamicGraph1Line1Painter);
-    dynamicGraph1Line1.setLineWidth(2);
-    dynamicGraph1.addGraphElement(dynamicGraph1Line1);
-
-
-    dynamicGraph1.addDataPoint(97.56671f);
-    dynamicGraph1.addDataPoint(89.79239f);
-    dynamicGraph1.addDataPoint(76.5192f);
-    dynamicGraph1.addDataPoint(60.34168f);
-    dynamicGraph1.addDataPoint(44.42242f);
-    dynamicGraph1.addDataPoint(31.74953f);
-    dynamicGraph1.addDataPoint(24.44131f);
-    dynamicGraph1.addDataPoint(23.26689f);
-    dynamicGraph1.addDataPoint(27.49854f);
-    dynamicGraph1.addDataPoint(35.13036f);
-    dynamicGraph1.addDataPoint(43.40807f);
-    dynamicGraph1.addDataPoint(49.5386f);
-    dynamicGraph1.addDataPoint(51.40457f);
-    dynamicGraph1.addDataPoint(48.10721f);
-    dynamicGraph1.addDataPoint(40.20404f);
-    dynamicGraph1.addDataPoint(29.58237f);
-    dynamicGraph1.addDataPoint(18.99906f);
-    dynamicGraph1.addDataPoint(11.39934f);
-    dynamicGraph1.addDataPoint(9.18162f);
-    dynamicGraph1.addDataPoint(13.58881f);
-    dynamicGraph1.addDataPoint(24.37611f);
-    dynamicGraph1.addDataPoint(39.83769f);
-    dynamicGraph1.addDataPoint(57.18708f);
-    dynamicGraph1.addDataPoint(73.19951f);
-    dynamicGraph1.addDataPoint(84.96071f);
-    dynamicGraph1.addDataPoint(90.54029f);
-    dynamicGraph1.addDataPoint(89.42653f);
-    dynamicGraph1.addDataPoint(82.61763f);
-    dynamicGraph1.addDataPoint(72.34834f);
-    dynamicGraph1.addDataPoint(61.52025f);
-    dynamicGraph1.addDataPoint(52.97587f);
-    dynamicGraph1.addDataPoint(48.79511f);
-    dynamicGraph1.addDataPoint(49.7865f);
-    dynamicGraph1.addDataPoint(55.2978f);
-    dynamicGraph1.addDataPoint(63.39204f);
-    dynamicGraph1.addDataPoint(71.34517f);
-    dynamicGraph1.addDataPoint(76.34258f);
-    dynamicGraph1.addDataPoint(76.20284f);
-    dynamicGraph1.addDataPoint(69.94993f);
-    dynamicGraph1.addDataPoint(58.09251f);
-    dynamicGraph1.addDataPoint(42.54012f);
-    dynamicGraph1.addDataPoint(26.17529f);
-    dynamicGraph1.addDataPoint(12.18464f);
-    dynamicGraph1.addDataPoint(3.31143f);
-    dynamicGraph1.addDataPoint(1.21107f);
-    dynamicGraph1.addDataPoint(6.06646f);
-    dynamicGraph1.addDataPoint(16.55638f);
-    dynamicGraph1.addDataPoint(30.1843f);
-    dynamicGraph1.addDataPoint(43.88672f);
-    dynamicGraph1.addDataPoint(54.77236f);
-    dynamicGraph1.addDataPoint(60.81152f);
-    dynamicGraph1.addDataPoint(61.30776f);
-    dynamicGraph1.addDataPoint(57.03717f);
-    dynamicGraph1.addDataPoint(50.02258f);
-    dynamicGraph1.addDataPoint(42.99938f);
-    dynamicGraph1.addDataPoint(38.70518f);
-    dynamicGraph1.addDataPoint(39.16895f);
-    dynamicGraph1.addDataPoint(45.17534f);
-    dynamicGraph1.addDataPoint(56.03669f);
-    dynamicGraph1.addDataPoint(69.73026f);
-    dynamicGraph1.addDataPoint(83.368f);
-    dynamicGraph1.addDataPoint(93.88521f);
-    dynamicGraph1.addDataPoint(98.7799f);
-    dynamicGraph1.addDataPoint(96.72245f);
-    dynamicGraph1.addDataPoint(87.88643f);
-    dynamicGraph1.addDataPoint(73.9192f);
-    dynamicGraph1.addDataPoint(57.5592f);
-    dynamicGraph1.addDataPoint(41.99262f);
-    dynamicGraph1.addDataPoint(30.10598f);
-    dynamicGraph1.addDataPoint(23.81627f);
-    dynamicGraph1.addDataPoint(23.64122f);
-    dynamicGraph1.addDataPoint(28.61325f);
-    dynamicGraph1.addDataPoint(36.55671f);
-    dynamicGraph1.addDataPoint(44.65871f);
-    dynamicGraph1.addDataPoint(50.19246f);
-    dynamicGraph1.addDataPoint(51.21447f);
-    dynamicGraph1.addDataPoint(47.06389f);
-    dynamicGraph1.addDataPoint(38.54064f);
-    dynamicGraph1.addDataPoint(27.71823f);
-    dynamicGraph1.addDataPoint(17.43658f);
-    dynamicGraph1.addDataPoint(10.59914f);
-    dynamicGraph1.addDataPoint(9.44665f);
-    dynamicGraph1.addDataPoint(14.98591f);
-    dynamicGraph1.addDataPoint(26.71438f);
-    dynamicGraph1.addDataPoint(42.70925f);
-    dynamicGraph1.addDataPoint(60.0603f);
-    dynamicGraph1.addDataPoint(75.5424f);
-    dynamicGraph1.addDataPoint(86.36429f);
-    dynamicGraph1.addDataPoint(90.81219f);
-    dynamicGraph1.addDataPoint(88.63205f);
-    dynamicGraph1.addDataPoint(81.05847f);
-    dynamicGraph1.addDataPoint(70.48449f);
-    dynamicGraph1.addDataPoint(59.85424f);
-    dynamicGraph1.addDataPoint(51.9279f);
-    dynamicGraph1.addDataPoint(48.59965f);
-    dynamicGraph1.addDataPoint(50.4358f);
-    dynamicGraph1.addDataPoint(56.54599f);
-    dynamicGraph1.addDataPoint(64.81878f);
-    dynamicGraph1.addDataPoint(72.46316f);
-    dynamicGraph1.addDataPoint(76.72235f);
-    add(dynamicGraph1);
 }
 
 sensor_menuViewBase::~sensor_menuViewBase()
@@ -237,15 +125,18 @@ void sensor_menuViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& 
         //When back_button clicked change screen to main_menu
         //Go to main_menu with screen transition towards West
         application().gotomain_menuScreenCoverTransitionWest();
-        //Interaction4
-        //When back_button clicked call virtual function
-        //Call LEDfunction
-        LEDfunction();
         //back_Interactioncode
         //When back_button clicked execute C++ code
         //Execute C++ code
         X=0;
         Y=0;
         screennum=0;
+    }
+    if (&src == &LEDButton)
+    {
+        //Interaction4
+        //When LEDButton clicked call virtual function
+        //Call LEDfunction
+        LEDfunction();
     }
 }

@@ -79,6 +79,9 @@ lcd\stm32touchcontroller.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTO
 lcd\stm32touchcontroller.o: ../BSP/MyTask.h
 lcd\stm32touchcontroller.o: ../BSP/ADC.h
 lcd\stm32touchcontroller.o: ../BSP/GPS.h
+lcd\stm32touchcontroller.o: ../BSP/AIR780EX.h
 lcd\stm32touchcontroller.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 lcd\stm32touchcontroller.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 lcd\stm32touchcontroller.o: ../BSP/touch_800x480.h
+lcd\stm32touchcontroller.o: ../BSP/atk_imu_901.h
+lcd\stm32touchcontroller.o: ../BSP/Angle.h

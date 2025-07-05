@@ -81,7 +81,7 @@
           </BeforeMake>
           <AfterMake>
             <RunUserProg1>0</RunUserProg1>
-            <RunUserProg2>1</RunUserProg2>
+            <RunUserProg2>0</RunUserProg2>
             <UserProg1Name></UserProg1Name>
             <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
@@ -1215,16 +1215,6 @@
               <FilePath>..\BSP\ADC.h</FilePath>
             </File>
             <File>
-              <FileName>atgm336h.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\BSP\atgm336h.c</FilePath>
-            </File>
-            <File>
-              <FileName>atgm336h.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\BSP\atgm336h.h</FilePath>
-            </File>
-            <File>
               <FileName>GPS.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\BSP\GPS.c</FilePath>
@@ -1233,6 +1223,36 @@
               <FileName>GPS.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\BSP\GPS.h</FilePath>
+            </File>
+            <File>
+              <FileName>atk_imu_901.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\atk_imu_901.c</FilePath>
+            </File>
+            <File>
+              <FileName>atk_imu_901.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\atk_imu_901.h</FilePath>
+            </File>
+            <File>
+              <FileName>AIR780EX.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\AIR780EX.c</FilePath>
+            </File>
+            <File>
+              <FileName>AIR780EX.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\AIR780EX.h</FilePath>
+            </File>
+            <File>
+              <FileName>Angle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\Angle.c</FilePath>
+            </File>
+            <File>
+              <FileName>Angle.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\Angle.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -2574,6 +2594,11 @@
               <FilePath>../touchgfx/gui/src/containers/compass_1.cpp</FilePath>
             </File>
             <File>
+              <FileName>CustomContainer1.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/gui/src/containers/customcontainer1.cpp</FilePath>
+            </File>
+            <File>
               <FileName>FPV_menuPresenter.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/gui/src/fpv_menu_screen/fpv_menupresenter.cpp</FilePath>
@@ -2687,6 +2712,11 @@
               <FileName>CompressedUnmappedFontCache.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/fonts/src/compressedunmappedfontcache.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>CustomContainer1Base.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/gui_generated/src/containers/customcontainer1base.cpp</FilePath>
             </File>
             <File>
               <FileName>Font_STFANGSO_TTF_25_4bpp_0.cpp</FileName>

@@ -58,6 +58,7 @@ UART_HandleTypeDef huart4;
 UART_HandleTypeDef huart7;
 UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart2;
+UART_HandleTypeDef huart3;
 UART_HandleTypeDef huart6;
 
 SDRAM_HandleTypeDef hsdram1;
@@ -99,6 +100,7 @@ static void MX_USART2_UART_Init(void);
 static void MX_UART7_Init(void);
 static void MX_UART4_Init(void);
 static void MX_USART6_UART_Init(void);
+static void MX_USART3_UART_Init(void);
 void vTouchgfxTask(void *argument);
 
 /* USER CODE BEGIN PFP */
@@ -162,18 +164,23 @@ int main(void)
   MX_UART7_Init();
   MX_UART4_Init();
   MX_USART6_UART_Init();
+  MX_USART3_UART_Init();
   MX_TouchGFX_Init();
   /* Call PreOsInit function */
   MX_TouchGFX_PreOSInit();
   /* USER CODE BEGIN 2 */
   
   Time_Init();
-  printf("OK\r\n"); //ÒÔÖÐ¶Ï·½Ê½Æô¶¯ADC1
+  
   HAL_ADC_Start_IT(&hadc1);
-  //Æô¶¯ADC1´¥·¢Ô´¶¨Ê±Æ÷TIM8
+
   HAL_TIM_Base_Start(&htim8);
   UART_Init();
   
+  //AIR780EX_Init();
+//  AIR780EX_Transmit("njibhu");
+
+  printf("OK\r\n"); 
   /* USER CODE END 2 */
 
   /* Init scheduler */
@@ -483,9 +490,9 @@ static void MX_LTDC_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN LTDC_Init 2 */
-  	HAL_LTDC_ProgramLineEvent(&hltdc,0);			// ÉèÖÃÐÐÖÐ¶Ï£¬µÚ0ÐÐ
-	HAL_NVIC_SetPriority(LTDC_IRQn, 0xE, 0);		// ÉèÖÃÓÅÏÈ¼¶
-	HAL_NVIC_EnableIRQ(LTDC_IRQn);					// Ê¹ÄÜÖÐ¶Ï
+  	HAL_LTDC_ProgramLineEvent(&hltdc,0);			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶Ï£ï¿½ï¿½ï¿½0ï¿½ï¿½
+	HAL_NVIC_SetPriority(LTDC_IRQn, 0xE, 0);		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¼ï¿½
+	HAL_NVIC_EnableIRQ(LTDC_IRQn);					// Ê¹ï¿½ï¿½ï¿½Ð¶ï¿½
   /* USER CODE END LTDC_Init 2 */
 
 }
@@ -824,6 +831,54 @@ static void MX_USART2_UART_Init(void)
 }
 
 /**
+  * @brief USART3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART3_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART3_Init 0 */
+
+  /* USER CODE END USART3_Init 0 */
+
+  /* USER CODE BEGIN USART3_Init 1 */
+
+  /* USER CODE END USART3_Init 1 */
+  huart3.Instance = USART3;
+  huart3.Init.BaudRate = 115200;
+  huart3.Init.WordLength = UART_WORDLENGTH_8B;
+  huart3.Init.StopBits = UART_STOPBITS_1;
+  huart3.Init.Parity = UART_PARITY_NONE;
+  huart3.Init.Mode = UART_MODE_TX_RX;
+  huart3.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart3.Init.OverSampling = UART_OVERSAMPLING_16;
+  huart3.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  huart3.Init.ClockPrescaler = UART_PRESCALER_DIV1;
+  huart3.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&huart3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_SetTxFifoThreshold(&huart3, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_SetRxFifoThreshold(&huart3, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_DisableFifoMode(&huart3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART3_Init 2 */
+
+  /* USER CODE END USART3_Init 2 */
+
+}
+
+/**
   * @brief USART6 Initialization Function
   * @param None
   * @retval None
@@ -1042,7 +1097,7 @@ void vTouchgfxTask(void *argument)
 {
   /* USER CODE BEGIN 5 */
   /* Infinite loop */
-    MX_TouchGFX_Process();	// ½»¸øTouchGFX´¦Àí
+    MX_TouchGFX_Process();	// ï¿½ï¿½ï¿½ï¿½TouchGFXï¿½ï¿½ï¿½ï¿½
 	for(;;)
 	{
 		osDelay(10);

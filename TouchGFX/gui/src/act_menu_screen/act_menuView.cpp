@@ -17,10 +17,15 @@ void act_menuView::tearDownScreen()
 
 void act_menuView::Get_Angle(float angle)
 {
+    //uint16_t absoluteangle=abs((int)angle-180)-30;
+    uint16_t absoluteangle=180-angle;
     //compass1.setMoveAnimationDelay(1);
     //printf("%f\r\n",angle);
+    if(absoluteangle>90)
+    {
+        compass1.startMoveAnimation(-absoluteangle*2, 103, 36, touchgfx::EasingEquations::linearEaseIn, touchgfx::EasingEquations::linearEaseIn);
+    }
     
-    compass1.startMoveAnimation(-angle, 103, 36, touchgfx::EasingEquations::linearEaseIn, touchgfx::EasingEquations::linearEaseIn);
 
 }
 

@@ -5,9 +5,6 @@
   </Languages>
   <Texts>
     <TextGroup Id="Group1">
-      <Text Id="title" Alignment="Left" TypographyId="songti40">
-        <Translation Language="GB">New Text</Translation>
-      </Text>
       <Text Id="MAP" Alignment="Center" TypographyId="songti30">
         <Translation Language="GB">New Text</Translation>
       </Text>
@@ -16,9 +13,6 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_MWGC" Alignment="Left" TypographyId="songti40">
-        <Translation Language="GB">苍穹之眼——盔式空地协同系统与实时目标检测</Translation>
-      </Text>
       <Text Id="__SingleUse_D4O2" Alignment="Center" TypographyId="songti30">
         <Translation Language="GB">N</Translation>
       </Text>
@@ -269,7 +263,7 @@
         <Translation Language="GB">基于STM32Cube.AI的盔式空地协同系统与实时目标检测</Translation>
       </Text>
       <Text Id="__SingleUse_YXYQ" Alignment="Left" TypographyId="songti30">
-        <Translation Language="GB">紧急报警</Translation>
+        <Translation Language="GB">关于</Translation>
       </Text>
       <Text Id="__SingleUse_UOQU" Alignment="Left" TypographyId="songti30">
         <Translation Language="GB">FPV</Translation>
@@ -294,7 +288,7 @@
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
     <Typography Id="songti30" Font="STFANGSO.TTF" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="%" WildcardCharacterRanges="0-9" />
     <Typography Id="xingkai25" Font="STXINGKA.TTF" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
-    <Typography Id="songti40" Font="STFANGSO.TTF" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="songti40" Font="STFANGSO.TTF" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
     <Typography Id="kaiti40" Font="STKAITI.TTF" Size="32" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
     <Typography Id="Typography_01" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
   </Typographies>

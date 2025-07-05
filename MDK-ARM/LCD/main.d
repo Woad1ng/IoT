@@ -73,7 +73,10 @@ lcd\main.o: ../BSP/lcd_fonts.h
 lcd\main.o: ../BSP/MyTask.h
 lcd\main.o: ../BSP/ADC.h
 lcd\main.o: ../BSP/GPS.h
+lcd\main.o: ../BSP/AIR780EX.h
 lcd\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 lcd\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 lcd\main.o: ../BSP/touch_iic.h
 lcd\main.o: ../BSP/touch_800x480.h
+lcd\main.o: ../BSP/atk_imu_901.h
+lcd\main.o: ../BSP/Angle.h

@@ -74,6 +74,9 @@ lcd\touch_800x480.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cm
 lcd\touch_800x480.o: ..\BSP\MyTask.h
 lcd\touch_800x480.o: ..\BSP\ADC.h
 lcd\touch_800x480.o: ..\BSP\GPS.h
+lcd\touch_800x480.o: ..\BSP\AIR780EX.h
 lcd\touch_800x480.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 lcd\touch_800x480.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 lcd\touch_800x480.o: ..\BSP\touch_800x480.h
+lcd\touch_800x480.o: ..\BSP\atk_imu_901.h
+lcd\touch_800x480.o: ..\BSP\Angle.h

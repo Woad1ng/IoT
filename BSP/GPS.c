@@ -16,7 +16,7 @@ void GPSRxBufferHandle(uint8_t* GPSRxFlag)
             {
                 if(Buffer[7]==','&&Buffer[8]==','&&Buffer[9]==','&&Buffer[10]==',')
                 {
-                    MyLog("检查到GPS,但信号接收不良\r\n");
+//                    MyLog("检查到GPS,但信号接收不良\r\n");
                 }
                 else
                 {

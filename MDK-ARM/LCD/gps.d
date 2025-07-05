@@ -72,7 +72,10 @@ lcd\gps.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 lcd\gps.o: ..\BSP\MyTask.h
 lcd\gps.o: ..\BSP\ADC.h
 lcd\gps.o: ..\BSP\GPS.h
+lcd\gps.o: ..\BSP\AIR780EX.h
 lcd\gps.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 lcd\gps.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 lcd\gps.o: ..\BSP\touch_iic.h
 lcd\gps.o: ..\BSP\touch_800x480.h
+lcd\gps.o: ..\BSP\atk_imu_901.h
+lcd\gps.o: ..\BSP\Angle.h
