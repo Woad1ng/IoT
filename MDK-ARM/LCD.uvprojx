@@ -2719,6 +2719,56 @@
               <FilePath>../touchgfx/generated/gui_generated/src/containers/customcontainer1base.cpp</FilePath>
             </File>
             <File>
+              <FileName>Font_STFANGSO_TTF_20_4bpp_0.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_0.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STFANGSO_TTF_20_4bpp_10.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_10.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STFANGSO_TTF_20_4bpp_11.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_11.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STFANGSO_TTF_20_4bpp_12.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_12.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STFANGSO_TTF_20_4bpp_13.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_13.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STFANGSO_TTF_20_4bpp_14.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_14.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STFANGSO_TTF_20_4bpp_15.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_15.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STFANGSO_TTF_20_4bpp_16.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_16.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STFANGSO_TTF_20_4bpp_4.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_4.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STFANGSO_TTF_20_4bpp_9.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_9.cpp</FilePath>
+            </File>
+            <File>
               <FileName>Font_STFANGSO_TTF_25_4bpp_0.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_25_4bpp_0.cpp</FilePath>
@@ -2879,6 +2929,16 @@
               <FilePath>../touchgfx/generated/images/src/image_action_80.cpp</FilePath>
             </File>
             <File>
+              <FileName>image_air.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_air.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_airplane.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_airplane.cpp</FilePath>
+            </File>
+            <File>
               <FileName>image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.cpp</FilePath>
@@ -2939,6 +2999,16 @@
               <FilePath>../touchgfx/generated/images/src/image_map_80.cpp</FilePath>
             </File>
             <File>
+              <FileName>image_P07041.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_p07041.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_plane.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_plane.cpp</FilePath>
+            </File>
+            <File>
               <FileName>image_sensor_80.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/image_sensor_80.cpp</FilePath>
@@ -2952,6 +3022,16 @@
               <FileName>image_temperature_64.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/image_temperature_64.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_warn.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_warn.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Kerning_STFANGSO_TTF_20_4bpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/kerning_stfangso_ttf_20_4bpp.cpp</FilePath>
             </File>
             <File>
               <FileName>Kerning_STFANGSO_TTF_25_4bpp.cpp</FileName>
@@ -3017,6 +3097,11 @@
               <FileName>SVGDatabase.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/svgdatabase.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Table_STFANGSO_TTF_20_4bpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/table_stfangso_ttf_20_4bpp.cpp</FilePath>
             </File>
             <File>
               <FileName>Table_STFANGSO_TTF_25_4bpp.cpp</FileName>

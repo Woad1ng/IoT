@@ -79,6 +79,7 @@ lcd\act_menuview.o: ../touchgfx/gui/include/gui/containers/triangle.hpp
 lcd\act_menuview.o: ../touchgfx/generated/gui_generated/include/gui_generated/containers/triangleBase.hpp
 lcd\act_menuview.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp
 lcd\act_menuview.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractShape.hpp
+lcd\act_menuview.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp
 lcd\act_menuview.o: ../middlewares/st/touchgfx/framework/include/touchgfx/EasingEquations.hpp
 lcd\act_menuview.o: ../middlewares/st/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp
 lcd\act_menuview.o: ../BSP/MyHFile.h

@@ -27,23 +27,26 @@ act_menuViewBase::act_menuViewBase() :
 
     test_button1.setXY(5, 328);
     test_button1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_PRESSED_ID));
+    test_button1.setVisible(false);
     test_button1.setAction(buttonCallback);
     add(test_button1);
 
     test_button2.setXY(280, 328);
     test_button2.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_PRESSED_ID));
+    test_button2.setVisible(false);
     test_button2.setAction(buttonCallback);
     add(test_button2);
 
     test_button3.setXY(560, 328);
     test_button3.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_PRESSED_ID));
+    test_button3.setVisible(false);
     test_button3.setAction(buttonCallback);
     add(test_button3);
 
-    compass1.setXY(0, 103);
+    compass1.setXY(-361, 103);
     add(compass1);
 
-    triangle1.setXY(391, 181);
+    triangle1.setXY(382, 181);
     add(triangle1);
 
     act_box_1.setPosition(1758, 26, 800, 480);
@@ -55,6 +58,14 @@ act_menuViewBase::act_menuViewBase() :
 
     triangle1_1.setXY(1985, 214);
     add(triangle1_1);
+
+    image1.setXY(600, 39);
+    image1.setBitmap(touchgfx::Bitmap(BITMAP_AIR_ID));
+    add(image1);
+
+    image2.setXY(241, 39);
+    image2.setBitmap(touchgfx::Bitmap(BITMAP_WARN_ID));
+    add(image2);
 }
 
 act_menuViewBase::~act_menuViewBase()

@@ -12,6 +12,7 @@
 #include <touchgfx/widgets/Button.hpp>
 #include <gui/containers/Compass.hpp>
 #include <gui/containers/triangle.hpp>
+#include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/EasingEquations.hpp>
 #include <touchgfx/mixins/MoveAnimator.hpp>
 #include "MyHFile.h"
@@ -42,6 +43,8 @@ protected:
     touchgfx::Box act_box_1;
     Compass compass1_1;
     triangle triangle1_1;
+    touchgfx::Image image1;
+    touchgfx::Image image2;
 
 private:
 

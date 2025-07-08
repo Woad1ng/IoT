@@ -177,12 +177,12 @@ lcd\touchgfxconfiguration.o: ../touchgfx/gui/include/gui/containers/triangle.hpp
 lcd\touchgfxconfiguration.o: ../touchgfx/generated/gui_generated/include/gui_generated/containers/triangleBase.hpp
 lcd\touchgfxconfiguration.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp
 lcd\touchgfxconfiguration.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractShape.hpp
+lcd\touchgfxconfiguration.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp
 lcd\touchgfxconfiguration.o: ../touchgfx/gui/include/gui/sensor_menu_screen/sensor_menuView.hpp
 lcd\touchgfxconfiguration.o: ../touchgfx/generated/gui_generated/include/gui_generated/sensor_menu_screen/sensor_menuViewBase.hpp
 lcd\touchgfxconfiguration.o: ../touchgfx/gui/include/gui/sensor_menu_screen/sensor_menuPresenter.hpp
 lcd\touchgfxconfiguration.o: ../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_indicators/CircleProgress.hpp
 lcd\touchgfxconfiguration.o: ../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp
-lcd\touchgfxconfiguration.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp
 lcd\touchgfxconfiguration.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Circle.hpp
 lcd\touchgfxconfiguration.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Canvas.hpp
 lcd\touchgfxconfiguration.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp

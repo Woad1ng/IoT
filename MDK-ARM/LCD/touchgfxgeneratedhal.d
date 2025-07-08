@@ -176,12 +176,12 @@ lcd\touchgfxgeneratedhal.o: ../touchgfx/gui/include/gui/containers/triangle.hpp
 lcd\touchgfxgeneratedhal.o: ../touchgfx/generated/gui_generated/include/gui_generated/containers/triangleBase.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractShape.hpp
+lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp
 lcd\touchgfxgeneratedhal.o: ../touchgfx/gui/include/gui/sensor_menu_screen/sensor_menuView.hpp
 lcd\touchgfxgeneratedhal.o: ../touchgfx/generated/gui_generated/include/gui_generated/sensor_menu_screen/sensor_menuViewBase.hpp
 lcd\touchgfxgeneratedhal.o: ../touchgfx/gui/include/gui/sensor_menu_screen/sensor_menuPresenter.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_indicators/CircleProgress.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp
-lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Circle.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Canvas.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp

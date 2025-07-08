@@ -8,7 +8,6 @@
 
 #endif
 
-
 Model::Model() : modelListener(0)
 {
     
