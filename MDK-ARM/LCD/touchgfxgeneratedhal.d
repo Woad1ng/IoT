@@ -3,8 +3,8 @@ lcd\touchgfxgeneratedhal.o: ../TouchGFX/target/generated/TouchGFXGeneratedHAL.hp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/HAL.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\touchgfxgeneratedhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
-lcd\touchgfxgeneratedhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\touchgfxgeneratedhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\touchgfxgeneratedhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/platform/driver/button/ButtonController.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/platform/driver/touch/TouchController.hpp
@@ -23,7 +23,7 @@ lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgf
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/lcd/LCD.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\touchgfxgeneratedhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+lcd\touchgfxgeneratedhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextProvider.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp
@@ -49,9 +49,9 @@ lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgf
 lcd\touchgfxgeneratedhal.o: ../touchgfx/gui/include/gui/common/FrontendApplication.hpp
 lcd\touchgfxgeneratedhal.o: ../touchgfx/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/mvp/MVPApplication.hpp
-lcd\touchgfxgeneratedhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\new
-lcd\touchgfxgeneratedhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\touchgfxgeneratedhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\exception
+lcd\touchgfxgeneratedhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\new
+lcd\touchgfxgeneratedhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\touchgfxgeneratedhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\exception
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/mvp/Presenter.hpp
 lcd\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Screen.hpp
 lcd\touchgfxgeneratedhal.o: ../touchgfx/gui/include/gui/model/Model.hpp
@@ -85,7 +85,7 @@ lcd\touchgfxgeneratedhal.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 lcd\touchgfxgeneratedhal.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 lcd\touchgfxgeneratedhal.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 lcd\touchgfxgeneratedhal.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-lcd\touchgfxgeneratedhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\math.h
+lcd\touchgfxgeneratedhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\math.h
 lcd\touchgfxgeneratedhal.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 lcd\touchgfxgeneratedhal.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 lcd\touchgfxgeneratedhal.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
@@ -115,10 +115,10 @@ lcd\touchgfxgeneratedhal.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ti
 lcd\touchgfxgeneratedhal.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 lcd\touchgfxgeneratedhal.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h
 lcd\touchgfxgeneratedhal.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-lcd\touchgfxgeneratedhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\string.h
-lcd\touchgfxgeneratedhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
-lcd\touchgfxgeneratedhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdio.h
-lcd\touchgfxgeneratedhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+lcd\touchgfxgeneratedhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\string.h
+lcd\touchgfxgeneratedhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdlib.h
+lcd\touchgfxgeneratedhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdio.h
+lcd\touchgfxgeneratedhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdbool.h
 lcd\touchgfxgeneratedhal.o: ../BSP/UART.h
 lcd\touchgfxgeneratedhal.o: ../BSP/MyHFile.h
 lcd\touchgfxgeneratedhal.o: ../BSP/LED.h

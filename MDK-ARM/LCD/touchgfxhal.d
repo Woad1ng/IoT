@@ -4,8 +4,8 @@ lcd\touchgfxhal.o: ../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp
 lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/HAL.hpp
 lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp
 lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\touchgfxhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
-lcd\touchgfxhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\touchgfxhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\touchgfxhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/platform/driver/button/ButtonController.hpp
 lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/platform/driver/touch/TouchController.hpp
@@ -24,7 +24,7 @@ lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/UIEvent
 lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/lcd/LCD.hpp
 lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\touchgfxhal.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+lcd\touchgfxhal.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
 lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextProvider.hpp
 lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp
 lcd\touchgfxhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp

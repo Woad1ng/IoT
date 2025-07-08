@@ -8,7 +8,7 @@ lcd\gps.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
 lcd\gps.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 lcd\gps.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h
 lcd\gps.o: ../Drivers/CMSIS/Include/core_cm7.h
-lcd\gps.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\gps.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\gps.o: ../Drivers/CMSIS/Include/cmsis_version.h
 lcd\gps.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 lcd\gps.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -16,8 +16,8 @@ lcd\gps.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 lcd\gps.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 lcd\gps.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 lcd\gps.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-lcd\gps.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\gps.o: D:\software\keil\ARM\ARMCC\Bin\..\include\math.h
+lcd\gps.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\gps.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\math.h
 lcd\gps.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 lcd\gps.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 lcd\gps.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
@@ -47,10 +47,10 @@ lcd\gps.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h
 lcd\gps.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 lcd\gps.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h
 lcd\gps.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-lcd\gps.o: D:\software\keil\ARM\ARMCC\Bin\..\include\string.h
-lcd\gps.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
-lcd\gps.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdio.h
-lcd\gps.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+lcd\gps.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\string.h
+lcd\gps.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdlib.h
+lcd\gps.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdio.h
+lcd\gps.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdbool.h
 lcd\gps.o: ..\BSP\UART.h
 lcd\gps.o: ..\BSP\MyHFile.h
 lcd\gps.o: ..\BSP\LED.h

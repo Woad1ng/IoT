@@ -1,8 +1,8 @@
 lcd\cmsis_os2.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
-lcd\cmsis_os2.o: D:\software\keil\ARM\ARMCC\Bin\..\include\string.h
+lcd\cmsis_os2.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\string.h
 lcd\cmsis_os2.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
-lcd\cmsis_os2.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
-lcd\cmsis_os2.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcd\cmsis_os2.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\cmsis_os2.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
 lcd\cmsis_os2.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 lcd\cmsis_os2.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 lcd\cmsis_os2.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
@@ -32,7 +32,7 @@ lcd\cmsis_os2.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h
 lcd\cmsis_os2.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
 lcd\cmsis_os2.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 lcd\cmsis_os2.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-lcd\cmsis_os2.o: D:\software\keil\ARM\ARMCC\Bin\..\include\math.h
+lcd\cmsis_os2.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\math.h
 lcd\cmsis_os2.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 lcd\cmsis_os2.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 lcd\cmsis_os2.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h

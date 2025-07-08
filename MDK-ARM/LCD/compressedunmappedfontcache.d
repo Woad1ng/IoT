@@ -2,12 +2,12 @@ lcd\compressedunmappedfontcache.o: ../touchgfx/generated/fonts/src/compressedunm
 lcd\compressedunmappedfontcache.o: ../touchgfx/generated/fonts/include/fonts/CompressedUnmappedFontCache.hpp
 lcd\compressedunmappedfontcache.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/FlashDataReader.hpp
 lcd\compressedunmappedfontcache.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\compressedunmappedfontcache.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
-lcd\compressedunmappedfontcache.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\compressedunmappedfontcache.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\compressedunmappedfontcache.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\compressedunmappedfontcache.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\compressedunmappedfontcache.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\compressedunmappedfontcache.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\compressedunmappedfontcache.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+lcd\compressedunmappedfontcache.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
 lcd\compressedunmappedfontcache.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/HAL.hpp
 lcd\compressedunmappedfontcache.o: ../middlewares/st/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp
 lcd\compressedunmappedfontcache.o: ../middlewares/st/touchgfx/framework/include/platform/driver/button/ButtonController.hpp

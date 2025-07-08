@@ -2,8 +2,8 @@ lcd\oswrappers.o: ../TouchGFX/target/generated/OSWrappers.cpp
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/HAL.hpp
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\oswrappers.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
-lcd\oswrappers.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\oswrappers.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\oswrappers.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/platform/driver/button/ButtonController.hpp
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/platform/driver/touch/TouchController.hpp
@@ -22,7 +22,7 @@ lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/UIEventL
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/lcd/LCD.hpp
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\oswrappers.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+lcd\oswrappers.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextProvider.hpp
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp
@@ -33,6 +33,6 @@ lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/lcd/DebugPrinter.hpp
 lcd\oswrappers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/OSWrappers.hpp
 lcd\oswrappers.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
-lcd\oswrappers.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\oswrappers.o: D:\software\keil\ARM\ARMCC\Bin\..\include\cassert
-lcd\oswrappers.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
+lcd\oswrappers.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\oswrappers.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\cassert
+lcd\oswrappers.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h

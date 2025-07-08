@@ -8,7 +8,7 @@ lcd\time.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
 lcd\time.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 lcd\time.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h
 lcd\time.o: ../Drivers/CMSIS/Include/core_cm7.h
-lcd\time.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\time.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\time.o: ../Drivers/CMSIS/Include/cmsis_version.h
 lcd\time.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 lcd\time.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -16,8 +16,8 @@ lcd\time.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 lcd\time.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 lcd\time.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 lcd\time.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-lcd\time.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\time.o: D:\software\keil\ARM\ARMCC\Bin\..\include\math.h
+lcd\time.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\time.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\math.h
 lcd\time.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 lcd\time.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 lcd\time.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
@@ -47,10 +47,10 @@ lcd\time.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h
 lcd\time.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 lcd\time.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h
 lcd\time.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-lcd\time.o: D:\software\keil\ARM\ARMCC\Bin\..\include\string.h
-lcd\time.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
-lcd\time.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdio.h
-lcd\time.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+lcd\time.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\string.h
+lcd\time.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdlib.h
+lcd\time.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdio.h
+lcd\time.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdbool.h
 lcd\time.o: ..\BSP\UART.h
 lcd\time.o: ..\BSP\MyHFile.h
 lcd\time.o: ..\BSP\LED.h

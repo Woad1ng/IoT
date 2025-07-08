@@ -3,11 +3,11 @@ lcd\generatedfont.o: ../touchgfx/generated/fonts/include/fonts/GeneratedFont.hpp
 lcd\generatedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/ConstFont.hpp
 lcd\generatedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\generatedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\generatedfont.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+lcd\generatedfont.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
 lcd\generatedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\generatedfont.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
-lcd\generatedfont.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\generatedfont.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\generatedfont.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\generatedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\generatedfont.o: ../touchgfx/generated/fonts/include/fonts/CompressedFontCache.hpp
-lcd\generatedfont.o: D:\software\keil\ARM\ARMCC\Bin\..\include\math.h
-lcd\generatedfont.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcd\generatedfont.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\math.h
+lcd\generatedfont.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h

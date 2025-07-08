@@ -2,8 +2,8 @@ lcd\stm32touchcontroller.o: ../TouchGFX/target/STM32TouchController.cpp
 lcd\stm32touchcontroller.o: ../TouchGFX/target/STM32TouchController.hpp
 lcd\stm32touchcontroller.o: ../middlewares/st/touchgfx/framework/include/platform/driver/touch/TouchController.hpp
 lcd\stm32touchcontroller.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\stm32touchcontroller.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
-lcd\stm32touchcontroller.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\stm32touchcontroller.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\stm32touchcontroller.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\stm32touchcontroller.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\stm32touchcontroller.o: ../BSP/touch_800x480.h
 lcd\stm32touchcontroller.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
@@ -20,8 +20,8 @@ lcd\stm32touchcontroller.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 lcd\stm32touchcontroller.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 lcd\stm32touchcontroller.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 lcd\stm32touchcontroller.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-lcd\stm32touchcontroller.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\stm32touchcontroller.o: D:\software\keil\ARM\ARMCC\Bin\..\include\math.h
+lcd\stm32touchcontroller.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\stm32touchcontroller.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\math.h
 lcd\stm32touchcontroller.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 lcd\stm32touchcontroller.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 lcd\stm32touchcontroller.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
@@ -54,10 +54,10 @@ lcd\stm32touchcontroller.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ua
 lcd\stm32touchcontroller.o: ../BSP/touch_iic.h
 lcd\stm32touchcontroller.o: ../BSP/MyHFile.h
 lcd\stm32touchcontroller.o: ../Core/Inc/main.h
-lcd\stm32touchcontroller.o: D:\software\keil\ARM\ARMCC\Bin\..\include\string.h
-lcd\stm32touchcontroller.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
-lcd\stm32touchcontroller.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdio.h
-lcd\stm32touchcontroller.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+lcd\stm32touchcontroller.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\string.h
+lcd\stm32touchcontroller.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdlib.h
+lcd\stm32touchcontroller.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdio.h
+lcd\stm32touchcontroller.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdbool.h
 lcd\stm32touchcontroller.o: ../BSP/UART.h
 lcd\stm32touchcontroller.o: ../BSP/MyHFile.h
 lcd\stm32touchcontroller.o: ../BSP/LED.h

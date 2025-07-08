@@ -2,10 +2,10 @@ lcd\typedtextdatabase.o: ../touchgfx/generated/texts/src/typedtextdatabase.cpp
 lcd\typedtextdatabase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TypedText.hpp
 lcd\typedtextdatabase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\typedtextdatabase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\typedtextdatabase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+lcd\typedtextdatabase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
 lcd\typedtextdatabase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\typedtextdatabase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
-lcd\typedtextdatabase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\typedtextdatabase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\typedtextdatabase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\typedtextdatabase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\typedtextdatabase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp
 lcd\typedtextdatabase.o: ../touchgfx/generated/fonts/include/fonts/GeneratedFont.hpp

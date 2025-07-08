@@ -3,13 +3,13 @@ lcd\compassbase.o: ../touchgfx/generated/gui_generated/include/gui_generated/con
 lcd\compassbase.o: ../touchgfx/gui/include/gui/common/FrontendApplication.hpp
 lcd\compassbase.o: ../touchgfx/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/mvp/MVPApplication.hpp
-lcd\compassbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\new
-lcd\compassbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\compassbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\exception
+lcd\compassbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\new
+lcd\compassbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\compassbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\exception
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/common/AbstractPartition.hpp
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\compassbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
-lcd\compassbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\compassbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\compassbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/mvp/MVPHeap.hpp
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/mvp/Presenter.hpp
@@ -24,7 +24,7 @@ lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/UIEvent
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/lcd/LCD.hpp
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\compassbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+lcd\compassbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextProvider.hpp
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp
@@ -55,7 +55,7 @@ lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Outline.hpp
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Cell.hpp
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp
-lcd\compassbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\string.h
+lcd\compassbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\string.h
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/transforms/DisplayTransformation.hpp
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp
 lcd\compassbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp
