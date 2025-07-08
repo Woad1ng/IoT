@@ -16,6 +16,13 @@
             }
           },
           {
+            "Type": "Image",
+            "Name": "image2",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "P0704.png"
+          },
+          {
             "Type": "TextArea",
             "Name": "map_name",
             "X": 139,
@@ -25,7 +32,9 @@
             "TextId": "__SingleUse_39GU",
             "TextRotation": "0",
             "Color": {
-              "Red": 255
+              "Red": 18,
+              "Green": 150,
+              "Blue": 219
             },
             "AutoSize": true
           },
@@ -96,9 +105,9 @@
           {
             "Type": "TextArea",
             "Name": "about_name",
-            "X": 370,
+            "X": 350,
             "Y": 422,
-            "Width": 50,
+            "Width": 100,
             "Height": 32,
             "TextId": "__SingleUse_YXYQ",
             "TextRotation": "0",
@@ -198,23 +207,52 @@
             "IconX": 97,
             "IconHeight": 50,
             "IconWidth": 50
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 237,
+            "Height": 65,
+            "RelativeFilename": "P07041.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 138,
+            "Y": 82,
+            "Width": 525,
+            "Height": 29,
+            "TextId": "__SingleUse_C43U",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "modalWindow1",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "exclamation mark.png",
+            "ModalX": 200,
+            "ModalY": 40,
+            "ModalWidth": 400,
+            "ModalHeight": 400,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "Button",
+                "Name": "button1",
+                "X": 275,
+                "Y": -39,
+                "Width": 64,
+                "Height": 64,
+                "Pressed": "back_64.png",
+                "Released": "back_64.png"
+              }
+            ]
           }
         ],
         "Interactions": [
-          {
-            "InteractionName": "about_Interaction",
-            "HasCompletedTrigger": true,
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "about_button"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionCover",
-              "ScreenTransitionDirection": "South",
-              "ActionComponent": "about_menu"
-            }
-          },
           {
             "InteractionName": "set_Interaction",
             "Trigger": {
@@ -326,6 +364,28 @@
               "Type": "ActionExecuteCode",
               "Includes": "#include \"MyHFile.h\"",
               "Code": "X=1;\r\nY=1;\r\nscreennum=5;\r\n"
+            }
+          },
+          {
+            "InteractionName": "Emergency",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "about_button"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "modalWindow1"
+            }
+          },
+          {
+            "InteractionName": "Emergency_Hide",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "modalWindow1"
             }
           }
         ]
@@ -787,7 +847,7 @@
           {
             "Type": "CustomContainerInstance",
             "Name": "compass1",
-            "X": -361,
+            "X": -360,
             "Y": 103,
             "Width": 1485,
             "Height": 146,
@@ -832,24 +892,6 @@
             "Width": 18,
             "Height": 21,
             "CustomContainerDefinitionName": "triangle"
-          },
-          {
-            "Type": "Image",
-            "Name": "image1",
-            "X": 600,
-            "Y": 39,
-            "Width": 64,
-            "Height": 64,
-            "RelativeFilename": "air.png"
-          },
-          {
-            "Type": "Image",
-            "Name": "image2",
-            "X": 241,
-            "Y": 39,
-            "Width": 64,
-            "Height": 64,
-            "RelativeFilename": "warn.png"
           }
         ],
         "Interactions": [
@@ -5178,6 +5220,24 @@
               "Green": 152
             },
             "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "X": 538,
+            "Y": -7,
+            "Width": 64,
+            "Height": 64,
+            "RelativeFilename": "warn.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 438,
+            "Y": -7,
+            "Width": 64,
+            "Height": 64,
+            "RelativeFilename": "air.png"
           }
         ],
         "Interactions": []
@@ -5219,6 +5279,36 @@
         "Width": 250,
         "Height": 250,
         "Components": [],
+        "Interactions": []
+      },
+      {
+        "Name": "Emergency",
+        "Width": 539,
+        "Height": 399,
+        "Components": [
+          {
+            "Type": "ModalWindow",
+            "Name": "modalWindow1",
+            "Width": 539,
+            "Height": 399,
+            "FileName": "exclamation mark.png",
+            "ModalX": 69,
+            "ModalY": -1,
+            "ModalWidth": 400,
+            "ModalHeight": 400,
+            "Alpha": 150,
+            "Components": []
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 475,
+            "Width": 64,
+            "Height": 64,
+            "Pressed": "back_64.png",
+            "Released": "back_64.png"
+          }
+        ],
         "Interactions": []
       }
     ],

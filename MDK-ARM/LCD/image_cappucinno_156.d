@@ -1,2 +1,0 @@
-lcd\image_cappucinno_156.o: ../touchgfx/generated/images/src/brewing/animatedcappuccino/image_cappucinno_156.cpp
-lcd\image_cappucinno_156.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp

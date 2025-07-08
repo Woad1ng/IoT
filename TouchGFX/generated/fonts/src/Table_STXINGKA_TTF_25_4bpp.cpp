@@ -14,7 +14,27 @@ KEEP extern const touchgfx::GlyphNode glyphs_STXINGKA_TTF_25_4bpp[] FONT_TABLE_L
     {   686, 0x0037,  12,  15,  15,   1,  11,   0,   0, 0x00 },
     {   776, 0x0038,  13,  16,  16,   1,  11,   0,   0, 0x00 },
     {   888, 0x0039,  12,  16,  16,   1,  11,   0,   0, 0x00 },
-    {   984, 0x003F,   9,  16,  16,   1,   8,   0,   0, 0x00 }
+    {   984, 0x003F,   9,  16,  16,   1,   8,   0,   0, 0x00 },
+    {     0, 0x2014,  25,   3,   9,   0,  25,   0,   0, 0x00 },
+    {     0, 0x4E0E,  17,  19,  17,   3,  25,   0,   0, 0x00 },
+    {   171, 0x4E4B,  23,  19,  17,   2,  25,   0,   0, 0x00 },
+    {     0, 0x534F,  22,  20,  17,   1,  25,   0,   0, 0x00 },
+    {   220, 0x540C,  16,  21,  17,   4,  25,   0,   0, 0x00 },
+    {   388, 0x5730,  24,  16,  16,   1,  25,   0,   0, 0x00 },
+    {     0, 0x5B9E,  19,  22,  19,   3,  25,   0,   0, 0x00 },
+    {   220, 0x5F0F,  17,  23,  19,   5,  25,   0,   0, 0x00 },
+    {     0, 0x65F6,  21,  20,  17,   3,  25,   0,   0, 0x00 },
+    {     0, 0x6807,  19,  20,  17,   3,  25,   0,   0, 0x00 },
+    {   200, 0x68C0,  25,  21,  18,   0,  25,   0,   0, 0x00 },
+    {   473, 0x6D4B,  19,  23,  19,   3,  25,   0,   0, 0x00 },
+    {     0, 0x76D4,  20,  23,  19,   3,  25,   0,   0, 0x00 },
+    {   230, 0x76EE,  11,  20,  17,   7,  25,   0,   0, 0x00 },
+    {   350, 0x773C,  21,  20,  17,   3,  25,   0,   0, 0x00 },
+    {     0, 0x7A79,  18,  24,  20,   4,  25,   0,   0, 0x00 },
+    {   216, 0x7A7A,  19,  22,  19,   3,  25,   0,   0, 0x00 },
+    {   436, 0x7CFB,  15,  23,  19,   5,  25,   0,   0, 0x00 },
+    {   620, 0x7EDF,  22,  19,  17,   2,  25,   0,   0, 0x00 },
+    {     0, 0x82CD,  22,  23,  19,   2,  25,   0,   0, 0x00 }
 };
 
 // STXINGKA_TTF_25_4bpp
@@ -22,9 +42,43 @@ FONT_TABLE_LOCATION_FLASH_PRAGMA
 KEEP extern const touchgfx::GlyphNode glyphs_STXINGKA_TTF_25_4bpp[] FONT_TABLE_LOCATION_FLASH_ATTRIBUTE;
 FONT_GLYPH_LOCATION_FLASH_PRAGMA
 KEEP extern const uint8_t unicodes_STXINGKA_TTF_25_4bpp_0[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
+FONT_GLYPH_LOCATION_FLASH_PRAGMA
+KEEP extern const uint8_t unicodes_STXINGKA_TTF_25_4bpp_4[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
+FONT_GLYPH_LOCATION_FLASH_PRAGMA
+KEEP extern const uint8_t unicodes_STXINGKA_TTF_25_4bpp_9[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
+FONT_GLYPH_LOCATION_FLASH_PRAGMA
+KEEP extern const uint8_t unicodes_STXINGKA_TTF_25_4bpp_10[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
+FONT_GLYPH_LOCATION_FLASH_PRAGMA
+KEEP extern const uint8_t unicodes_STXINGKA_TTF_25_4bpp_11[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
+FONT_GLYPH_LOCATION_FLASH_PRAGMA
+KEEP extern const uint8_t unicodes_STXINGKA_TTF_25_4bpp_12[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
+FONT_GLYPH_LOCATION_FLASH_PRAGMA
+KEEP extern const uint8_t unicodes_STXINGKA_TTF_25_4bpp_13[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
+FONT_GLYPH_LOCATION_FLASH_PRAGMA
+KEEP extern const uint8_t unicodes_STXINGKA_TTF_25_4bpp_14[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
+FONT_GLYPH_LOCATION_FLASH_PRAGMA
+KEEP extern const uint8_t unicodes_STXINGKA_TTF_25_4bpp_15[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
+FONT_GLYPH_LOCATION_FLASH_PRAGMA
+KEEP extern const uint8_t unicodes_STXINGKA_TTF_25_4bpp_16[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
 FONT_SEARCHTABLE_LOCATION_FLASH_PRAGMA
 KEEP extern const uint8_t* const unicodes_STXINGKA_TTF_25_4bpp[] FONT_SEARCHTABLE_LOCATION_FLASH_ATTRIBUTE = {
-    unicodes_STXINGKA_TTF_25_4bpp_0
+    unicodes_STXINGKA_TTF_25_4bpp_0,
+    0,
+    0,
+    0,
+    unicodes_STXINGKA_TTF_25_4bpp_4,
+    0,
+    0,
+    0,
+    0,
+    unicodes_STXINGKA_TTF_25_4bpp_9,
+    unicodes_STXINGKA_TTF_25_4bpp_10,
+    unicodes_STXINGKA_TTF_25_4bpp_11,
+    unicodes_STXINGKA_TTF_25_4bpp_12,
+    unicodes_STXINGKA_TTF_25_4bpp_13,
+    unicodes_STXINGKA_TTF_25_4bpp_14,
+    unicodes_STXINGKA_TTF_25_4bpp_15,
+    unicodes_STXINGKA_TTF_25_4bpp_16
 };
 FONT_KERNING_LOCATION_FLASH_PRAGMA
 KEEP extern const touchgfx::KerningNode kerning_STXINGKA_TTF_25_4bpp[] FONT_KERNING_LOCATION_FLASH_ATTRIBUTE;
@@ -32,6 +86,6 @@ touchgfx::GeneratedFont& getFont_STXINGKA_TTF_25_4bpp();
 
 touchgfx::GeneratedFont& getFont_STXINGKA_TTF_25_4bpp()
 {
-    static touchgfx::GeneratedFont STXINGKA_TTF_25_4bpp(glyphs_STXINGKA_TTF_25_4bpp, 11, 26, 25, 0, 0, 4, 1, 1, 3, unicodes_STXINGKA_TTF_25_4bpp, kerning_STXINGKA_TTF_25_4bpp, 63, 0, 0, 0);
+    static touchgfx::GeneratedFont STXINGKA_TTF_25_4bpp(glyphs_STXINGKA_TTF_25_4bpp, 31, 29, 25, 0, 0, 4, 1, 1, 3, unicodes_STXINGKA_TTF_25_4bpp, kerning_STXINGKA_TTF_25_4bpp, 63, 0, 0, 0);
     return STXINGKA_TTF_25_4bpp;
 }

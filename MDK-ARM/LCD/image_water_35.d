@@ -1,2 +1,0 @@
-lcd\image_water_35.o: ../touchgfx/generated/images/src/brewing/animatedwater/image_water_35.cpp
-lcd\image_water_35.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp

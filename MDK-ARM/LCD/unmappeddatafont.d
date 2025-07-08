@@ -1,13 +1,13 @@
 lcd\unmappeddatafont.o: ../touchgfx/generated/fonts/src/unmappeddatafont.cpp
 lcd\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/FlashDataReader.hpp
 lcd\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\unmappeddatafont.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
-lcd\unmappeddatafont.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\unmappeddatafont.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
+lcd\unmappeddatafont.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
 lcd\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\unmappeddatafont.o: ../touchgfx/generated/fonts/include/fonts/ApplicationFontProvider.hpp
 lcd\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/FontManager.hpp
 lcd\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\unmappeddatafont.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
+lcd\unmappeddatafont.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 lcd\unmappeddatafont.o: ../touchgfx/generated/fonts/include/fonts/CompressedUnmappedFontCache.hpp
 lcd\unmappeddatafont.o: ../touchgfx/generated/fonts/include/fonts/UnmappedDataFont.hpp

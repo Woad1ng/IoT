@@ -1,8 +1,8 @@
 lcd\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-lcd\event_groups.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdlib.h
+lcd\event_groups.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
 lcd\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-lcd\event_groups.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
-lcd\event_groups.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\event_groups.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcd\event_groups.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
 lcd\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
 lcd\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 lcd\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

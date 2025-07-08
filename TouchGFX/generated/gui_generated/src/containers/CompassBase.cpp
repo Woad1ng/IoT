@@ -4,6 +4,7 @@
 #include <gui_generated/containers/CompassBase.hpp>
 #include <touchgfx/Color.hpp>
 #include <texts/TextKeysAndLanguages.hpp>
+#include <images/BitmapDatabase.hpp>
 
 CompassBase::CompassBase()
 {
@@ -801,6 +802,14 @@ CompassBase::CompassBase()
     angle360.setLinespacing(0);
     angle360.setTypedText(touchgfx::TypedText(T___SINGLEUSE_UNAI));
     add(angle360);
+
+    image2.setXY(538, -7);
+    image2.setBitmap(touchgfx::Bitmap(BITMAP_WARN_ID));
+    add(image2);
+
+    image1.setXY(438, -7);
+    image1.setBitmap(touchgfx::Bitmap(BITMAP_AIR_ID));
+    add(image1);
 }
 
 CompassBase::~CompassBase()

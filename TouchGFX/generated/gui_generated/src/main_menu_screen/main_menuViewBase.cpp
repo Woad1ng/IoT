@@ -3,8 +3,8 @@
 /*********************************************************************************/
 #include <gui_generated/main_menu_screen/main_menuViewBase.hpp>
 #include <touchgfx/Color.hpp>
-#include <texts/TextKeysAndLanguages.hpp>
 #include <images/BitmapDatabase.hpp>
+#include <texts/TextKeysAndLanguages.hpp>
 
 main_menuViewBase::main_menuViewBase() :
     buttonCallback(this, &main_menuViewBase::buttonCallbackHandler)
@@ -17,8 +17,12 @@ main_menuViewBase::main_menuViewBase() :
     main_box.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     add(main_box);
 
+    image2.setXY(0, 0);
+    image2.setBitmap(touchgfx::Bitmap(BITMAP_P0704_ID));
+    add(image2);
+
     map_name.setXY(139, 229);
-    map_name.setColor(touchgfx::Color::getColorFromRGB(255, 0, 0));
+    map_name.setColor(touchgfx::Color::getColorFromRGB(18, 150, 219));
     map_name.setLinespacing(0);
     map_name.setTypedText(touchgfx::TypedText(T___SINGLEUSE_39GU));
     add(map_name);
@@ -47,7 +51,7 @@ main_menuViewBase::main_menuViewBase() :
     FPV_name.setTypedText(touchgfx::TypedText(T___SINGLEUSE_UOQU));
     add(FPV_name);
 
-    about_name.setXY(370, 422);
+    about_name.setXY(350, 422);
     about_name.setColor(touchgfx::Color::getColorFromRGB(18, 150, 219));
     about_name.setLinespacing(0);
     about_name.setTypedText(touchgfx::TypedText(T___SINGLEUSE_YXYQ));
@@ -87,6 +91,26 @@ main_menuViewBase::main_menuViewBase() :
     FPV_button.setBitmaps(touchgfx::Bitmap(BITMAP_FPV_80_ID), touchgfx::Bitmap(BITMAP_FPV_80_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_ACTION_DONE_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_ACTION_DONE_50_50_E8F6FB_SVG_ID));
     FPV_button.setIconXY(97, 0);
     add(FPV_button);
+
+    image1.setXY(0, 0);
+    image1.setBitmap(touchgfx::Bitmap(BITMAP_P07041_ID));
+    add(image1);
+
+    textArea1.setXY(138, 82);
+    textArea1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textArea1.setLinespacing(0);
+    textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_C43U));
+    add(textArea1);
+
+    modalWindow1.setBackground(touchgfx::BitmapId(BITMAP_EXCLAMATION_MARK_ID), 200, 40);
+    modalWindow1.setShadeColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    modalWindow1.hide();
+    button1.setXY(275, -39);
+    button1.setBitmaps(touchgfx::Bitmap(BITMAP_BACK_64_ID), touchgfx::Bitmap(BITMAP_BACK_64_ID));
+    button1.setAction(buttonCallback);
+    modalWindow1.add(button1);
+
+    add(modalWindow1);
 }
 
 main_menuViewBase::~main_menuViewBase()
@@ -101,19 +125,6 @@ void main_menuViewBase::setupScreen()
 
 void main_menuViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
 {
-    if (&src == &about_button)
-    {
-        //about_Interaction
-        //When about_button clicked change screen to about_menu
-        //Go to about_menu with screen transition towards South
-        application().gotoabout_menuScreenCoverTransitionSouth();
-        //about_bluetooth
-        //When about_button clicked execute C++ code
-        //Execute C++ code
-        X=1;
-        Y=1;
-        screennum=5;
-    }
     if (&src == &set_button)
     {
         //set_Interaction
@@ -165,5 +176,27 @@ void main_menuViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& sr
         X=2;
         Y=0;
         screennum=3;
+    }
+    if (&src == &about_button)
+    {
+        //about_bluetooth
+        //When about_button clicked execute C++ code
+        //Execute C++ code
+        X=1;
+        Y=1;
+        screennum=5;
+        //Emergency
+        //When about_button clicked show modalWindow1
+        //Show modalWindow1
+        modalWindow1.setVisible(true);
+        modalWindow1.invalidate();
+    }
+    if (&src == &button1)
+    {
+        //Emergency_Hide
+        //When button1 clicked hide modalWindow1
+        //Hide modalWindow1
+        modalWindow1.setVisible(false);
+        modalWindow1.invalidate();
     }
 }

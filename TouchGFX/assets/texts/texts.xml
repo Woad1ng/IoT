@@ -13,6 +13,9 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_C43U" Alignment="Left" TypographyId="xingkai25">
+        <Translation Language="GB">苍穹之眼——盔式空地协同系统与实时目标检测</Translation>
+      </Text>
       <Text Id="__SingleUse_D4O2" Alignment="Center" TypographyId="songti30">
         <Translation Language="GB">N</Translation>
       </Text>
@@ -263,7 +266,7 @@
         <Translation Language="GB">基于STM32Cube.AI的盔式空地协同系统与实时目标检测</Translation>
       </Text>
       <Text Id="__SingleUse_YXYQ" Alignment="Left" TypographyId="songti30">
-        <Translation Language="GB">关于</Translation>
+        <Translation Language="GB">紧急报警</Translation>
       </Text>
       <Text Id="__SingleUse_UOQU" Alignment="Left" TypographyId="songti30">
         <Translation Language="GB">FPV</Translation>

@@ -8,8 +8,11 @@
 #include <mvp/View.hpp>
 #include <gui/main_menu_screen/main_menuPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
+#include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/ButtonWithIcon.hpp>
+#include <touchgfx/containers/ModalWindow.hpp>
+#include <touchgfx/widgets/Button.hpp>
 #include "MyHFile.h"
 
 class main_menuViewBase : public touchgfx::View<main_menuPresenter>
@@ -29,6 +32,7 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::Box main_box;
+    touchgfx::Image image2;
     touchgfx::TextArea map_name;
     touchgfx::TextArea act_name;
     touchgfx::TextArea sensor_name;
@@ -41,6 +45,10 @@ protected:
     touchgfx::ButtonWithIcon set_button;
     touchgfx::ButtonWithIcon about_button;
     touchgfx::ButtonWithIcon FPV_button;
+    touchgfx::Image image1;
+    touchgfx::TextArea textArea1;
+    touchgfx::ModalWindow modalWindow1;
+    touchgfx::Button button1;
 
 private:
 

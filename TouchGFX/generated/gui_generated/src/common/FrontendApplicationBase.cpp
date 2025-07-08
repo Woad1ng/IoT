@@ -100,19 +100,6 @@ void FrontendApplicationBase::gotomain_menuScreenCoverTransitionWestImpl()
     touchgfx::makeTransition<main_menuView, main_menuPresenter, touchgfx::CoverTransition<WEST>, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
 
-// about_menu
-
-void FrontendApplicationBase::gotoabout_menuScreenCoverTransitionSouth()
-{
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotoabout_menuScreenCoverTransitionSouthImpl);
-    pendingScreenTransitionCallback = &transitionCallback;
-}
-
-void FrontendApplicationBase::gotoabout_menuScreenCoverTransitionSouthImpl()
-{
-    touchgfx::makeTransition<about_menuView, about_menuPresenter, touchgfx::CoverTransition<SOUTH>, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
-}
-
 // map_menu
 
 void FrontendApplicationBase::gotomap_menuScreenCoverTransitionWest()

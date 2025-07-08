@@ -4,13 +4,13 @@ lcd\compass.o: ../touchgfx/generated/gui_generated/include/gui_generated/contain
 lcd\compass.o: ../touchgfx/gui/include/gui/common/FrontendApplication.hpp
 lcd\compass.o: ../touchgfx/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/mvp/MVPApplication.hpp
-lcd\compass.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\new
-lcd\compass.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
-lcd\compass.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\exception
+lcd\compass.o: D:\software\keil\ARM\ARMCC\Bin\..\include\new
+lcd\compass.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcd\compass.o: D:\software\keil\ARM\ARMCC\Bin\..\include\exception
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/common/AbstractPartition.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\compass.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
-lcd\compass.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\compass.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
+lcd\compass.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/mvp/MVPHeap.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/mvp/Presenter.hpp
@@ -25,7 +25,7 @@ lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/UIEventList
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/lcd/LCD.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\compass.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
+lcd\compass.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextProvider.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp
@@ -56,7 +56,7 @@ lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widg
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Outline.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Cell.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp
-lcd\compass.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\string.h
+lcd\compass.o: D:\software\keil\ARM\ARMCC\Bin\..\include\string.h
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/transforms/DisplayTransformation.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp
@@ -67,3 +67,4 @@ lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/can
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TypedText.hpp
 lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp
+lcd\compass.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp

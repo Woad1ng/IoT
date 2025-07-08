@@ -1,23 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_projx.xsd">
-
   <SchemaVersion>2.1</SchemaVersion>
-
   <Header>### uVision Project, (C) Keil Software</Header>
-
   <Targets>
     <Target>
       <TargetName>LCD</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060960::V5.06 update 7 (build 960)::.\5.06new</pCCUsed>
+      <pCCUsed>5060528::V5.06 update 5 (build 528)::ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32H750XBHx</Device>
           <Vendor>STMicroelectronics</Vendor>
-          <PackID>Keil.STM32H7xx_DFP.4.0.0</PackID>
-          <PackURL>https://www.keil.com/pack/</PackURL>
+          <PackID>Keil.STM32H7xx_DFP.3.0.0</PackID>
+          <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000-0x2001FFFF) IRAM2(0x24000000-0x2407FFFF) IROM(0x8000000-0x801FFFF) CLOCK(12000000) FPU3(DFPU) CPUTYPE("Cortex-M7") ELITTLE TZ</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
@@ -54,7 +51,7 @@
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
           <DebugInformation>1</DebugInformation>
-          <BrowseInformation>0</BrowseInformation>
+          <BrowseInformation>1</BrowseInformation>
           <ListingPath></ListingPath>
           <HexFormatSelection>1</HexFormatSelection>
           <Merge32K>0</Merge32K>
@@ -2599,6 +2596,11 @@
               <FilePath>../touchgfx/gui/src/containers/customcontainer1.cpp</FilePath>
             </File>
             <File>
+              <FileName>Emergency.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/gui/src/containers/emergency.cpp</FilePath>
+            </File>
+            <File>
               <FileName>FPV_menuPresenter.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/gui/src/fpv_menu_screen/fpv_menupresenter.cpp</FilePath>
@@ -2719,54 +2721,9 @@
               <FilePath>../touchgfx/generated/gui_generated/src/containers/customcontainer1base.cpp</FilePath>
             </File>
             <File>
-              <FileName>Font_STFANGSO_TTF_20_4bpp_0.cpp</FileName>
+              <FileName>EmergencyBase.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_0.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Font_STFANGSO_TTF_20_4bpp_10.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_10.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Font_STFANGSO_TTF_20_4bpp_11.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_11.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Font_STFANGSO_TTF_20_4bpp_12.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_12.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Font_STFANGSO_TTF_20_4bpp_13.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_13.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Font_STFANGSO_TTF_20_4bpp_14.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_14.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Font_STFANGSO_TTF_20_4bpp_15.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_15.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Font_STFANGSO_TTF_20_4bpp_16.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_16.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Font_STFANGSO_TTF_20_4bpp_4.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_4.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Font_STFANGSO_TTF_20_4bpp_9.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/fonts/src/font_stfangso_ttf_20_4bpp_9.cpp</FilePath>
+              <FilePath>../touchgfx/generated/gui_generated/src/containers/emergencybase.cpp</FilePath>
             </File>
             <File>
               <FileName>Font_STFANGSO_TTF_25_4bpp_0.cpp</FileName>
@@ -2884,6 +2841,51 @@
               <FilePath>../touchgfx/generated/fonts/src/font_stxingka_ttf_25_4bpp_0.cpp</FilePath>
             </File>
             <File>
+              <FileName>Font_STXINGKA_TTF_25_4bpp_10.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stxingka_ttf_25_4bpp_10.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STXINGKA_TTF_25_4bpp_11.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stxingka_ttf_25_4bpp_11.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STXINGKA_TTF_25_4bpp_12.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stxingka_ttf_25_4bpp_12.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STXINGKA_TTF_25_4bpp_13.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stxingka_ttf_25_4bpp_13.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STXINGKA_TTF_25_4bpp_14.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stxingka_ttf_25_4bpp_14.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STXINGKA_TTF_25_4bpp_15.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stxingka_ttf_25_4bpp_15.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STXINGKA_TTF_25_4bpp_16.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stxingka_ttf_25_4bpp_16.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STXINGKA_TTF_25_4bpp_4.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stxingka_ttf_25_4bpp_4.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_STXINGKA_TTF_25_4bpp_9.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/fonts/src/font_stxingka_ttf_25_4bpp_9.cpp</FilePath>
+            </File>
+            <File>
               <FileName>Font_verdana_10_4bpp_0.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/fonts/src/font_verdana_10_4bpp_0.cpp</FilePath>
@@ -2969,6 +2971,11 @@
               <FilePath>../touchgfx/generated/images/src/image_back_80.cpp</FilePath>
             </File>
             <File>
+              <FileName>image_exclamation_mark.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_exclamation_mark.cpp</FilePath>
+            </File>
+            <File>
               <FileName>image_forest.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/image_forest.cpp</FilePath>
@@ -2999,6 +3006,11 @@
               <FilePath>../touchgfx/generated/images/src/image_map_80.cpp</FilePath>
             </File>
             <File>
+              <FileName>image_P0704.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_p0704.cpp</FilePath>
+            </File>
+            <File>
               <FileName>image_P07041.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/image_p07041.cpp</FilePath>
@@ -3027,11 +3039,6 @@
               <FileName>image_warn.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/image_warn.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Kerning_STFANGSO_TTF_20_4bpp.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/fonts/src/kerning_stfangso_ttf_20_4bpp.cpp</FilePath>
             </File>
             <File>
               <FileName>Kerning_STFANGSO_TTF_25_4bpp.cpp</FileName>
@@ -3097,11 +3104,6 @@
               <FileName>SVGDatabase.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/svgdatabase.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Table_STFANGSO_TTF_20_4bpp.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/fonts/src/table_stfangso_ttf_20_4bpp.cpp</FilePath>
             </File>
             <File>
               <FileName>Table_STFANGSO_TTF_25_4bpp.cpp</FileName>
@@ -3181,20 +3183,18 @@
       </Groups>
     </Target>
   </Targets>
-
   <RTE>
-    <apis/>
+    <apis></apis>
     <components>
       <component Cclass="CMSIS" Cgroup="CORE" Cvendor="ARM" Cversion="6.1.0" condition="ARMv6_7_8-M Device">
-        <package name="CMSIS" schemaVersion="1.7.36" url="https://www.keil.com/pack/" vendor="ARM" version="6.1.0"/>
+        <package name="CMSIS" schemaVersion="1.7.36" url="https://www.keil.com/pack/" vendor="ARM" version="6.1.0"></package>
         <targetInfos>
-          <targetInfo name="LCD"/>
+          <targetInfo name="LCD"></targetInfo>
         </targetInfos>
       </component>
     </components>
-    <files/>
+    <files></files>
   </RTE>
-
   <LayerInfo>
     <Layers>
       <Layer>
@@ -3203,5 +3203,4 @@
       </Layer>
     </Layers>
   </LayerInfo>
-
 </Project>

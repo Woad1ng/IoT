@@ -8,7 +8,7 @@ lcd\angle.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
 lcd\angle.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 lcd\angle.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h
 lcd\angle.o: ../Drivers/CMSIS/Include/core_cm7.h
-lcd\angle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\angle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
 lcd\angle.o: ../Drivers/CMSIS/Include/cmsis_version.h
 lcd\angle.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 lcd\angle.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -16,8 +16,8 @@ lcd\angle.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 lcd\angle.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 lcd\angle.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 lcd\angle.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-lcd\angle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
-lcd\angle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\math.h
+lcd\angle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcd\angle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\math.h
 lcd\angle.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 lcd\angle.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 lcd\angle.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
@@ -47,10 +47,10 @@ lcd\angle.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h
 lcd\angle.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 lcd\angle.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h
 lcd\angle.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-lcd\angle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\string.h
-lcd\angle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdlib.h
-lcd\angle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdio.h
-lcd\angle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdbool.h
+lcd\angle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\string.h
+lcd\angle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+lcd\angle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdio.h
+lcd\angle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdbool.h
 lcd\angle.o: ..\BSP\UART.h
 lcd\angle.o: ..\BSP\MyHFile.h
 lcd\angle.o: ..\BSP\LED.h

@@ -10,6 +10,7 @@
 #include <touchgfx/widgets/canvas/Line.hpp>
 #include <touchgfx/widgets/canvas/PainterRGB565.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
+#include <touchgfx/widgets/Image.hpp>
 
 class CompassBase : public touchgfx::Container
 {
@@ -195,6 +196,8 @@ protected:
     touchgfx::TextArea angle300;
     touchgfx::TextArea angle330;
     touchgfx::TextArea angle360;
+    touchgfx::Image image2;
+    touchgfx::Image image1;
 
 private:
 

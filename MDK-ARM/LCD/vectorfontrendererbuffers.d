@@ -1,13 +1,13 @@
 lcd\vectorfontrendererbuffers.o: ../touchgfx/generated/fonts/src/vectorfontrendererbuffers.cpp
 lcd\vectorfontrendererbuffers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/VectorFontRendererImpl.hpp
 lcd\vectorfontrendererbuffers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\vectorfontrendererbuffers.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
-lcd\vectorfontrendererbuffers.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\vectorfontrendererbuffers.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
+lcd\vectorfontrendererbuffers.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
 lcd\vectorfontrendererbuffers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\vectorfontrendererbuffers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp
 lcd\vectorfontrendererbuffers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\vectorfontrendererbuffers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\vectorfontrendererbuffers.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
+lcd\vectorfontrendererbuffers.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 lcd\vectorfontrendererbuffers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/VectorRenderer.hpp
 lcd\vectorfontrendererbuffers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Matrix3x3.hpp
 lcd\vectorfontrendererbuffers.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/VGData.hpp

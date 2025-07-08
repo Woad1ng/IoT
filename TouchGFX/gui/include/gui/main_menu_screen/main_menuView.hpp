@@ -12,6 +12,7 @@ public:
     virtual ~main_menuView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+		void Emergency();
 protected:
 };
 

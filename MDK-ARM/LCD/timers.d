@@ -1,8 +1,8 @@
 lcd\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
-lcd\timers.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdlib.h
+lcd\timers.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
 lcd\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-lcd\timers.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
-lcd\timers.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\timers.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcd\timers.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
 lcd\timers.o: ../Core/Inc/FreeRTOSConfig.h
 lcd\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 lcd\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

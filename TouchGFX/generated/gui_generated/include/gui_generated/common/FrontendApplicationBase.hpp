@@ -31,9 +31,6 @@ public:
 
     void gotomain_menuScreenCoverTransitionWest();
 
-    // about_menu
-    void gotoabout_menuScreenCoverTransitionSouth();
-
     // map_menu
     void gotomap_menuScreenCoverTransitionWest();
 
@@ -61,9 +58,6 @@ protected:
     void gotomain_menuScreenCoverTransitionSouthImpl();
 
     void gotomain_menuScreenCoverTransitionWestImpl();
-
-    // about_menu
-    void gotoabout_menuScreenCoverTransitionSouthImpl();
 
     // map_menu
     void gotomap_menuScreenCoverTransitionWestImpl();

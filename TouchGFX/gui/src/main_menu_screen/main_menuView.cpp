@@ -62,7 +62,10 @@ void main_menuView::MainGetBlueToothCode(char* Data)
         printf("%d,%d\r\n",X,Y);
         if(X==1&&Y==1)
         {
-            application().gotoabout_menuScreenCoverTransitionSouth();screennum=5;
+						modalWindow1.setVisible(true);
+						modalWindow1.invalidate();
+            Emergency();
+					  screennum=5;
         }
         if (X==0&&Y==1)
         {
@@ -160,7 +163,16 @@ void main_menuView::MainGetBlueToothCode(char* Data)
         FPV_name.setTypedText(touchgfx::TypedText(T___SINGLEUSE_UOQU));
         FPV_name.invalidate();
     }
-   
 
       // // ?? 关键点：强制刷新
 }
+
+void main_menuView::Emergency()
+{
+	
+	
+		
+
+}
+
+

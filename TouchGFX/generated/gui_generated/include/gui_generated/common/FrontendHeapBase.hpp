@@ -89,10 +89,10 @@ public:
      * @note All transition types used in the application MUST be added to this list!
      */
     typedef touchgfx::meta::TypeList< touchgfx::NoTransition,
-            touchgfx::meta::TypeList< CoverTransition<SOUTH>,
             touchgfx::meta::TypeList< CoverTransition<WEST>,
             touchgfx::meta::TypeList< CoverTransition<NORTH>,
             touchgfx::meta::TypeList< CoverTransition<EAST>,
+            touchgfx::meta::TypeList< CoverTransition<SOUTH>,
             touchgfx::meta::Nil > > > >
             > GeneratedTransitionTypes;
 

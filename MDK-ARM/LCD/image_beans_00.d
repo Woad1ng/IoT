@@ -1,2 +1,0 @@
-lcd\image_beans_00.o: ../touchgfx/generated/images/src/brewing/animatedbeans/image_beans_00.cpp
-lcd\image_beans_00.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
