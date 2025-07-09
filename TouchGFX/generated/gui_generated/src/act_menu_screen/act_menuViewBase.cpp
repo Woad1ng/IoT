@@ -20,6 +20,11 @@ act_menuViewBase::act_menuViewBase() :
     act_box.setAlpha(107);
     add(act_box);
 
+    image3.setXY(0, 0);
+    image3.setBitmap(touchgfx::Bitmap(BITMAP_P0704_ID));
+    image3.setAlpha(151);
+    add(image3);
+
     back_button.setXY(0, 0);
     back_button.setBitmaps(touchgfx::Bitmap(BITMAP_BACK_64_ID), touchgfx::Bitmap(BITMAP_BACK_64_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_ACTION_DONE_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_ACTION_DONE_50_50_E8F6FB_SVG_ID));
     back_button.setIconXY(97, 0);
