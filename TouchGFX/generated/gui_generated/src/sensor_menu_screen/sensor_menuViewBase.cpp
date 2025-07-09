@@ -4,8 +4,8 @@
 #include <gui_generated/sensor_menu_screen/sensor_menuViewBase.hpp>
 #include <touchgfx/canvas_widget_renderer/CanvasWidgetRenderer.hpp>
 #include <touchgfx/Color.hpp>
-#include <images/BitmapDatabase.hpp>
 #include <texts/TextKeysAndLanguages.hpp>
+#include <images/BitmapDatabase.hpp>
 
 sensor_menuViewBase::sensor_menuViewBase() :
     buttonCallback(this, &sensor_menuViewBase::buttonCallbackHandler)
@@ -18,7 +18,151 @@ sensor_menuViewBase::sensor_menuViewBase() :
 
     sensor_box.setPosition(0, 0, 800, 480);
     sensor_box.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    sensor_box.setAlpha(133);
     add(sensor_box);
+
+    dynamicGraph1_1.setPosition(447, 32, 233, 149);
+    dynamicGraph1_1.setScale(1);
+    dynamicGraph1_1.setGraphAreaMargin(0, 0, 0, 0);
+    dynamicGraph1_1.setGraphAreaPadding(0, 0, 0, 0);
+    dynamicGraph1_1.setGraphRangeY(0, 100);
+    dynamicGraph1_1Line1Painter.setColor(touchgfx::Color::getColorFromRGB(20, 151, 197));
+    dynamicGraph1_1Line1.setPainter(dynamicGraph1_1Line1Painter);
+    dynamicGraph1_1Line1.setLineWidth(2);
+    dynamicGraph1_1.addGraphElement(dynamicGraph1_1Line1);
+
+
+    dynamicGraph1_1.addDataPoint(27.59475f);
+    dynamicGraph1_1.addDataPoint(35.25782f);
+    dynamicGraph1_1.addDataPoint(43.52302f);
+    dynamicGraph1_1.addDataPoint(49.60243f);
+    dynamicGraph1_1.addDataPoint(51.39363f);
+    dynamicGraph1_1.addDataPoint(48.01894f);
+    dynamicGraph1_1.addDataPoint(40.05783f);
+    dynamicGraph1_1.addDataPoint(29.41485f);
+    dynamicGraph1_1.addDataPoint(18.85515f);
+    dynamicGraph1_1.addDataPoint(11.32107f);
+    dynamicGraph1_1.addDataPoint(9.19757f);
+    dynamicGraph1_1.addDataPoint(13.70674f);
+    dynamicGraph1_1.addDataPoint(24.5806f);
+    dynamicGraph1_1.addDataPoint(40.09338f);
+    dynamicGraph1_1.addDataPoint(57.44671f);
+    dynamicGraph1_1.addDataPoint(73.41493f);
+    dynamicGraph1_1.addDataPoint(85.09403f);
+    dynamicGraph1_1.addDataPoint(90.57254f);
+    dynamicGraph1_1.addDataPoint(89.36181f);
+    dynamicGraph1_1.addDataPoint(82.48159f);
+    dynamicGraph1_1.addDataPoint(72.18152f);
+    dynamicGraph1_1.addDataPoint(61.36786f);
+    dynamicGraph1_1.addDataPoint(52.87656f);
+    dynamicGraph1_1.addDataPoint(48.77146f);
+    dynamicGraph1_1.addDataPoint(49.83952f);
+    dynamicGraph1_1.addDataPoint(55.40693f);
+    dynamicGraph1_1.addDataPoint(63.52043f);
+    dynamicGraph1_1.addDataPoint(71.44915f);
+    dynamicGraph1_1.addDataPoint(76.38282f);
+    dynamicGraph1_1.addDataPoint(76.15454f);
+    dynamicGraph1_1.addDataPoint(69.80947f);
+    dynamicGraph1_1.addDataPoint(57.87898f);
+    dynamicGraph1_1.addDataPoint(42.29123f);
+    dynamicGraph1_1.addDataPoint(25.93873f);
+    dynamicGraph1_1.addDataPoint(12.00694f);
+    dynamicGraph1_1.addDataPoint(3.22701f);
+    dynamicGraph1_1.addDataPoint(1.23418f);
+    dynamicGraph1_1.addDataPoint(6.18793f);
+    dynamicGraph1_1.addDataPoint(16.74604f);
+    dynamicGraph1_1.addDataPoint(30.39836f);
+    dynamicGraph1_1.addDataPoint(44.07839f);
+    dynamicGraph1_1.addDataPoint(54.90307f);
+    dynamicGraph1_1.addDataPoint(60.86006f);
+    dynamicGraph1_1.addDataPoint(61.27501f);
+    dynamicGraph1_1.addDataPoint(56.9454f);
+    dynamicGraph1_1.addDataPoint(49.90942f);
+    dynamicGraph1_1.addDataPoint(42.908f);
+    dynamicGraph1_1.addDataPoint(38.67309f);
+    dynamicGraph1_1.addDataPoint(39.21826f);
+    dynamicGraph1_1.addDataPoint(45.30672f);
+    dynamicGraph1_1.addDataPoint(56.22875f);
+    dynamicGraph1_1.addDataPoint(69.94431f);
+    dynamicGraph1_1.addDataPoint(83.55723f);
+    dynamicGraph1_1.addDataPoint(94.0059f);
+    dynamicGraph1_1.addDataPoint(98.80203f);
+    dynamicGraph1_1.addDataPoint(96.63709f);
+    dynamicGraph1_1.addDataPoint(87.70802f);
+    dynamicGraph1_1.addDataPoint(73.68231f);
+    dynamicGraph1_1.addDataPoint(57.31042f);
+    dynamicGraph1_1.addDataPoint(41.7796f);
+    dynamicGraph1_1.addDataPoint(29.96631f);
+    dynamicGraph1_1.addDataPoint(23.76883f);
+    dynamicGraph1_1.addDataPoint(23.68218f);
+    dynamicGraph1_1.addDataPoint(28.71764f);
+    dynamicGraph1_1.addDataPoint(36.68512f);
+    dynamicGraph1_1.addDataPoint(44.76747f);
+    dynamicGraph1_1.addDataPoint(50.24485f);
+    dynamicGraph1_1.addDataPoint(51.19009f);
+    dynamicGraph1_1.addDataPoint(46.96397f);
+    dynamicGraph1_1.addDataPoint(38.38793f);
+    dynamicGraph1_1.addDataPoint(27.55148f);
+    dynamicGraph1_1.addDataPoint(17.30101f);
+    dynamicGraph1_1.addDataPoint(10.53521f);
+    dynamicGraph1_1.addDataPoint(9.47984f);
+    dynamicGraph1_1.addDataPoint(15.12008f);
+    dynamicGraph1_1.addDataPoint(26.9304f);
+    dynamicGraph1_1.addDataPoint(42.96907f);
+    dynamicGraph1_1.addDataPoint(60.31572f);
+    dynamicGraph1_1.addDataPoint(75.74624f);
+    dynamicGraph1_1.addDataPoint(86.48134f);
+    dynamicGraph1_1.addDataPoint(90.82722f);
+    dynamicGraph1_1.addDataPoint(88.55303f);
+    dynamicGraph1_1.addDataPoint(80.91414f);
+    dynamicGraph1_1.addDataPoint(70.31697f);
+    dynamicGraph1_1.addDataPoint(59.70841f);
+    dynamicGraph1_1.addDataPoint(51.84028f);
+    dynamicGraph1_1.addDataPoint(48.58944f);
+    dynamicGraph1_1.addDataPoint(50.50023f);
+    dynamicGraph1_1.addDataPoint(56.66125f);
+    dynamicGraph1_1.addDataPoint(64.94615f);
+    dynamicGraph1_1.addDataPoint(72.55889f);
+    dynamicGraph1_1.addDataPoint(76.74893f);
+    dynamicGraph1_1.addDataPoint(75.51996f);
+    dynamicGraph1_1.addDataPoint(68.15739f);
+    dynamicGraph1_1.addDataPoint(55.44379f);
+    dynamicGraph1_1.addDataPoint(39.50794f);
+    dynamicGraph1_1.addDataPoint(23.34286f);
+    dynamicGraph1_1.addDataPoint(10.10925f);
+    dynamicGraph1_1.addDataPoint(2.3934f);
+    dynamicGraph1_1.addDataPoint(1.60007f);
+    add(dynamicGraph1_1);
+
+    temperature_value_2.setXY(643, 402);
+    temperature_value_2.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    temperature_value_2.setLinespacing(0);
+    Unicode::snprintf(temperature_value_2Buffer, TEMPERATURE_VALUE_2_SIZE, "%s", touchgfx::TypedText(T_HEART).getText());
+    temperature_value_2.setWildcard(temperature_value_2Buffer);
+    temperature_value_2.resizeToCurrentText();
+    temperature_value_2.setTypedText(touchgfx::TypedText(T___SINGLEUSE_B0TI));
+    add(temperature_value_2);
+
+    temperature_value_1.setXY(471, 406);
+    temperature_value_1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    temperature_value_1.setLinespacing(0);
+    Unicode::snprintf(temperature_value_1Buffer, TEMPERATURE_VALUE_1_SIZE, "%s", touchgfx::TypedText(T_BLOOD).getText());
+    temperature_value_1.setWildcard(temperature_value_1Buffer);
+    temperature_value_1.resizeToCurrentText();
+    temperature_value_1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_AWEO));
+    add(temperature_value_1);
+
+    temperature_name_2.setXY(463, 370);
+    temperature_name_2.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    temperature_name_2.setLinespacing(0);
+    temperature_name_2.setTypedText(touchgfx::TypedText(T___SINGLEUSE_YO35));
+    add(temperature_name_2);
+
+    temperature_name_1.setXY(277, 370);
+    temperature_name_1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    temperature_name_1.setLinespacing(0);
+    temperature_name_1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_NT5Q));
+    add(temperature_name_1);
 
     back_button.setXY(0, 0);
     back_button.setBitmaps(touchgfx::Bitmap(BITMAP_BACK_64_ID), touchgfx::Bitmap(BITMAP_BACK_64_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_ACTION_DONE_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_ACTION_DONE_50_50_E8F6FB_SVG_ID));
@@ -58,27 +202,13 @@ sensor_menuViewBase::sensor_menuViewBase() :
     humidity.setBitmap(touchgfx::Bitmap(BITMAP_HUMIDITY_64_ID));
     add(humidity);
 
-    LED.setPosition(133, 10, 80, 80);
-    LED.setCenter(40, 40);
-    LED.setRadius(40);
-    LED.setLineWidth(0);
-    LED.setArc(0, 360);
-    LEDPainter.setColor(touchgfx::Color::getColorFromRGB(255, 0, 8));
-    LED.setPainter(LEDPainter);
-    add(LED);
-
-    LEDButton.setXY(256, 14);
-    LEDButton.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED_OFF_LIGHT_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED_ON_NORMAL_ID));
-    LEDButton.setAction(buttonCallback);
-    add(LEDButton);
-
     humidity_name.setXY(90, 370);
     humidity_name.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     humidity_name.setLinespacing(0);
     humidity_name.setTypedText(touchgfx::TypedText(T___SINGLEUSE_2P9N));
     add(humidity_name);
 
-    temperature_name.setXY(277, 370);
+    temperature_name.setXY(630, 370);
     temperature_name.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     temperature_name.setLinespacing(0);
     temperature_name.setTypedText(touchgfx::TypedText(T___SINGLEUSE_LAU4));
@@ -93,7 +223,7 @@ sensor_menuViewBase::sensor_menuViewBase() :
     humidity_value.setTypedText(touchgfx::TypedText(T___SINGLEUSE_LK04));
     add(humidity_value);
 
-    temperature_value.setXY(280, 406);
+    temperature_value.setXY(290, 406);
     temperature_value.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     temperature_value.setLinespacing(0);
     Unicode::snprintf(temperature_valueBuffer, TEMPERATURE_VALUE_SIZE, "%s", touchgfx::TypedText(T_TEMPERATURE_WILDCARD).getText());
@@ -105,6 +235,127 @@ sensor_menuViewBase::sensor_menuViewBase() :
     image1.setXY(270, 263);
     image1.setBitmap(touchgfx::Bitmap(BITMAP_TEMPERATURE_64_ID));
     add(image1);
+
+    image2.setXY(461, 263);
+    image2.setBitmap(touchgfx::Bitmap(BITMAP_BLOOD_OXYGEN_ID));
+    add(image2);
+
+    image3.setXY(623, 269);
+    image3.setBitmap(touchgfx::Bitmap(BITMAP_HEART_RATE_ID));
+    add(image3);
+
+    dynamicGraph1.setPosition(111, 32, 233, 149);
+    dynamicGraph1.setScale(1);
+    dynamicGraph1.setGraphAreaMargin(0, 0, 0, 0);
+    dynamicGraph1.setGraphAreaPadding(0, 0, 0, 0);
+    dynamicGraph1.setGraphRangeY(0, 100);
+    dynamicGraph1Line1Painter.setColor(touchgfx::Color::getColorFromRGB(20, 151, 197));
+    dynamicGraph1Line1.setPainter(dynamicGraph1Line1Painter);
+    dynamicGraph1Line1.setLineWidth(2);
+    dynamicGraph1.addGraphElement(dynamicGraph1Line1);
+
+
+    dynamicGraph1.addDataPoint(27.59475f);
+    dynamicGraph1.addDataPoint(35.25782f);
+    dynamicGraph1.addDataPoint(43.52302f);
+    dynamicGraph1.addDataPoint(49.60243f);
+    dynamicGraph1.addDataPoint(51.39363f);
+    dynamicGraph1.addDataPoint(48.01894f);
+    dynamicGraph1.addDataPoint(40.05783f);
+    dynamicGraph1.addDataPoint(29.41485f);
+    dynamicGraph1.addDataPoint(18.85515f);
+    dynamicGraph1.addDataPoint(11.32107f);
+    dynamicGraph1.addDataPoint(9.19757f);
+    dynamicGraph1.addDataPoint(13.70674f);
+    dynamicGraph1.addDataPoint(24.5806f);
+    dynamicGraph1.addDataPoint(40.09338f);
+    dynamicGraph1.addDataPoint(57.44671f);
+    dynamicGraph1.addDataPoint(73.41493f);
+    dynamicGraph1.addDataPoint(85.09403f);
+    dynamicGraph1.addDataPoint(90.57254f);
+    dynamicGraph1.addDataPoint(89.36181f);
+    dynamicGraph1.addDataPoint(82.48159f);
+    dynamicGraph1.addDataPoint(72.18152f);
+    dynamicGraph1.addDataPoint(61.36786f);
+    dynamicGraph1.addDataPoint(52.87656f);
+    dynamicGraph1.addDataPoint(48.77146f);
+    dynamicGraph1.addDataPoint(49.83952f);
+    dynamicGraph1.addDataPoint(55.40693f);
+    dynamicGraph1.addDataPoint(63.52043f);
+    dynamicGraph1.addDataPoint(71.44915f);
+    dynamicGraph1.addDataPoint(76.38282f);
+    dynamicGraph1.addDataPoint(76.15454f);
+    dynamicGraph1.addDataPoint(69.80947f);
+    dynamicGraph1.addDataPoint(57.87898f);
+    dynamicGraph1.addDataPoint(42.29123f);
+    dynamicGraph1.addDataPoint(25.93873f);
+    dynamicGraph1.addDataPoint(12.00694f);
+    dynamicGraph1.addDataPoint(3.22701f);
+    dynamicGraph1.addDataPoint(1.23418f);
+    dynamicGraph1.addDataPoint(6.18793f);
+    dynamicGraph1.addDataPoint(16.74604f);
+    dynamicGraph1.addDataPoint(30.39836f);
+    dynamicGraph1.addDataPoint(44.07839f);
+    dynamicGraph1.addDataPoint(54.90307f);
+    dynamicGraph1.addDataPoint(60.86006f);
+    dynamicGraph1.addDataPoint(61.27501f);
+    dynamicGraph1.addDataPoint(56.9454f);
+    dynamicGraph1.addDataPoint(49.90942f);
+    dynamicGraph1.addDataPoint(42.908f);
+    dynamicGraph1.addDataPoint(38.67309f);
+    dynamicGraph1.addDataPoint(39.21826f);
+    dynamicGraph1.addDataPoint(45.30672f);
+    dynamicGraph1.addDataPoint(56.22875f);
+    dynamicGraph1.addDataPoint(69.94431f);
+    dynamicGraph1.addDataPoint(83.55723f);
+    dynamicGraph1.addDataPoint(94.0059f);
+    dynamicGraph1.addDataPoint(98.80203f);
+    dynamicGraph1.addDataPoint(96.63709f);
+    dynamicGraph1.addDataPoint(87.70802f);
+    dynamicGraph1.addDataPoint(73.68231f);
+    dynamicGraph1.addDataPoint(57.31042f);
+    dynamicGraph1.addDataPoint(41.7796f);
+    dynamicGraph1.addDataPoint(29.96631f);
+    dynamicGraph1.addDataPoint(23.76883f);
+    dynamicGraph1.addDataPoint(23.68218f);
+    dynamicGraph1.addDataPoint(28.71764f);
+    dynamicGraph1.addDataPoint(36.68512f);
+    dynamicGraph1.addDataPoint(44.76747f);
+    dynamicGraph1.addDataPoint(50.24485f);
+    dynamicGraph1.addDataPoint(51.19009f);
+    dynamicGraph1.addDataPoint(46.96397f);
+    dynamicGraph1.addDataPoint(38.38793f);
+    dynamicGraph1.addDataPoint(27.55148f);
+    dynamicGraph1.addDataPoint(17.30101f);
+    dynamicGraph1.addDataPoint(10.53521f);
+    dynamicGraph1.addDataPoint(9.47984f);
+    dynamicGraph1.addDataPoint(15.12008f);
+    dynamicGraph1.addDataPoint(26.9304f);
+    dynamicGraph1.addDataPoint(42.96907f);
+    dynamicGraph1.addDataPoint(60.31572f);
+    dynamicGraph1.addDataPoint(75.74624f);
+    dynamicGraph1.addDataPoint(86.48134f);
+    dynamicGraph1.addDataPoint(90.82722f);
+    dynamicGraph1.addDataPoint(88.55303f);
+    dynamicGraph1.addDataPoint(80.91414f);
+    dynamicGraph1.addDataPoint(70.31697f);
+    dynamicGraph1.addDataPoint(59.70841f);
+    dynamicGraph1.addDataPoint(51.84028f);
+    dynamicGraph1.addDataPoint(48.58944f);
+    dynamicGraph1.addDataPoint(50.50023f);
+    dynamicGraph1.addDataPoint(56.66125f);
+    dynamicGraph1.addDataPoint(64.94615f);
+    dynamicGraph1.addDataPoint(72.55889f);
+    dynamicGraph1.addDataPoint(76.74893f);
+    dynamicGraph1.addDataPoint(75.51996f);
+    dynamicGraph1.addDataPoint(68.15739f);
+    dynamicGraph1.addDataPoint(55.44379f);
+    dynamicGraph1.addDataPoint(39.50794f);
+    dynamicGraph1.addDataPoint(23.34286f);
+    dynamicGraph1.addDataPoint(10.10925f);
+    dynamicGraph1.addDataPoint(2.3934f);
+    dynamicGraph1.addDataPoint(1.60007f);
+    add(dynamicGraph1);
 }
 
 sensor_menuViewBase::~sensor_menuViewBase()
@@ -131,12 +382,5 @@ void sensor_menuViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& 
         X=0;
         Y=0;
         screennum=0;
-    }
-    if (&src == &LEDButton)
-    {
-        //Interaction4
-        //When LEDButton clicked call virtual function
-        //Call LEDfunction
-        LEDfunction();
     }
 }

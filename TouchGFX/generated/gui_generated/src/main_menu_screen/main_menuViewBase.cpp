@@ -15,6 +15,7 @@ main_menuViewBase::main_menuViewBase() :
 
     main_box.setPosition(0, 0, 800, 480);
     main_box.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    main_box.setAlpha(128);
     add(main_box);
 
     image2.setXY(0, 0);
@@ -51,7 +52,7 @@ main_menuViewBase::main_menuViewBase() :
     FPV_name.setTypedText(touchgfx::TypedText(T___SINGLEUSE_UOQU));
     add(FPV_name);
 
-    about_name.setXY(350, 422);
+    about_name.setXY(340, 422);
     about_name.setColor(touchgfx::Color::getColorFromRGB(18, 150, 219));
     about_name.setLinespacing(0);
     about_name.setTypedText(touchgfx::TypedText(T___SINGLEUSE_YXYQ));

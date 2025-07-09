@@ -4,6 +4,7 @@
 #include <gui_generated/map_menu_screen/map_menuViewBase.hpp>
 #include <touchgfx/Color.hpp>
 #include <images/BitmapDatabase.hpp>
+#include <texts/TextKeysAndLanguages.hpp>
 
 map_menuViewBase::map_menuViewBase() :
     buttonCallback(this, &map_menuViewBase::buttonCallbackHandler)
@@ -14,6 +15,7 @@ map_menuViewBase::map_menuViewBase() :
 
     map_box.setPosition(0, 0, 800, 480);
     map_box.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    map_box.setAlpha(143);
     add(map_box);
 
     back_button.setXY(0, 0);
@@ -21,6 +23,38 @@ map_menuViewBase::map_menuViewBase() :
     back_button.setIconXY(97, 0);
     back_button.setAction(buttonCallback);
     add(back_button);
+
+    image1.setXY(64, 64);
+    image1.setBitmap(touchgfx::Bitmap(BITMAP_GPS_ID));
+    add(image1);
+
+    textArea1.setXY(242, 406);
+    textArea1.setColor(touchgfx::Color::getColorFromRGB(247, 10, 10));
+    textArea1.setLinespacing(0);
+    textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_DI6F));
+    add(textArea1);
+
+    textArea2.setXY(593, 8);
+    textArea2.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textArea2.setLinespacing(0);
+    textArea2.setTypedText(touchgfx::TypedText(T___SINGLEUSE_IRSK));
+    add(textArea2);
+
+    textArea3.setXY(593, 77);
+    textArea3.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textArea3.setLinespacing(0);
+    textArea3.setTypedText(touchgfx::TypedText(T___SINGLEUSE_05XH));
+    add(textArea3);
+
+    image2.setXY(492, 297);
+    image2.setBitmap(touchgfx::Bitmap(BITMAP_EXCLAMATION_POINT_ID));
+    add(image2);
+
+    textArea4.setXY(450, 265);
+    textArea4.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    textArea4.setLinespacing(0);
+    textArea4.setTypedText(touchgfx::TypedText(T___SINGLEUSE_6C8R));
+    add(textArea4);
 }
 
 map_menuViewBase::~map_menuViewBase()

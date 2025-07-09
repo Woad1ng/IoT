@@ -10,14 +10,14 @@
       <TargetName>LCD</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060960::V5.06 update 7 (build 960)::.\5.06new</pCCUsed>
+      <pCCUsed>5060528::V5.06 update 5 (build 528)::ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32H750XBHx</Device>
           <Vendor>STMicroelectronics</Vendor>
-          <PackID>Keil.STM32H7xx_DFP.4.0.0</PackID>
-          <PackURL>https://www.keil.com/pack/</PackURL>
+          <PackID>Keil.STM32H7xx_DFP.3.0.0</PackID>
+          <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000-0x2001FFFF) IRAM2(0x24000000-0x2407FFFF) IROM(0x8000000-0x801FFFF) CLOCK(12000000) FPU3(DFPU) CPUTYPE("Cortex-M7") ELITTLE TZ</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
@@ -2954,16 +2954,6 @@
               <FilePath>../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.cpp</FilePath>
             </File>
             <File>
-              <FileName>image_alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>image_alternate_theme_images_widgets_togglebutton_medium_rounded_on_normal.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_on_normal.cpp</FilePath>
-            </File>
-            <File>
               <FileName>image_back_64.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/image_back_64.cpp</FilePath>
@@ -2974,9 +2964,19 @@
               <FilePath>../touchgfx/generated/images/src/image_back_80.cpp</FilePath>
             </File>
             <File>
+              <FileName>image_blood_oxygen.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_blood_oxygen.cpp</FilePath>
+            </File>
+            <File>
               <FileName>image_exclamation_mark.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/image_exclamation_mark.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_exclamation_point.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_exclamation_point.cpp</FilePath>
             </File>
             <File>
               <FileName>image_forest.cpp</FileName>
@@ -2992,6 +2992,16 @@
               <FileName>image_glass_theme_images_widgets_circleprogress_backgrounds_medium.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/__generated/image_glass_theme_images_widgets_circleprogress_backgrounds_medium.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_GPS.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_gps.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_heart_rate.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_heart_rate.cpp</FilePath>
             </File>
             <File>
               <FileName>image_humidity_64.cpp</FileName>

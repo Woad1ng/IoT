@@ -14,6 +14,7 @@ set_menuViewBase::set_menuViewBase() :
 
     set_box.setPosition(0, 0, 800, 480);
     set_box.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    set_box.setAlpha(152);
     add(set_box);
 
     back_button.setXY(0, 0);

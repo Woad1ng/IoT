@@ -13,7 +13,8 @@
               "Red": 255,
               "Green": 255,
               "Blue": 255
-            }
+            },
+            "Alpha": 128
           },
           {
             "Type": "Image",
@@ -105,7 +106,7 @@
           {
             "Type": "TextArea",
             "Name": "about_name",
-            "X": 350,
+            "X": 340,
             "Y": 422,
             "Width": 100,
             "Height": 32,
@@ -735,7 +736,8 @@
               "Red": 255,
               "Green": 255,
               "Blue": 255
-            }
+            },
+            "Alpha": 143
           },
           {
             "Type": "ButtonWithIcon",
@@ -749,6 +751,78 @@
             "IconX": 97,
             "IconHeight": 50,
             "IconWidth": 50
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 64,
+            "Y": 64,
+            "Width": 507,
+            "Height": 301,
+            "RelativeFilename": "GPS.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 242,
+            "Y": 406,
+            "Width": 100,
+            "Height": 32,
+            "TextId": "__SingleUse_DI6F",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 10,
+              "Blue": 10
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 593,
+            "Y": 8,
+            "Width": 164,
+            "Height": 32,
+            "TextId": "__SingleUse_IRSK",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 593,
+            "Y": 77,
+            "Width": 152,
+            "Height": 32,
+            "TextId": "__SingleUse_05XH",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "X": 492,
+            "Y": 297,
+            "Width": 16,
+            "Height": 16,
+            "RelativeFilename": "exclamation point.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 450,
+            "Y": 265,
+            "Width": 100,
+            "Height": 32,
+            "TextId": "__SingleUse_6C8R",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": [
@@ -793,7 +867,8 @@
               "Red": 255,
               "Green": 255,
               "Blue": 255
-            }
+            },
+            "Alpha": 107
           },
           {
             "Type": "ButtonWithIcon",
@@ -985,7 +1060,90 @@
               "Red": 255,
               "Green": 255,
               "Blue": 255
+            },
+            "Alpha": 133
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1_1",
+            "X": 447,
+            "Y": 32,
+            "Width": 233,
+            "Height": 149,
+            "DataSeed": -1581161774,
+            "NumberOfValues": 100,
+            "MaxY": 100.0,
+            "Precision": "1",
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 20,
+                  "Green": 151,
+                  "Blue": 197
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temperature_value_2",
+            "X": 643,
+            "Y": 402,
+            "Width": 24,
+            "Height": 32,
+            "TextId": "__SingleUse_B0TI",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "heart",
+              "UseBuffer": true,
+              "BufferSize": 20
             }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temperature_value_1",
+            "X": 471,
+            "Y": 406,
+            "Width": 45,
+            "Height": 32,
+            "TextId": "__SingleUse_AWEO",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "blood",
+              "UseBuffer": true,
+              "BufferSize": 20
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temperature_name_2",
+            "X": 463,
+            "Y": 370,
+            "Width": 50,
+            "Height": 32,
+            "TextId": "__SingleUse_YO35",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temperature_name_1",
+            "X": 277,
+            "Y": 370,
+            "Width": 50,
+            "Height": 32,
+            "TextId": "__SingleUse_NT5Q",
+            "TextRotation": "0",
+            "AutoSize": true
           },
           {
             "Type": "ButtonWithIcon",
@@ -1057,34 +1215,6 @@
             "RelativeFilename": "humidity_64.png"
           },
           {
-            "Type": "Circle",
-            "Name": "LED",
-            "X": 133,
-            "Y": 10,
-            "Width": 80,
-            "Height": 80,
-            "Color": {
-              "Red": 255,
-              "Blue": 8
-            },
-            "CenterX": 40.0,
-            "CenterY": 40.0,
-            "Radius": 40.0,
-            "EndAngle": 360.0,
-            "CapPrecision": "Butt"
-          },
-          {
-            "Type": "ToggleButton",
-            "Name": "LEDButton",
-            "X": 256,
-            "Y": 14,
-            "Width": 110,
-            "Height": 50,
-            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_on_normal.png",
-            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.png",
-            "Preset": "alternate_theme\\presets\\togglebutton\\medium\\rounded.json"
-          },
-          {
             "Type": "TextArea",
             "Name": "humidity_name",
             "X": 90,
@@ -1098,7 +1228,7 @@
           {
             "Type": "TextArea",
             "Name": "temperature_name",
-            "X": 277,
+            "X": 630,
             "Y": 370,
             "Width": 50,
             "Height": 32,
@@ -1125,9 +1255,9 @@
           {
             "Type": "TextArea",
             "Name": "temperature_value",
-            "X": 280,
+            "X": 290,
             "Y": 406,
-            "Width": 45,
+            "Width": 24,
             "Height": 32,
             "TextId": "__SingleUse_F4E3",
             "TextRotation": "0",
@@ -1146,6 +1276,52 @@
             "Width": 64,
             "Height": 64,
             "RelativeFilename": "temperature_64.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "X": 461,
+            "Y": 263,
+            "Width": 55,
+            "Height": 64,
+            "RelativeFilename": "blood oxygen.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image3",
+            "X": 623,
+            "Y": 269,
+            "Width": 64,
+            "Height": 58,
+            "RelativeFilename": "heart rate.png"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1",
+            "X": 111,
+            "Y": 32,
+            "Width": 233,
+            "Height": 149,
+            "DataSeed": -1581161774,
+            "NumberOfValues": 100,
+            "MaxY": 100.0,
+            "Precision": "1",
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 20,
+                  "Green": 151,
+                  "Blue": 197
+                }
+              }
+            ]
           }
         ],
         "Interactions": [
@@ -1160,17 +1336,6 @@
               "ScreenTransitionType": "ScreenTransitionCover",
               "ScreenTransitionDirection": "West",
               "ActionComponent": "main_menu"
-            }
-          },
-          {
-            "InteractionName": "Interaction4",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "LEDButton"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "LEDfunction"
             }
           },
           {
@@ -1199,7 +1364,8 @@
               "Red": 255,
               "Green": 255,
               "Blue": 255
-            }
+            },
+            "Alpha": 152
           },
           {
             "Type": "ButtonWithIcon",

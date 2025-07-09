@@ -8,14 +8,14 @@
 #include <mvp/View.hpp>
 #include <gui/sensor_menu_screen/sensor_menuPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
+#include <touchgfx/widgets/graph/GraphScroll.hpp>
+#include <touchgfx/widgets/graph/GraphElements.hpp>
+#include <touchgfx/widgets/canvas/PainterRGB565.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/ButtonWithIcon.hpp>
 #include <touchgfx/containers/progress_indicators/CircleProgress.hpp>
-#include <touchgfx/widgets/canvas/PainterRGB565.hpp>
 #include <touchgfx/widgets/Image.hpp>
-#include <touchgfx/widgets/canvas/Circle.hpp>
-#include <touchgfx/widgets/ToggleButton.hpp>
-#include <touchgfx/widgets/TextArea.hpp>
-#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include "MyHFile.h"
 
 class sensor_menuViewBase : public touchgfx::View<sensor_menuPresenter>
@@ -24,14 +24,6 @@ public:
     sensor_menuViewBase();
     virtual ~sensor_menuViewBase();
     virtual void setupScreen();
-
-    /*
-     * Virtual Action Handlers
-     */
-    virtual void LEDfunction()
-    {
-        // Override and implement this function in sensor_menu
-    }
 
 protected:
     FrontendApplication& application() {
@@ -43,24 +35,37 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::Box sensor_box;
+    touchgfx::GraphScroll<100> dynamicGraph1_1;
+    touchgfx::GraphElementLine dynamicGraph1_1Line1;
+    touchgfx::PainterRGB565 dynamicGraph1_1Line1Painter;
+    touchgfx::TextAreaWithOneWildcard temperature_value_2;
+    touchgfx::TextAreaWithOneWildcard temperature_value_1;
+    touchgfx::TextArea temperature_name_2;
+    touchgfx::TextArea temperature_name_1;
     touchgfx::ButtonWithIcon back_button;
     touchgfx::CircleProgress humidity_circle;
     touchgfx::PainterRGB565 humidity_circlePainter;
     touchgfx::CircleProgress temperature_circle;
     touchgfx::PainterRGB565 temperature_circlePainter;
     touchgfx::Image humidity;
-    touchgfx::Circle LED;
-    touchgfx::PainterRGB565 LEDPainter;
-    touchgfx::ToggleButton LEDButton;
     touchgfx::TextArea humidity_name;
     touchgfx::TextArea temperature_name;
     touchgfx::TextAreaWithOneWildcard humidity_value;
     touchgfx::TextAreaWithOneWildcard temperature_value;
     touchgfx::Image image1;
+    touchgfx::Image image2;
+    touchgfx::Image image3;
+    touchgfx::GraphScroll<100> dynamicGraph1;
+    touchgfx::GraphElementLine dynamicGraph1Line1;
+    touchgfx::PainterRGB565 dynamicGraph1Line1Painter;
 
     /*
      * Wildcard Buffers
      */
+    static const uint16_t TEMPERATURE_VALUE_2_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar temperature_value_2Buffer[TEMPERATURE_VALUE_2_SIZE];
+    static const uint16_t TEMPERATURE_VALUE_1_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar temperature_value_1Buffer[TEMPERATURE_VALUE_1_SIZE];
     static const uint16_t HUMIDITY_VALUE_SIZE = 20;
     touchgfx::Unicode::UnicodeChar humidity_valueBuffer[HUMIDITY_VALUE_SIZE];
     static const uint16_t TEMPERATURE_VALUE_SIZE = 20;

@@ -3,13 +3,13 @@ lcd\emergencybase.o: ../touchgfx/generated/gui_generated/include/gui_generated/c
 lcd\emergencybase.o: ../touchgfx/gui/include/gui/common/FrontendApplication.hpp
 lcd\emergencybase.o: ../touchgfx/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp
 lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/mvp/MVPApplication.hpp
-lcd\emergencybase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\new
-lcd\emergencybase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
-lcd\emergencybase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\exception
+lcd\emergencybase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\new
+lcd\emergencybase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcd\emergencybase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\exception
 lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/common/AbstractPartition.hpp
 lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\emergencybase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
-lcd\emergencybase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\emergencybase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
+lcd\emergencybase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
 lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/mvp/MVPHeap.hpp
 lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/mvp/Presenter.hpp
@@ -24,7 +24,7 @@ lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/UIEve
 lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/lcd/LCD.hpp
 lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\emergencybase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
+lcd\emergencybase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextProvider.hpp
 lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp
 lcd\emergencybase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp

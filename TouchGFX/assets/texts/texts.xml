@@ -13,6 +13,36 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_6C8R" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">目标地点</Translation>
+      </Text>
+      <Text Id="heart" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">75</Translation>
+      </Text>
+      <Text Id="__SingleUse_B0TI" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="blood" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">98</Translation>
+      </Text>
+      <Text Id="__SingleUse_AWEO" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_YO35" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">血氧</Translation>
+      </Text>
+      <Text Id="__SingleUse_NT5Q" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">温度</Translation>
+      </Text>
+      <Text Id="__SingleUse_05XH" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">维度：32.5578</Translation>
+      </Text>
+      <Text Id="__SingleUse_IRSK" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">经度：119.3754</Translation>
+      </Text>
+      <Text Id="__SingleUse_DI6F" Alignment="Left" TypographyId="songti30">
+        <Translation Language="GB">发现目标</Translation>
+      </Text>
       <Text Id="__SingleUse_C43U" Alignment="Left" TypographyId="xingkai25">
         <Translation Language="GB">苍穹之眼——盔式空地协同系统与实时目标检测</Translation>
       </Text>
@@ -209,10 +239,10 @@
         <Translation Language="GB">0</Translation>
       </Text>
       <Text Id="temperature_wildcard" Alignment="Left" TypographyId="songti30">
-        <Translation Language="GB">00</Translation>
+        <Translation Language="GB">35</Translation>
       </Text>
       <Text Id="humidity_wildcard" Alignment="Left" TypographyId="songti30">
-        <Translation Language="GB">00</Translation>
+        <Translation Language="GB">40</Translation>
       </Text>
       <Text Id="ResourceId2" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">New Text</Translation>
@@ -251,10 +281,10 @@
         <Translation Language="GB">本设计提出了一款空地协同巡检系统，该系统以基于增强现实技术的</Translation>
       </Text>
       <Text Id="__SingleUse_F4E3" Alignment="Left" TypographyId="songti30">
-        <Translation Language="GB">&lt;value&gt;%</Translation>
+        <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_LAU4" Alignment="Left" TypographyId="songti30">
-        <Translation Language="GB">温度</Translation>
+        <Translation Language="GB">心率</Translation>
       </Text>
       <Text Id="__SingleUse_LK04" Alignment="Center" TypographyId="songti30">
         <Translation Language="GB">&lt;value&gt;%</Translation>

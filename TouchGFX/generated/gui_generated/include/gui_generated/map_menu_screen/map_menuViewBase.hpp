@@ -9,6 +9,8 @@
 #include <gui/map_menu_screen/map_menuPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/ButtonWithIcon.hpp>
+#include <touchgfx/widgets/Image.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 #include "MyHFile.h"
 
 class map_menuViewBase : public touchgfx::View<map_menuPresenter>
@@ -29,6 +31,12 @@ protected:
     touchgfx::Box __background;
     touchgfx::Box map_box;
     touchgfx::ButtonWithIcon back_button;
+    touchgfx::Image image1;
+    touchgfx::TextArea textArea1;
+    touchgfx::TextArea textArea2;
+    touchgfx::TextArea textArea3;
+    touchgfx::Image image2;
+    touchgfx::TextArea textArea4;
 
 private:
 

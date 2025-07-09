@@ -18,6 +18,9 @@ public:
     virtual void LEDfunction();
        
 protected:
+	
+		int tickCounter;
+    void handleTickEvent();
 };
 
 #endif // SENSOR_MENUVIEW_HPP

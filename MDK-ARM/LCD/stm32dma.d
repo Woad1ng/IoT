@@ -6,7 +6,7 @@ lcd\stm32dma.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
 lcd\stm32dma.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 lcd\stm32dma.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h
 lcd\stm32dma.o: ../Drivers/CMSIS/Include/core_cm7.h
-lcd\stm32dma.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\stm32dma.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
 lcd\stm32dma.o: ../Drivers/CMSIS/Include/cmsis_version.h
 lcd\stm32dma.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 lcd\stm32dma.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -14,8 +14,8 @@ lcd\stm32dma.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 lcd\stm32dma.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 lcd\stm32dma.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 lcd\stm32dma.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-lcd\stm32dma.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
-lcd\stm32dma.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\math.h
+lcd\stm32dma.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcd\stm32dma.o: D:\software\keil\ARM\ARMCC\Bin\..\include\math.h
 lcd\stm32dma.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 lcd\stm32dma.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 lcd\stm32dma.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
@@ -48,13 +48,13 @@ lcd\stm32dma.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
 lcd\stm32dma.o: ../TouchGFX/target/generated/STM32DMA.hpp
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Bitmap.hpp
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\stm32dma.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\stm32dma.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/DMA.hpp
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Atomic.hpp
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/BlitOp.hpp
-lcd\stm32dma.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\cassert
-lcd\stm32dma.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\stm32dma.o: D:\software\keil\ARM\ARMCC\Bin\..\include\cassert
+lcd\stm32dma.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/HAL.hpp
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/platform/driver/button/ButtonController.hpp
@@ -70,7 +70,7 @@ lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/UIEventLis
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/lcd/LCD.hpp
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\stm32dma.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
+lcd\stm32dma.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextProvider.hpp
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp
 lcd\stm32dma.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp

@@ -3,13 +3,13 @@ lcd\map_menuviewbase.o: ../touchgfx/generated/gui_generated/include/gui_generate
 lcd\map_menuviewbase.o: ../touchgfx/gui/include/gui/common/FrontendApplication.hpp
 lcd\map_menuviewbase.o: ../touchgfx/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/mvp/MVPApplication.hpp
-lcd\map_menuviewbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\new
-lcd\map_menuviewbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
-lcd\map_menuviewbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\exception
+lcd\map_menuviewbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\new
+lcd\map_menuviewbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcd\map_menuviewbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\exception
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/common/AbstractPartition.hpp
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\map_menuviewbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
-lcd\map_menuviewbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\map_menuviewbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
+lcd\map_menuviewbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/mvp/MVPHeap.hpp
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/mvp/Presenter.hpp
@@ -24,7 +24,7 @@ lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/UI
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/lcd/LCD.hpp
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\map_menuviewbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
+lcd\map_menuviewbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextProvider.hpp
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp
@@ -54,6 +54,10 @@ lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/wi
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp
+lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp
+lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp
+lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TypedText.hpp
+lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp
 lcd\map_menuviewbase.o: ../BSP/MyHFile.h
 lcd\map_menuviewbase.o: ../Core/Inc/main.h
 lcd\map_menuviewbase.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
@@ -70,7 +74,7 @@ lcd\map_menuviewbase.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 lcd\map_menuviewbase.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 lcd\map_menuviewbase.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 lcd\map_menuviewbase.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-lcd\map_menuviewbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\math.h
+lcd\map_menuviewbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\math.h
 lcd\map_menuviewbase.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 lcd\map_menuviewbase.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 lcd\map_menuviewbase.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
@@ -100,10 +104,10 @@ lcd\map_menuviewbase.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h
 lcd\map_menuviewbase.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 lcd\map_menuviewbase.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h
 lcd\map_menuviewbase.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-lcd\map_menuviewbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\string.h
-lcd\map_menuviewbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdlib.h
-lcd\map_menuviewbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdio.h
-lcd\map_menuviewbase.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdbool.h
+lcd\map_menuviewbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\string.h
+lcd\map_menuviewbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+lcd\map_menuviewbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdio.h
+lcd\map_menuviewbase.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdbool.h
 lcd\map_menuviewbase.o: ../BSP/UART.h
 lcd\map_menuviewbase.o: ../BSP/MyHFile.h
 lcd\map_menuviewbase.o: ../BSP/LED.h
@@ -134,3 +138,4 @@ lcd\map_menuviewbase.o: ../BSP/atk_imu_901.h
 lcd\map_menuviewbase.o: ../BSP/Angle.h
 lcd\map_menuviewbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Color.hpp
 lcd\map_menuviewbase.o: ../touchgfx/generated/images/include/images/BitmapDatabase.hpp
+lcd\map_menuviewbase.o: ../touchgfx/generated/texts/include/texts/TextKeysAndLanguages.hpp

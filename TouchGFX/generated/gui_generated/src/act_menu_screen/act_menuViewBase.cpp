@@ -17,6 +17,7 @@ act_menuViewBase::act_menuViewBase() :
 
     act_box.setPosition(0, 0, 800, 480);
     act_box.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    act_box.setAlpha(107);
     add(act_box);
 
     back_button.setXY(0, 0);

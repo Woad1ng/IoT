@@ -1,7 +1,7 @@
 lcd\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
 lcd\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-lcd\port.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
-lcd\port.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\port.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcd\port.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
 lcd\port.o: ../Core/Inc/FreeRTOSConfig.h
 lcd\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 lcd\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
