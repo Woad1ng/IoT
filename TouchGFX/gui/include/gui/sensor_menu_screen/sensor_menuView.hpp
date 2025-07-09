@@ -20,7 +20,7 @@ public:
 protected:
 	
 		int tickCounter;
-    void handleTickEvent();
+    virtual void handleTickEvent();
 };
 
 #endif // SENSOR_MENUVIEW_HPP

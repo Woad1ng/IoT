@@ -1,8 +1,8 @@
 lcd\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-lcd\heap_4.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+lcd\heap_4.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdlib.h
 lcd\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-lcd\heap_4.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\heap_4.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\heap_4.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\heap_4.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
 lcd\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 lcd\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

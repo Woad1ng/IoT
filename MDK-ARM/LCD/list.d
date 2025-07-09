@@ -1,8 +1,8 @@
 lcd\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
-lcd\list.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+lcd\list.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdlib.h
 lcd\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-lcd\list.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\list.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\list.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\list.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\list.o: ../Core/Inc/FreeRTOSConfig.h
 lcd\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 lcd\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

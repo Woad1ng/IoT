@@ -28,7 +28,7 @@ void main_menuView::tearDownScreen()
 }
 
 
-
+uint8_t count=0;
 int8_t X=0,Y=0;
 void main_menuView::MainGetBlueToothCode(char* Data)
 {
@@ -62,10 +62,17 @@ void main_menuView::MainGetBlueToothCode(char* Data)
         printf("%d,%d\r\n",X,Y);
         if(X==1&&Y==1)
         {
-						modalWindow1.setVisible(true);
-						modalWindow1.invalidate();
-            Emergency();
-					  screennum=5;
+            count=!count;
+            if(count)//1ÏÔÊ¾
+            {
+                modalWindow1.setVisible(true);
+                modalWindow1.invalidate();
+            }
+			else//0Òþ²Ø
+            {
+                modalWindow1.hide();
+            }
+            screennum=5;
         }
         if (X==0&&Y==1)
         {

@@ -3,8 +3,8 @@ lcd\table_stkaiti_ttf_32_4bpp.o: ../touchgfx/generated/fonts/include/fonts/Gener
 lcd\table_stkaiti_ttf_32_4bpp.o: ../middlewares/st/touchgfx/framework/include/touchgfx/ConstFont.hpp
 lcd\table_stkaiti_ttf_32_4bpp.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\table_stkaiti_ttf_32_4bpp.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\table_stkaiti_ttf_32_4bpp.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+lcd\table_stkaiti_ttf_32_4bpp.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
 lcd\table_stkaiti_ttf_32_4bpp.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\table_stkaiti_ttf_32_4bpp.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
-lcd\table_stkaiti_ttf_32_4bpp.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\table_stkaiti_ttf_32_4bpp.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\table_stkaiti_ttf_32_4bpp.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\table_stkaiti_ttf_32_4bpp.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp

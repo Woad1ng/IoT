@@ -14,6 +14,7 @@ Model::Model() : modelListener(0)
 }
 char Data[10];
 uint8_t screennum=0;
+extern uint8_t getangleflag;
 void Model::tick()
 {
     #if copmuter == 0
@@ -50,7 +51,7 @@ void Model::tick()
         }
         else if(screennum==5)
         {
-            modelListener->AboutGetBlueToothCode(RxBuffer);//关于
+            //modelListener->AboutGetBlueToothCode(RxBuffer);//关于
             modelListener->MainGetBlueToothCode(RxBuffer);//主界面
         }
         else if(screennum==6)
@@ -63,7 +64,13 @@ void Model::tick()
     {
         modelListener->Get_Humidity(ADC_Value);
         modelListener->Get_Angle(Yaw);
-	}
+	} 
+    
+//    if(getangleflag==1)
+//    {
+//        getangleflag=0;
+//       
+//    }
     #endif
 }
 

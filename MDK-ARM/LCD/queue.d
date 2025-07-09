@@ -1,9 +1,9 @@
 lcd\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
-lcd\queue.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
-lcd\queue.o: D:\software\keil\ARM\ARMCC\Bin\..\include\string.h
+lcd\queue.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdlib.h
+lcd\queue.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\string.h
 lcd\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-lcd\queue.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\queue.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\queue.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\queue.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\queue.o: ../Core/Inc/FreeRTOSConfig.h
 lcd\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 lcd\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

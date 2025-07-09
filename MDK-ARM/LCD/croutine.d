@@ -1,7 +1,7 @@
 lcd\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 lcd\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-lcd\croutine.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\croutine.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\croutine.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\croutine.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\croutine.o: ../Core/Inc/FreeRTOSConfig.h
 lcd\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 lcd\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

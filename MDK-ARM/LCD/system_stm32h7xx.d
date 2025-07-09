@@ -2,7 +2,7 @@ lcd\system_stm32h7xx.o: ../Core/Src/system_stm32h7xx.c
 lcd\system_stm32h7xx.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 lcd\system_stm32h7xx.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h
 lcd\system_stm32h7xx.o: ../Drivers/CMSIS/Include/core_cm7.h
-lcd\system_stm32h7xx.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\system_stm32h7xx.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\system_stm32h7xx.o: ../Drivers/CMSIS/Include/cmsis_version.h
 lcd\system_stm32h7xx.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 lcd\system_stm32h7xx.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -14,8 +14,8 @@ lcd\system_stm32h7xx.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h
 lcd\system_stm32h7xx.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
 lcd\system_stm32h7xx.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 lcd\system_stm32h7xx.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-lcd\system_stm32h7xx.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\system_stm32h7xx.o: D:\software\keil\ARM\ARMCC\Bin\..\include\math.h
+lcd\system_stm32h7xx.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\system_stm32h7xx.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\math.h
 lcd\system_stm32h7xx.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 lcd\system_stm32h7xx.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 lcd\system_stm32h7xx.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h

@@ -23,12 +23,12 @@ void sensor_menuView::ToggleLED()
 //    LED.setVisible(!LED.isVisible());
 //    LED.invalidate();
 }
-
+uint16_t persent;
 void sensor_menuView::Get_Humidity(float humidityvalue)
 {
     humidity_circle.setValue(225+270*humidityvalue/4095);
     humidity_circle.invalidate();
-    uint16_t persent=humidityvalue*100/4096;
+    persent=humidityvalue*100/4096;
     Unicode::snprintf(humidity_valueBuffer,HUMIDITY_VALUE_SIZE,"%d",40);
     humidity_value.invalidate();
     

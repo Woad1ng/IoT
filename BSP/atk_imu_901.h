@@ -3,7 +3,7 @@
 
 #include "MyHFile.h"
 
-void IMURxBufferHandle(uint8_t* IMURxFlag);
+void IMURxBufferHandle(void);
 
 
 

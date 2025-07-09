@@ -36,8 +36,6 @@ uint8_t RxFlag=0;
 char GPSRxBuffer[DataLength]={'\0'};
 uint8_t GPSRxFlag=0;
 
-uint8_t IMURxFlag=0;
-
 char AIR780EX_rx_buf[200];
 uint8_t AIR780EXRxFlag=0;
 
@@ -61,7 +59,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 	}
 	if(huart->Instance==USART6)
 	{
-		IMURxBufferHandle(&IMURxFlag);
+		IMURxBufferHandle();
 	}
 }
 

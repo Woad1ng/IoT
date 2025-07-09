@@ -4,13 +4,13 @@ lcd\triangle.o: ../touchgfx/generated/gui_generated/include/gui_generated/contai
 lcd\triangle.o: ../touchgfx/gui/include/gui/common/FrontendApplication.hpp
 lcd\triangle.o: ../touchgfx/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/mvp/MVPApplication.hpp
-lcd\triangle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\new
-lcd\triangle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\triangle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\exception
+lcd\triangle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\new
+lcd\triangle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\triangle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\exception
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/common/AbstractPartition.hpp
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
-lcd\triangle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\assert.h
-lcd\triangle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\triangle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\assert.h
+lcd\triangle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/mvp/MVPHeap.hpp
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/mvp/Presenter.hpp
@@ -25,7 +25,7 @@ lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/UIEventLis
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/lcd/LCD.hpp
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
-lcd\triangle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+lcd\triangle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdarg.h
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextProvider.hpp
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/VectorFontRenderer.hpp
@@ -56,7 +56,7 @@ lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_wid
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Outline.hpp
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Cell.hpp
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp
-lcd\triangle.o: D:\software\keil\ARM\ARMCC\Bin\..\include\string.h
+lcd\triangle.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\string.h
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/transforms/DisplayTransformation.hpp
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp
 lcd\triangle.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp

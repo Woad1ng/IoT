@@ -1,8 +1,8 @@
 lcd\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-lcd\stream_buffer.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
-lcd\stream_buffer.o: D:\software\keil\ARM\ARMCC\Bin\..\include\string.h
+lcd\stream_buffer.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
+lcd\stream_buffer.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\string.h
 lcd\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-lcd\stream_buffer.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcd\stream_buffer.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
 lcd\stream_buffer.o: ../Core/Inc/FreeRTOSConfig.h
 lcd\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 lcd\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

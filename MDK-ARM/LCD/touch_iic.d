@@ -7,7 +7,7 @@ lcd\touch_iic.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
 lcd\touch_iic.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 lcd\touch_iic.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h
 lcd\touch_iic.o: ../Drivers/CMSIS/Include/core_cm7.h
-lcd\touch_iic.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\touch_iic.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\touch_iic.o: ../Drivers/CMSIS/Include/cmsis_version.h
 lcd\touch_iic.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 lcd\touch_iic.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -15,8 +15,8 @@ lcd\touch_iic.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 lcd\touch_iic.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 lcd\touch_iic.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 lcd\touch_iic.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-lcd\touch_iic.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\touch_iic.o: D:\software\keil\ARM\ARMCC\Bin\..\include\math.h
+lcd\touch_iic.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\touch_iic.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\math.h
 lcd\touch_iic.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 lcd\touch_iic.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 lcd\touch_iic.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h

@@ -1,7 +1,7 @@
 lcd\freertos.o: ../Core/Src/freertos.c
 lcd\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-lcd\freertos.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stddef.h
-lcd\freertos.o: D:\software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcd\freertos.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stddef.h
+lcd\freertos.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\stdint.h
 lcd\freertos.o: ../Core/Inc/FreeRTOSConfig.h
 lcd\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 lcd\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
@@ -25,7 +25,7 @@ lcd\freertos.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 lcd\freertos.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 lcd\freertos.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 lcd\freertos.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-lcd\freertos.o: D:\software\keil\ARM\ARMCC\Bin\..\include\math.h
+lcd\freertos.o: D:\Keil_v5\ARM\5.06new\Bin\..\include\math.h
 lcd\freertos.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 lcd\freertos.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 lcd\freertos.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
