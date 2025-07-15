@@ -20,7 +20,7 @@ typedef struct
 }GPSDATA;
 
 
-
+extern GPSDATA GPSData;
 void GPSRxBufferHandle(uint8_t* GPSRxFlag);
 
 double convertToDecimal(double coordinate);

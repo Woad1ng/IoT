@@ -50,6 +50,12 @@ void vAIR780EXTask(void *argument)
 		sprintf(text,"AT+MCONNECT=1,300\r\n");
 		HAL_UART_Transmit(&huart3,(uint8_t *)text,strlen(text),1000);
 		osDelay(500);
+        
+         char text[100];
+         sprintf(text,"%.1f,%.1f,%.1f",Yaw,GPSData.latitude,GPSData.longitude);
+         AIR780EX_Transmit(text);
+        
+        
 		vTaskDelete(NULL);
     }	
 }
@@ -65,7 +71,7 @@ const osThreadAttr_t LEDTask_attributes = {
   .stack_size = sizeof(LEDTaskBuffer),
   .priority = (osPriority_t) osPriorityNormal,
 };
-
+uint32_t count1=0;
 void vLEDTask(void *argument)
 {
     while(1)
@@ -73,6 +79,14 @@ void vLEDTask(void *argument)
         LED_TOGGLE();
         //HAL_UART_Transmit(&huart2,(uint8_t*)buffer,sizeof(buffer), HAL_MAX_DELAY);
         osDelay(100);
+        count1++;
+        if(count1>300)
+        {
+            count1=0;
+            char text[100];
+            sprintf(text,"%.1f,%.1f,%.1f",Yaw,GPSData.latitude,GPSData.longitude);
+            AIR780EX_Transmit(text);
+        }
     }	
 }
 

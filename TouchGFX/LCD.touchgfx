@@ -871,6 +871,14 @@
             "Alpha": 107
           },
           {
+            "Type": "Image",
+            "Name": "image3",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "P0704.png",
+            "Alpha": 151
+          },
+          {
             "Type": "ButtonWithIcon",
             "Name": "back_button",
             "Width": 64,

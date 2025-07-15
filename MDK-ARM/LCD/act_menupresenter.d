@@ -52,6 +52,7 @@ lcd\act_menupresenter.o: ../middlewares/st/touchgfx/framework/include/mvp/View.h
 lcd\act_menupresenter.o: ../touchgfx/gui/include/gui/act_menu_screen/act_menuPresenter.hpp
 lcd\act_menupresenter.o: ../touchgfx/gui/include/gui/model/ModelListener.hpp
 lcd\act_menupresenter.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Box.hpp
+lcd\act_menupresenter.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp
 lcd\act_menupresenter.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp
 lcd\act_menupresenter.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp
 lcd\act_menupresenter.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp
@@ -75,7 +76,6 @@ lcd\act_menupresenter.o: ../middlewares/st/touchgfx/framework/include/touchgfx/w
 lcd\act_menupresenter.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp
 lcd\act_menupresenter.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TypedText.hpp
 lcd\act_menupresenter.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp
-lcd\act_menupresenter.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp
 lcd\act_menupresenter.o: ../touchgfx/gui/include/gui/containers/triangle.hpp
 lcd\act_menupresenter.o: ../touchgfx/generated/gui_generated/include/gui_generated/containers/triangleBase.hpp
 lcd\act_menupresenter.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp

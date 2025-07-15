@@ -8,6 +8,7 @@
 #include <mvp/View.hpp>
 #include <gui/act_menu_screen/act_menuPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
+#include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/widgets/ButtonWithIcon.hpp>
 #include <touchgfx/widgets/Button.hpp>
 #include <gui/containers/Compass.hpp>
@@ -33,6 +34,7 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::Box act_box;
+    touchgfx::Image image3;
     touchgfx::ButtonWithIcon back_button;
     touchgfx::Button test_button1;
     touchgfx::Button test_button2;
