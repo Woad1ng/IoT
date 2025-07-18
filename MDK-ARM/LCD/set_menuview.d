@@ -55,6 +55,8 @@ lcd\set_menuview.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widget
 lcd\set_menuview.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp
 lcd\set_menuview.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp
 lcd\set_menuview.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp
+lcd\set_menuview.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp
+lcd\set_menuview.o: ../middlewares/st/touchgfx/framework/include/touchgfx/containers/Slider.hpp
 lcd\set_menuview.o: ../BSP/MyHFile.h
 lcd\set_menuview.o: ../Core/Inc/main.h
 lcd\set_menuview.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h

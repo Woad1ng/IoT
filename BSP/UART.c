@@ -46,12 +46,18 @@ void UART_Init(void)
 {
     HAL_UARTEx_ReceiveToIdle_IT(&huart4,(uint8_t *)GPSRxBuffer,DataLength);
 	HAL_UART_Receive_IT(&huart7,(uint8_t*)RxBuffer,5);
+    HAL_UART_Receive_IT(&huart1,(uint8_t*)RxBuffer,5);
 	HAL_UART_Receive_IT(&huart6,(uint8_t *)IMURxBuffer,UART6_RX_BUFFER_SIZE);
 	HAL_UARTEx_ReceiveToIdle_IT(&huart3,(uint8_t *)AIR780EX_rx_buf,200);
 }
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
+    if(huart->Instance==USART1)//蓝牙手环数据
+	{
+        RxFlag=1;
+		HAL_UART_Receive_IT(&huart1,(uint8_t*)RxBuffer,5); 
+	}
 	if(huart->Instance==UART7)//蓝牙手环数据
 	{
         RxFlag=1;

@@ -1,0 +1,2 @@
+lcd\image_alternate_theme_images_widgets_slider_horizontal_thick_rounded_light.o: ../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_slider_horizontal_thick_rounded_light.cpp
+lcd\image_alternate_theme_images_widgets_slider_horizontal_thick_rounded_light.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp

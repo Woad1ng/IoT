@@ -25,7 +25,7 @@
 #include "ADC.h"
 #include "GPS.h"
 #include "AIR780EX.h"
-
+extern UART_HandleTypeDef huart1;
 extern UART_HandleTypeDef huart6;
 extern osSemaphoreId_t ADCValueHandle;
 extern osSemaphoreId_t BlueToothHandle;

@@ -193,6 +193,7 @@ lcd\touchgfxconfiguration.o: ../middlewares/st/touchgfx/framework/include/touchg
 lcd\touchgfxconfiguration.o: ../touchgfx/gui/include/gui/set_menu_screen/set_menuView.hpp
 lcd\touchgfxconfiguration.o: ../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp
 lcd\touchgfxconfiguration.o: ../touchgfx/gui/include/gui/set_menu_screen/set_menuPresenter.hpp
+lcd\touchgfxconfiguration.o: ../middlewares/st/touchgfx/framework/include/touchgfx/containers/Slider.hpp
 lcd\touchgfxconfiguration.o: ../touchgfx/gui/include/gui/fpv_menu_screen/FPV_menuView.hpp
 lcd\touchgfxconfiguration.o: ../touchgfx/generated/gui_generated/include/gui_generated/fpv_menu_screen/FPV_menuViewBase.hpp
 lcd\touchgfxconfiguration.o: ../touchgfx/gui/include/gui/fpv_menu_screen/FPV_menuPresenter.hpp

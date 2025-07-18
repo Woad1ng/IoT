@@ -32,6 +32,48 @@ uint8_t count=0;
 int8_t X=0,Y=0;
 void main_menuView::MainGetBlueToothCode(char* Data)
 {
+    if((uint8_t)Data[0]==0x00&&(uint8_t)Data[1]==0x01)//地图界面
+    {
+        X=0;Y=0;
+        application().gotomap_menuScreenCoverTransitionWest();screennum=1;
+    }
+    else if((uint8_t)Data[0]==0x00&&(uint8_t)Data[1]==0x02)//行动界面
+    {
+        X=1;Y=0;
+        application().gotoact_menuScreenCoverTransitionNorth();screennum=2;
+    }
+    else if((uint8_t)Data[0]==0x00&&(uint8_t)Data[1]==0x03)//传感器界面
+    {
+        X=2;Y=0;
+        application().gotosensor_menuScreenCoverTransitionEast();screennum=3;
+    }
+    else if((uint8_t)Data[0]==0x00&&(uint8_t)Data[1]==0x04)//设置界面
+    {
+        X=0;Y=1;
+        application().gotoset_menuScreenCoverTransitionWest();screennum=4;
+    }
+    else if((uint8_t)Data[0]==0x00&&(uint8_t)Data[1]==0x00)//主界面界面
+    {
+        count=0;
+         modalWindow1.hide();
+        screennum=5;
+    }
+    else if((uint8_t)Data[0]==0x00&&(uint8_t)Data[1]==0x05)//紧急报警界面
+    {
+        X=1;Y=1;
+        count=1;
+        if(count)//1显示
+         {
+                modalWindow1.setVisible(true);
+                modalWindow1.invalidate();
+            }
+            screennum=5;
+    }
+    else if((uint8_t)Data[0]==0x00&&(uint8_t)Data[1]==0x06)//无人机界面
+    {
+        X=2;Y=1;
+        application().gotoset_menuScreenCoverTransitionWest();screennum=6;
+    }
     //上
     if((uint8_t)Data[0]==0xAA&&(uint8_t)Data[1]==0xBB&&(uint8_t)Data[2]==0x01&&(uint8_t)Data[3]==0xBB&&(uint8_t)Data[4]==0xAA)
     {
@@ -89,6 +131,23 @@ void main_menuView::MainGetBlueToothCode(char* Data)
         if(X==2&&Y==0)
         {
             application().gotosensor_menuScreenCoverTransitionEast();screennum=3;
+        }
+    }
+        //确认
+    else if((uint8_t)Data[0]==0xAA&&(uint8_t)Data[1]==0xBB&&(uint8_t)Data[2]==0x06&&(uint8_t)Data[3]==0xBB&&(uint8_t)Data[4]==0xAA)
+    {
+        X=1;
+        Y=1;
+        screennum=5;
+        count=!count;
+        if(count)//1显示
+        {
+            modalWindow1.setVisible(true);
+            modalWindow1.invalidate();
+        }
+		else//0隐藏
+        {
+            modalWindow1.hide();
         }
     }
     map_name.setXY(139, 229);

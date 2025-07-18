@@ -60,7 +60,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x68652F08)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x68652F08)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x68652F08)
 I (../TouchGFX/App/app_touchgfx.h)(0x68110320)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (D:\Keil_v5\ARM\5.06new\include\string.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\5.06new\include\stdlib.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\5.06new\include\stdio.h)(0x5E8E3CC2)
@@ -1796,9 +1796,9 @@ I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x68652F34)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x68652F34)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x68652F34)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x68652F34)
-F (..\BSP\MyHFile.h)(0x6868111C)()
+F (..\BSP\MyHFile.h)(0x687770F9)()
 F (..\BSP\LED.c)(0x68270FA4)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\led.o --depend lcd\led.d)
-I (..\BSP\MyHFile.h)(0x6868111C)
+I (..\BSP\MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -1925,7 +1925,7 @@ I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x68652F34)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x68652F34)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x68652F34)
 I (..\BSP\sdram.h)(0x681466C0)
-I (..\BSP\MyHFile.h)(0x6868111C)
+I (..\BSP\MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (D:\Keil_v5\ARM\5.06new\include\string.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\5.06new\include\stdlib.h)(0x5E8E3CC2)
@@ -1958,7 +1958,7 @@ I (..\BSP\Angle.h)(0x68681137)
 I (..\BSP\lcd_fonts.h)(0x681466C0)
 F (..\BSP\lcd_rgb.h)(0x681466C0)()
 F (..\BSP\SDRAM.c)(0x681466C0)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\sdram.o --depend lcd\sdram.d)
-I (..\BSP\MyHFile.h)(0x6868111C)
+I (..\BSP\MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -2042,7 +2042,7 @@ F (..\BSP\lcd_fonts.c)(0x681466C0)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 -
 I (..\BSP\lcd_fonts.h)(0x681466C0)
 I (D:\Keil_v5\ARM\5.06new\include\stdint.h)(0x5E8E3CC2)
 F (..\BSP\MyTask.c)(0x6875EEF4)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\mytask.o --depend lcd\mytask.d)
-I (..\BSP\MyHFile.h)(0x6868111C)
+I (..\BSP\MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -2169,7 +2169,7 @@ I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x68652F34)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x68652F34)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x68652F34)
 I (..\BSP\touch_iic.h)(0x681466C0)
-I (..\BSP\MyHFile.h)(0x6868111C)
+I (..\BSP\MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (D:\Keil_v5\ARM\5.06new\include\string.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\5.06new\include\stdlib.h)(0x5E8E3CC2)
@@ -2249,8 +2249,8 @@ I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x68652F34)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x68652F34)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x68652F34)
 F (..\BSP\touch_iic.h)(0x681466C0)()
-F (..\BSP\UART.c)(0x686E328A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\uart.o --depend lcd\uart.d)
-I (..\BSP\MyHFile.h)(0x6868111C)
+F (..\BSP\UART.c)(0x6877710F)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\uart.o --depend lcd\uart.d)
+I (..\BSP\MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -2330,7 +2330,7 @@ I (..\BSP\atk_imu_901.h)(0x686E329F)
 I (..\BSP\Angle.h)(0x68681137)
 F (..\BSP\UART.h)(0x6867A0A6)()
 F (..\BSP\Time.c)(0x681466C0)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\time.o --depend lcd\time.d)
-I (..\BSP\MyHFile.h)(0x6868111C)
+I (..\BSP\MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -2410,7 +2410,7 @@ I (..\BSP\atk_imu_901.h)(0x686E329F)
 I (..\BSP\Angle.h)(0x68681137)
 F (..\BSP\Time.h)(0x681466C0)()
 F (..\BSP\ADC.c)(0x681471B4)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\adc.o --depend lcd\adc.d)
-I (..\BSP\MyHFile.h)(0x6868111C)
+I (..\BSP\MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -2490,7 +2490,7 @@ I (..\BSP\atk_imu_901.h)(0x686E329F)
 I (..\BSP\Angle.h)(0x68681137)
 F (..\BSP\ADC.h)(0x68146F36)()
 F (..\BSP\GPS.c)(0x68653234)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\gps.o --depend lcd\gps.d)
-I (..\BSP\MyHFile.h)(0x6868111C)
+I (..\BSP\MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -2570,7 +2570,7 @@ I (..\BSP\atk_imu_901.h)(0x686E329F)
 I (..\BSP\Angle.h)(0x68681137)
 F (..\BSP\GPS.h)(0x6874DC3C)()
 F (..\BSP\atk_imu_901.c)(0x686E328A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\atk_imu_901.o --depend lcd\atk_imu_901.d)
-I (..\BSP\MyHFile.h)(0x6868111C)
+I (..\BSP\MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -2650,7 +2650,7 @@ I (..\BSP\atk_imu_901.h)(0x686E329F)
 I (..\BSP\Angle.h)(0x68681137)
 F (..\BSP\atk_imu_901.h)(0x686E329F)()
 F (..\BSP\AIR780EX.c)(0x68662394)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\air780ex.o --depend lcd\air780ex.d)
-I (..\BSP\MyHFile.h)(0x6868111C)
+I (..\BSP\MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -2730,7 +2730,7 @@ I (..\BSP\atk_imu_901.h)(0x686E329F)
 I (..\BSP\Angle.h)(0x68681137)
 F (..\BSP\AIR780EX.h)(0x6866148C)()
 F (..\BSP\Angle.c)(0x686811E7)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\angle.o --depend lcd\angle.d)
-I (..\BSP\MyHFile.h)(0x6868111C)
+I (..\BSP\MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -3085,7 +3085,7 @@ I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x68652F34)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x68652F34)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x68652F34)
 I (../BSP/touch_iic.h)(0x681466C0)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (D:\Keil_v5\ARM\5.06new\include\string.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\5.06new\include\stdlib.h)(0x5E8E3CC2)
@@ -3236,7 +3236,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -3355,13 +3355,14 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_ind
 I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Circle.hpp)(0x67BFFADE)
 I (../touchgfx/gui/include/gui/set_menu_screen/set_menuView.hpp)(0x68274A9C)
-I (../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp)(0x68284C3A)
+I (../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp)(0x68777EB3)
 I (../touchgfx/gui/include/gui/set_menu_screen/set_menuPresenter.hpp)(0x68274B94)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/Slider.hpp)(0x67BFFADC)
 I (../touchgfx/gui/include/gui/fpv_menu_screen/FPV_menuView.hpp)(0x6812171E)
 I (../touchgfx/generated/gui_generated/include/gui_generated/fpv_menu_screen/FPV_menuViewBase.hpp)(0x6812171E)
 I (../touchgfx/gui/include/gui/fpv_menu_screen/FPV_menuPresenter.hpp)(0x6812171E)
-I (../touchgfx/generated/images/include/BitmapDatabase.hpp)(0x686D0E94)
-I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x686E000A)
+I (../touchgfx/generated/images/include/BitmapDatabase.hpp)(0x68777D27)
+I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x68777EB4)
 I (../TouchGFX/target/generated/STM32DMA.hpp)(0x6812D892)
 I (../TouchGFX/target/TouchGFXHAL.hpp)(0x68110320)
 I (../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp)(0x6812D892)
@@ -3437,7 +3438,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -3556,8 +3557,9 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_ind
 I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Circle.hpp)(0x67BFFADE)
 I (../touchgfx/gui/include/gui/set_menu_screen/set_menuView.hpp)(0x68274A9C)
-I (../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp)(0x68284C3A)
+I (../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp)(0x68777EB3)
 I (../touchgfx/gui/include/gui/set_menu_screen/set_menuPresenter.hpp)(0x68274B94)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/Slider.hpp)(0x67BFFADC)
 I (../touchgfx/gui/include/gui/fpv_menu_screen/FPV_menuView.hpp)(0x6812171E)
 I (../touchgfx/generated/gui_generated/include/gui_generated/fpv_menu_screen/FPV_menuViewBase.hpp)(0x6812171E)
 I (../touchgfx/gui/include/gui/fpv_menu_screen/FPV_menuPresenter.hpp)(0x6812171E)
@@ -3744,7 +3746,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/EasingEquations.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -3820,7 +3822,7 @@ I (../BSP/touch_iic.h)(0x681466C0)
 I (../BSP/touch_800x480.h)(0x681466C0)
 I (../BSP/atk_imu_901.h)(0x686E329F)
 I (../BSP/Angle.h)(0x68681137)
-F (../touchgfx/gui/src/about_menu_screen/about_menuview.cpp)(0x686D4127)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\about_menuview.o --depend lcd\about_menuview.d)
+F (../touchgfx/gui/src/about_menu_screen/about_menuview.cpp)(0x687775F7)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\about_menuview.o --depend lcd\about_menuview.d)
 I (../touchgfx/gui/include/gui/about_menu_screen/about_menuView.hpp)(0x68274AAA)
 I (../touchgfx/generated/gui_generated/include/gui_generated/about_menu_screen/about_menuViewBase.hpp)(0x68284AFE)
 I (../touchgfx/gui/include/gui/common/FrontendApplication.hpp)(0x68110AB8)
@@ -3883,7 +3885,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/EasingEquations.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -4043,7 +4045,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hp
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractShape.hpp)(0x67BFFADE)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/EasingEquations.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -4118,7 +4120,7 @@ I (../BSP/touch_iic.h)(0x681466C0)
 I (../BSP/touch_800x480.h)(0x681466C0)
 I (../BSP/atk_imu_901.h)(0x686E329F)
 I (../BSP/Angle.h)(0x68681137)
-F (../touchgfx/gui/src/act_menu_screen/act_menuview.cpp)(0x68689412)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\act_menuview.o --depend lcd\act_menuview.d)
+F (../touchgfx/gui/src/act_menu_screen/act_menuview.cpp)(0x687775CB)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\act_menuview.o --depend lcd\act_menuview.d)
 I (../touchgfx/gui/include/gui/act_menu_screen/act_menuView.hpp)(0x68274B22)
 I (../touchgfx/generated/gui_generated/include/gui_generated/act_menu_screen/act_menuViewBase.hpp)(0x686E4F50)
 I (../touchgfx/gui/include/gui/common/FrontendApplication.hpp)(0x68110AB8)
@@ -4202,7 +4204,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hp
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractShape.hpp)(0x67BFFADE)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/EasingEquations.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -4739,7 +4741,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -4815,7 +4817,7 @@ I (../BSP/touch_iic.h)(0x681466C0)
 I (../BSP/touch_800x480.h)(0x681466C0)
 I (../BSP/atk_imu_901.h)(0x686E329F)
 I (../BSP/Angle.h)(0x68681137)
-F (../touchgfx/gui/src/main_menu_screen/main_menuview.cpp)(0x686D42F6)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\main_menuview.o --depend lcd\main_menuview.d)
+F (../touchgfx/gui/src/main_menu_screen/main_menuview.cpp)(0x6878F116)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\main_menuview.o --depend lcd\main_menuview.d)
 I (../touchgfx/gui/include/gui/main_menu_screen/main_menuView.hpp)(0x686D3D2E)
 I (../touchgfx/generated/gui_generated/include/gui_generated/main_menu_screen/main_menuViewBase.hpp)(0x686D3D2E)
 I (../touchgfx/gui/include/gui/common/FrontendApplication.hpp)(0x68110AB8)
@@ -4877,7 +4879,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -5016,7 +5018,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp)(0x67
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/TypedText.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -5092,7 +5094,7 @@ I (../BSP/touch_iic.h)(0x681466C0)
 I (../BSP/touch_800x480.h)(0x681466C0)
 I (../BSP/atk_imu_901.h)(0x686E329F)
 I (../BSP/Angle.h)(0x68681137)
-F (../touchgfx/gui/src/map_menu_screen/map_menuview.cpp)(0x68282F9E)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\map_menuview.o --depend lcd\map_menuview.d)
+F (../touchgfx/gui/src/map_menu_screen/map_menuview.cpp)(0x68777618)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\map_menuview.o --depend lcd\map_menuview.d)
 I (../touchgfx/gui/include/gui/map_menu_screen/map_menuView.hpp)(0x68274A02)
 I (../touchgfx/generated/gui_generated/include/gui_generated/map_menu_screen/map_menuViewBase.hpp)(0x686E000A)
 I (../touchgfx/gui/include/gui/common/FrontendApplication.hpp)(0x68110AB8)
@@ -5153,7 +5155,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp)(0x67
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/TypedText.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -5232,7 +5234,7 @@ I (../BSP/Angle.h)(0x68681137)
 F (../touchgfx/gui/src/model/model.cpp)(0x686E2BA2)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\model.o --depend lcd\model.d)
 I (../touchgfx/gui/include/gui/model/Model.hpp)(0x6813697C)
 I (../touchgfx/gui/include/gui/model/ModelListener.hpp)(0x682749BC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -5394,7 +5396,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_ind
 I (../middlewares/st/touchgfx/framework/include/touchgfx/EasingEquations.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Circle.hpp)(0x67BFFADE)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -5469,7 +5471,7 @@ I (../BSP/touch_iic.h)(0x681466C0)
 I (../BSP/touch_800x480.h)(0x681466C0)
 I (../BSP/atk_imu_901.h)(0x686E329F)
 I (../BSP/Angle.h)(0x68681137)
-F (../touchgfx/gui/src/sensor_menu_screen/sensor_menuview.cpp)(0x686E3315)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\sensor_menuview.o --depend lcd\sensor_menuview.d)
+F (../touchgfx/gui/src/sensor_menu_screen/sensor_menuview.cpp)(0x68777646)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\sensor_menuview.o --depend lcd\sensor_menuview.d)
 I (../touchgfx/gui/include/gui/sensor_menu_screen/sensor_menuView.hpp)(0x686E330E)
 I (../touchgfx/generated/gui_generated/include/gui_generated/sensor_menu_screen/sensor_menuViewBase.hpp)(0x686E000A)
 I (../touchgfx/gui/include/gui/common/FrontendApplication.hpp)(0x68110AB8)
@@ -5553,7 +5555,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_ind
 I (../middlewares/st/touchgfx/framework/include/touchgfx/EasingEquations.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Circle.hpp)(0x67BFFADE)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -5631,7 +5633,7 @@ I (../BSP/Angle.h)(0x68681137)
 I (D:\Keil_v5\ARM\5.06new\include\time.h)(0x5E8E3CC2)
 F (../touchgfx/gui/src/set_menu_screen/set_menupresenter.cpp)(0x68274C00)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\set_menupresenter.o --depend lcd\set_menupresenter.d)
 I (../touchgfx/gui/include/gui/set_menu_screen/set_menuView.hpp)(0x68274A9C)
-I (../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp)(0x68284C3A)
+I (../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp)(0x68777EB3)
 I (../touchgfx/gui/include/gui/common/FrontendApplication.hpp)(0x68110AB8)
 I (../touchgfx/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp)(0x686D3D2E)
 I (../middlewares/st/touchgfx/framework/include/mvp/MVPApplication.hpp)(0x67BFFADC)
@@ -5686,7 +5688,9 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Box.hpp)(0x67BF
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp)(0x67BFFADC)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/Slider.hpp)(0x67BFFADC)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -5762,9 +5766,9 @@ I (../BSP/touch_iic.h)(0x681466C0)
 I (../BSP/touch_800x480.h)(0x681466C0)
 I (../BSP/atk_imu_901.h)(0x686E329F)
 I (../BSP/Angle.h)(0x68681137)
-F (../touchgfx/gui/src/set_menu_screen/set_menuview.cpp)(0x68284768)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\set_menuview.o --depend lcd\set_menuview.d)
+F (../touchgfx/gui/src/set_menu_screen/set_menuview.cpp)(0x68777646)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\set_menuview.o --depend lcd\set_menuview.d)
 I (../touchgfx/gui/include/gui/set_menu_screen/set_menuView.hpp)(0x68274A9C)
-I (../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp)(0x68284C3A)
+I (../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp)(0x68777EB3)
 I (../touchgfx/gui/include/gui/common/FrontendApplication.hpp)(0x68110AB8)
 I (../touchgfx/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp)(0x686D3D2E)
 I (../middlewares/st/touchgfx/framework/include/mvp/MVPApplication.hpp)(0x67BFFADC)
@@ -5819,7 +5823,9 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Box.hpp)(0x67BF
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp)(0x67BFFADC)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/Slider.hpp)(0x67BFFADC)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -6023,7 +6029,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/EasingEquations.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -6100,7 +6106,7 @@ I (../BSP/touch_800x480.h)(0x681466C0)
 I (../BSP/atk_imu_901.h)(0x686E329F)
 I (../BSP/Angle.h)(0x68681137)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/Color.hpp)(0x67BFFADC)
-I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x686E000A)
+I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x68777EB4)
 I (../touchgfx/generated/texts/include/texts/TextKeysAndLanguages.hpp)(0x686E000A)
 F (../touchgfx/generated/gui_generated/src/act_menu_screen/act_menuviewbase.cpp)(0x686E4F50)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\act_menuviewbase.o --depend lcd\act_menuviewbase.d)
 I (../touchgfx/generated/gui_generated/include/gui_generated/act_menu_screen/act_menuViewBase.hpp)(0x686E4F50)
@@ -6185,7 +6191,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hp
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractShape.hpp)(0x67BFFADE)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/EasingEquations.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -6262,7 +6268,7 @@ I (../BSP/atk_imu_901.h)(0x686E329F)
 I (../BSP/Angle.h)(0x68681137)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/CanvasWidgetRenderer.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/Color.hpp)(0x67BFFADC)
-I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x686E000A)
+I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x68777EB4)
 F (../touchgfx/generated/fonts/src/applicationfontprovider.cpp)(0x6868066D)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\applicationfontprovider.o --depend lcd\applicationfontprovider.d)
 I (../touchgfx/generated/fonts/include/fonts/ApplicationFontProvider.hpp)(0x6868066D)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/FontManager.hpp)(0x67BFFADC)
@@ -6278,8 +6284,8 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/ConstFont.hpp)(0x67BFFA
 I (../touchgfx/generated/texts/include/texts/TypedTextDatabase.hpp)(0x6868066D)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/TypedText.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp)(0x67BFFADC)
-F (../touchgfx/generated/images/src/bitmapdatabase.cpp)(0x686E000A)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\bitmapdatabase.o --depend lcd\bitmapdatabase.d)
-I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x686E000A)
+F (../touchgfx/generated/images/src/bitmapdatabase.cpp)(0x68777EB4)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\bitmapdatabase.o --depend lcd\bitmapdatabase.d)
+I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x68777EB4)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp)(0x67BFFADC)
 I (D:\Keil_v5\ARM\5.06new\include\assert.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\5.06new\include\stdint.h)(0x5E8E3CC2)
@@ -6442,7 +6448,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/Color.hpp)(0x67BFFADC)
 I (../touchgfx/generated/texts/include/texts/TextKeysAndLanguages.hpp)(0x686E000A)
-I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x686E000A)
+I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x68777EB4)
 F (../touchgfx/generated/fonts/src/compressedfontcache.cpp)(0x6868066D)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\compressedfontcache.o --depend lcd\compressedfontcache.d)
 I (../touchgfx/generated/fonts/include/fonts/CompressedFontCache.hpp)(0x6868066D)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp)(0x67BFFADC)
@@ -6617,7 +6623,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Box.hpp)(0x67BF
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp)(0x67BFFADC)
-I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x686E000A)
+I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x68777EB4)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/Color.hpp)(0x67BFFADC)
 F (../touchgfx/generated/fonts/src/font_stfangso_ttf_25_4bpp_0.cpp)(0x6868066E)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\font_stfangso_ttf_25_4bpp_0.o --depend lcd\font_stfangso_ttf_25_4bpp_0.d)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp)(0x67BFFADC)
@@ -6939,7 +6945,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -7058,8 +7064,9 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_ind
 I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Circle.hpp)(0x67BFFADE)
 I (../touchgfx/gui/include/gui/set_menu_screen/set_menuView.hpp)(0x68274A9C)
-I (../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp)(0x68284C3A)
+I (../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp)(0x68777EB3)
 I (../touchgfx/gui/include/gui/set_menu_screen/set_menuPresenter.hpp)(0x68274B94)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/Slider.hpp)(0x67BFFADC)
 I (../touchgfx/gui/include/gui/fpv_menu_screen/FPV_menuView.hpp)(0x6812171E)
 I (../touchgfx/generated/gui_generated/include/gui_generated/fpv_menu_screen/FPV_menuViewBase.hpp)(0x6812171E)
 I (../touchgfx/gui/include/gui/fpv_menu_screen/FPV_menuPresenter.hpp)(0x6812171E)
@@ -7089,6 +7096,12 @@ F (../touchgfx/generated/images/src/__generated/image_alternate_theme_images_wid
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
 F (../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.cpp)(0x68147FB2)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.o --depend lcd\image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.d)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
+F (../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_slider_horizontal_thick_filler_medium.cpp)(0x68777D26)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_alternate_theme_images_widgets_slider_horizontal_thick_filler_medium.o --depend lcd\image_alternate_theme_images_widgets_slider_horizontal_thick_filler_medium.d)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
+F (../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_slider_horizontal_thick_rounded_dark.cpp)(0x68777D26)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_alternate_theme_images_widgets_slider_horizontal_thick_rounded_dark.o --depend lcd\image_alternate_theme_images_widgets_slider_horizontal_thick_rounded_dark.d)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
+F (../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_slider_horizontal_thick_track_medium.cpp)(0x68777D26)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_alternate_theme_images_widgets_slider_horizontal_thick_track_medium.o --depend lcd\image_alternate_theme_images_widgets_slider_horizontal_thick_track_medium.d)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
 F (../touchgfx/generated/images/src/image_back_64.cpp)(0x681215EC)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_back_64.o --depend lcd\image_back_64.d)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
 F (../touchgfx/generated/images/src/image_back_80.cpp)(0x68120C5E)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_back_80.o --depend lcd\image_back_80.d)
@@ -7113,6 +7126,8 @@ F (../touchgfx/generated/images/src/image_humidity_64.cpp)(0x6812CD38)(--cpp -c 
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
 F (../touchgfx/generated/images/src/__generated/image_icon_theme_images_action_done_50_50_e8f6fb.svg.cpp)(0x68120D18)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_icon_theme_images_action_done_50_50_e8f6fb.svg.o --depend lcd\image_icon_theme_images_action_done_50_50_e8f6fb.svg.d)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
+F (../touchgfx/generated/images/src/image_light.cpp)(0x6877454D)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_light.o --depend lcd\image_light.d)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
 F (../touchgfx/generated/images/src/image_map_80.cpp)(0x68120C5E)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_map_80.o --depend lcd\image_map_80.d)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
 F (../touchgfx/generated/images/src/image_p0704.cpp)(0x686D3D2E)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_p0704.o --depend lcd\image_p0704.d)
@@ -7125,7 +7140,11 @@ F (../touchgfx/generated/images/src/image_sensor_80.cpp)(0x68120C5E)(--cpp -c --
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
 F (../touchgfx/generated/images/src/image_settings_80.cpp)(0x68120C5E)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_settings_80.o --depend lcd\image_settings_80.d)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
+F (../touchgfx/generated/images/src/image_sound.cpp)(0x68777E1F)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_sound.o --depend lcd\image_sound.d)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
 F (../touchgfx/generated/images/src/image_temperature_64.cpp)(0x681321F0)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_temperature_64.o --depend lcd\image_temperature_64.d)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
+F (../touchgfx/generated/images/src/image_umbrella.cpp)(0x68777EB4)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_umbrella.o --depend lcd\image_umbrella.d)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
 F (../touchgfx/generated/images/src/image_warn.cpp)(0x686D19AE)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\image_warn.o --depend lcd\image_warn.d)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp)(0x67BFFADC)
@@ -7253,7 +7272,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -7330,7 +7349,7 @@ I (../BSP/touch_800x480.h)(0x681466C0)
 I (../BSP/atk_imu_901.h)(0x686E329F)
 I (../BSP/Angle.h)(0x68681137)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/Color.hpp)(0x67BFFADC)
-I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x686E000A)
+I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x68777EB4)
 I (../touchgfx/generated/texts/include/texts/TextKeysAndLanguages.hpp)(0x686E000A)
 F (../touchgfx/generated/gui_generated/src/map_menu_screen/map_menuviewbase.cpp)(0x686E000A)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\map_menuviewbase.o --depend lcd\map_menuviewbase.d)
 I (../touchgfx/generated/gui_generated/include/gui_generated/map_menu_screen/map_menuViewBase.hpp)(0x686E000A)
@@ -7392,7 +7411,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp)(0x67
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/TypedText.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -7469,7 +7488,7 @@ I (../BSP/touch_800x480.h)(0x681466C0)
 I (../BSP/atk_imu_901.h)(0x686E329F)
 I (../BSP/Angle.h)(0x68681137)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/Color.hpp)(0x67BFFADC)
-I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x686E000A)
+I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x68777EB4)
 I (../touchgfx/generated/texts/include/texts/TextKeysAndLanguages.hpp)(0x686E000A)
 F (../touchgfx/generated/gui_generated/src/sensor_menu_screen/sensor_menuviewbase.cpp)(0x686E000A)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\sensor_menuviewbase.o --depend lcd\sensor_menuviewbase.d)
 I (../touchgfx/generated/gui_generated/include/gui_generated/sensor_menu_screen/sensor_menuViewBase.hpp)(0x686E000A)
@@ -7554,7 +7573,7 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_ind
 I (../middlewares/st/touchgfx/framework/include/touchgfx/EasingEquations.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Circle.hpp)(0x67BFFADE)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -7632,9 +7651,9 @@ I (../BSP/Angle.h)(0x68681137)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/CanvasWidgetRenderer.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/Color.hpp)(0x67BFFADC)
 I (../touchgfx/generated/texts/include/texts/TextKeysAndLanguages.hpp)(0x686E000A)
-I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x686E000A)
-F (../touchgfx/generated/gui_generated/src/set_menu_screen/set_menuviewbase.cpp)(0x686E000A)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\set_menuviewbase.o --depend lcd\set_menuviewbase.d)
-I (../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp)(0x68284C3A)
+I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x68777EB4)
+F (../touchgfx/generated/gui_generated/src/set_menu_screen/set_menuviewbase.cpp)(0x68777EB3)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\set_menuviewbase.o --depend lcd\set_menuviewbase.d)
+I (../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp)(0x68777EB3)
 I (../touchgfx/gui/include/gui/common/FrontendApplication.hpp)(0x68110AB8)
 I (../touchgfx/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp)(0x686D3D2E)
 I (../middlewares/st/touchgfx/framework/include/mvp/MVPApplication.hpp)(0x67BFFADC)
@@ -7689,7 +7708,9 @@ I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Box.hpp)(0x67BF
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Button.hpp)(0x67BFFADC)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp)(0x67BFFADC)
-I (../BSP/MyHFile.h)(0x6868111C)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp)(0x67BFFADC)
+I (../middlewares/st/touchgfx/framework/include/touchgfx/containers/Slider.hpp)(0x67BFFADC)
+I (../BSP/MyHFile.h)(0x687770F9)
 I (../Core/Inc/main.h)(0x6812F8EE)
 I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x68652F34)
 I (../Core/Inc/stm32h7xx_hal_conf.h)(0x6863D55E)
@@ -7766,9 +7787,9 @@ I (../BSP/touch_800x480.h)(0x681466C0)
 I (../BSP/atk_imu_901.h)(0x686E329F)
 I (../BSP/Angle.h)(0x68681137)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/Color.hpp)(0x67BFFADC)
-I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x686E000A)
-F (../touchgfx/generated/images/src/svgdatabase.cpp)(0x686D0E94)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\svgdatabase.o --depend lcd\svgdatabase.d)
-I (../touchgfx/generated/images/include/images/SVGDatabase.hpp)(0x686D0E94)
+I (../touchgfx/generated/images/include/images/BitmapDatabase.hpp)(0x68777EB4)
+F (../touchgfx/generated/images/src/svgdatabase.cpp)(0x68777D27)(--cpp -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/generated/videos/include -I ../touchgfx/gui/include-I.\RTE\_LCD-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx -DEXT_Flash_SPI -DUSE_PWR_LDO_SUPPLY -DMYLOG-o lcd\svgdatabase.o --depend lcd\svgdatabase.d)
+I (../touchgfx/generated/images/include/images/SVGDatabase.hpp)(0x68777D27)
 I (../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp)(0x67BFFADC)
 I (D:\Keil_v5\ARM\5.06new\include\assert.h)(0x5E8E3CC2)
 I (D:\Keil_v5\ARM\5.06new\include\stdint.h)(0x5E8E3CC2)

@@ -22,6 +22,39 @@ set_menuViewBase::set_menuViewBase() :
     back_button.setIconXY(97, 0);
     back_button.setAction(buttonCallback);
     add(back_button);
+
+    image1.setXY(90, 101);
+    image1.setBitmap(touchgfx::Bitmap(BITMAP_LIGHT_ID));
+    add(image1);
+
+    slider1.setXY(206, 117);
+    slider1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_TRACK_MEDIUM_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_FILLER_MEDIUM_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_ROUNDED_DARK_ID));
+    slider1.setupHorizontalSlider(16, 11, 0, 0, 300);
+    slider1.setValueRange(0, 100);
+    slider1.setValue(0);
+    add(slider1);
+
+    slider1_1.setXY(206, 224);
+    slider1_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_TRACK_MEDIUM_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_FILLER_MEDIUM_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_ROUNDED_DARK_ID));
+    slider1_1.setupHorizontalSlider(16, 11, 0, 0, 300);
+    slider1_1.setValueRange(0, 100);
+    slider1_1.setValue(0);
+    add(slider1_1);
+
+    slider1_1_1.setXY(206, 320);
+    slider1_1_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_TRACK_MEDIUM_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_FILLER_MEDIUM_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_ROUNDED_DARK_ID));
+    slider1_1_1.setupHorizontalSlider(16, 11, 0, 0, 300);
+    slider1_1_1.setValueRange(0, 100);
+    slider1_1_1.setValue(0);
+    add(slider1_1_1);
+
+    image2.setXY(90, 208);
+    image2.setBitmap(touchgfx::Bitmap(BITMAP_SOUND_ID));
+    add(image2);
+
+    image3.setXY(90, 304);
+    image3.setBitmap(touchgfx::Bitmap(BITMAP_UMBRELLA_ID));
+    add(image3);
 }
 
 set_menuViewBase::~set_menuViewBase()

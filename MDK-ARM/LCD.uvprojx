@@ -2954,6 +2954,21 @@
               <FilePath>../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.cpp</FilePath>
             </File>
             <File>
+              <FileName>image_alternate_theme_images_widgets_slider_horizontal_thick_filler_medium.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_slider_horizontal_thick_filler_medium.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_alternate_theme_images_widgets_slider_horizontal_thick_rounded_dark.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_slider_horizontal_thick_rounded_dark.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_alternate_theme_images_widgets_slider_horizontal_thick_track_medium.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_slider_horizontal_thick_track_medium.cpp</FilePath>
+            </File>
+            <File>
               <FileName>image_back_64.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/image_back_64.cpp</FilePath>
@@ -3014,6 +3029,11 @@
               <FilePath>../touchgfx/generated/images/src/__generated/image_icon_theme_images_action_done_50_50_e8f6fb.svg.cpp</FilePath>
             </File>
             <File>
+              <FileName>image_light.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_light.cpp</FilePath>
+            </File>
+            <File>
               <FileName>image_map_80.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/image_map_80.cpp</FilePath>
@@ -3044,9 +3064,19 @@
               <FilePath>../touchgfx/generated/images/src/image_settings_80.cpp</FilePath>
             </File>
             <File>
+              <FileName>image_Sound.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_sound.cpp</FilePath>
+            </File>
+            <File>
               <FileName>image_temperature_64.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/images/src/image_temperature_64.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_umbrella.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/image_umbrella.cpp</FilePath>
             </File>
             <File>
               <FileName>image_warn.cpp</FileName>

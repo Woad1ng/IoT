@@ -1,0 +1,2 @@
+lcd\image_alternate_theme_images_widgets_slider_horizontal_thick_track_small.o: ../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_slider_horizontal_thick_track_small.cpp
+lcd\image_alternate_theme_images_widgets_slider_horizontal_thick_track_small.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp

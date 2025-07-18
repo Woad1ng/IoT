@@ -190,6 +190,7 @@ lcd\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touc
 lcd\frontendapplicationbase.o: ../touchgfx/gui/include/gui/set_menu_screen/set_menuView.hpp
 lcd\frontendapplicationbase.o: ../touchgfx/generated/gui_generated/include/gui_generated/set_menu_screen/set_menuViewBase.hpp
 lcd\frontendapplicationbase.o: ../touchgfx/gui/include/gui/set_menu_screen/set_menuPresenter.hpp
+lcd\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/containers/Slider.hpp
 lcd\frontendapplicationbase.o: ../touchgfx/gui/include/gui/fpv_menu_screen/FPV_menuView.hpp
 lcd\frontendapplicationbase.o: ../touchgfx/generated/gui_generated/include/gui_generated/fpv_menu_screen/FPV_menuViewBase.hpp
 lcd\frontendapplicationbase.o: ../touchgfx/gui/include/gui/fpv_menu_screen/FPV_menuPresenter.hpp

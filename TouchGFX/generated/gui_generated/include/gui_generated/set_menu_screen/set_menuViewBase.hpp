@@ -9,6 +9,8 @@
 #include <gui/set_menu_screen/set_menuPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/ButtonWithIcon.hpp>
+#include <touchgfx/widgets/Image.hpp>
+#include <touchgfx/containers/Slider.hpp>
 #include "MyHFile.h"
 
 class set_menuViewBase : public touchgfx::View<set_menuPresenter>
@@ -29,6 +31,12 @@ protected:
     touchgfx::Box __background;
     touchgfx::Box set_box;
     touchgfx::ButtonWithIcon back_button;
+    touchgfx::Image image1;
+    touchgfx::Slider slider1;
+    touchgfx::Slider slider1_1;
+    touchgfx::Slider slider1_1_1;
+    touchgfx::Image image2;
+    touchgfx::Image image3;
 
 private:
 
